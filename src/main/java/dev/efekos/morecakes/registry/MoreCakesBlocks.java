@@ -31,6 +31,6 @@ public class MoreCakesBlocks {
         return block;
     }
 
-    public static final CakeBlock SWEET_BERRY_CAKE = register("sweet_berry_cake",new CakeBlock(AbstractBlock.Settings.copy(Blocks.CAKE)));
-    public static final CakeBlock GLOW_BERRY_CAKE = register("glow_berry_cake",new CakeBlock(AbstractBlock.Settings.copy(Blocks.CAKE)));
+    public static final CakeBlock SWEET_BERRY_CAKE = register("cake_sweetberry",new CakeBlock(AbstractBlock.Settings.copy(Blocks.CAKE)));
+    public static final CakeBlock GLOW_BERRY_CAKE = register("cake_glowberry",new CakeBlock(AbstractBlock.Settings.copy(Blocks.CAKE)));
 }

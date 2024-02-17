@@ -1,4 +1,10 @@
 package dev.efekos.morecakes.client;
 
-public class MoreCakesClient {
+import net.fabricmc.api.ClientModInitializer;
+
+public class MoreCakesClient implements ClientModInitializer {
+    @Override
+    public void onInitializeClient() {
+
+    }
 }

@@ -1,7 +1,7 @@
 package dev.efekos.morecakes;
 
+import dev.efekos.morecakes.registry.MoreCakesBlocks;
 import net.fabricmc.api.ModInitializer;
-import net.minecraft.registry.Registry;
 
 public class MoreCakes implements ModInitializer {
     public static final String MOD_ID = "morecakes";
@@ -9,5 +9,6 @@ public class MoreCakes implements ModInitializer {
     @Override
     public void onInitialize() {
 
+        MoreCakesBlocks.GLOW_BERRY_CAKE.getHardness();
     }
 }
