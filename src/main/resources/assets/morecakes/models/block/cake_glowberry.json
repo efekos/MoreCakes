@@ -1,0 +1,6 @@
+{
+  "parent": "minecraft:block/cake",
+  "textures": {
+    "top": "morecakes:block/cake_top_glowberry"
+  }
+}
