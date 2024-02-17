@@ -1,2 +1,4 @@
-package PACKAGE_NAME;public class MoreCakesClient {
+package dev.efekos.morecakes.client;
+
+public class MoreCakesClient {
 }

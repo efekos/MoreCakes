@@ -2,25 +2,29 @@
   "schemaVersion": 1,
   "id": "morecakes",
   "version": "${version}",
-
   "name": "MoreCakes",
   "description": "",
   "authors": [],
-  "contact": {},
-
+  "contact": {
+    "repo": "https://github.com/efekos/MoreCakes"
+  },
   "license": "MIT",
   "icon": "assets/morecakes/icon.png",
-
   "environment": "*",
-  "entrypoints": {},
-
-      "mixins": [
-        "morecakes.mixins.json"
-      ],
-
+  "entrypoints": {
+    "client": [
+      "dev.efekos.morecakes.client.MoreCakesClient"
+    ],
+    "main": [
+      "dev.efekos.morecakes.MoreCakes"
+    ]
+  },
+  "mixins": [
+    "morecakes.mixins.json"
+  ],
   "depends": {
     "fabricloader": ">=${loader_version}",
-        "fabric": "*",
+    "fabric": "*",
     "minecraft": "${minecraft_version}"
   }
 }
