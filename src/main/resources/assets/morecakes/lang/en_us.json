@@ -11,5 +11,6 @@
   "item.morecakes.cocoa_beans_bucket": "Cocoa Beans Bucket",
   "item.morecakes.cocoa_bucket": "Cocoa Bucket",
   "item.morecakes.chocolate_bucket": "Chocolate Bucket",
-  "block.minecraft.cake": "Vanilla Cake"
+  "block.minecraft.cake": "Vanilla Cake",
+  "itemGroup.cakes": "Cakes"
 }
