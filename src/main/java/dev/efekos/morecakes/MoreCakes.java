@@ -22,8 +22,7 @@ public class MoreCakes implements ModInitializer {
 
     @Override
     public void onInitialize() {
-        //BiomeModifications.addFeature(BiomeSelectors.tag(BiomeTags.IS_MOUNTAIN), GenerationStep.Feature.TOP_LAYER_MODIFICATION,BLUE_BERRY_BUSH_KEY);
-
+        BiomeModifications.addFeature(BiomeSelectors.tag(BiomeTags.IS_MOUNTAIN), GenerationStep.Feature.TOP_LAYER_MODIFICATION,BLUE_BERRY_BUSH_KEY);
 
         MoreCakesBlocks.GLOW_BERRY_CAKE.getHardness();
         MoreCakesItems.CHOCOLATE_BUCKET.canBeNested();
