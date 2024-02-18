@@ -46,5 +46,7 @@ public class MoreCakesBlocks {
     public static final CakeBlock CHOCOLATE_CAKE = register("cake_chocolate",new CakeBlock(AbstractBlock.Settings.copy(Blocks.CAKE)));
     public static final CakeBlock CHOCOLATE_CAKE_SWEETBERRY = register("cake_chocolate_sweetberry",new CakeBlock(AbstractBlock.Settings.copy(Blocks.CAKE)));
     public static final CakeBlock CHOCOLATE_CAKE_GLOWBERRY = register("cake_chocolate_glowberry",new CakeBlock(AbstractBlock.Settings.copy(Blocks.CAKE)));
+    public static final CakeBlock CAKE_BLUE_BERRY = register("cake_blue_berry",new CakeBlock(AbstractBlock.Settings.copy(Blocks.CAKE)));
+    public static final CakeBlock CAKE_CHOCOLATE_BLUE_BERRY = register("cake_chocolate_blue_berry",new CakeBlock(AbstractBlock.Settings.copy(Blocks.CAKE)));
     public static final BlueBerryBushBlock BLUE_BERRY_BUSH = register("blue_berry_bush",new BlueBerryBushBlock(AbstractBlock.Settings.copy(Blocks.SWEET_BERRY_BUSH)),false);
 }
