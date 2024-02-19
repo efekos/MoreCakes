@@ -1,6 +1,6 @@
 {
     "parent": "item/generated",
     "textures": {
-        "layer0": "item/huge_cake/huge_cake_cb_cg_cs"
+        "layer0": "morecakes:item/huge_cake/huge_cake_cb_cg_cs"
     }
 }
