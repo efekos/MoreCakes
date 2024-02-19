@@ -34,8 +34,8 @@ public class HugeCakeItem extends Item {
         int type = stack.getNbt().getInt("Type");
         Combination combination = Combination.findCombination(type);
 
-        tooltip.add(combination.layer1().toText());
-        tooltip.add(combination.layer2().toText());
         tooltip.add(combination.layer3().toText());
+        tooltip.add(combination.layer2().toText());
+        tooltip.add(combination.layer1().toText());
     }
 }
