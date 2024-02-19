@@ -17,7 +17,7 @@ public class HugeCakeItem extends Item {
     private static ItemStack putDefaultNbt(ItemStack itemStack) {
         NbtCompound compound = itemStack.getOrCreateNbt();
 
-        compound.putInt("type", 1);
+        compound.putInt("Type", 0);
         itemStack.setNbt(compound);
 
         return itemStack;
