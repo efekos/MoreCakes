@@ -12,5 +12,12 @@
   "item.morecakes.cocoa_bucket": "Cocoa Bucket",
   "item.morecakes.chocolate_bucket": "Chocolate Bucket",
   "block.minecraft.cake": "Vanilla Cake",
-  "itemGroup.cakes": "Cakes"
+  "itemGroup.cakes": "Cakes",
+  "item.morecakes.huge_cake": "Huge Cake",
+  "item.morecakes.huge_cake.c": "Chocolate",
+  "item.morecakes.huge_cake.v": "Vanilla",
+  "item.morecakes.huge_cake.n": "None",
+  "item.morecakes.huge_cake.s": "Sweetberry",
+  "item.morecakes.huge_cake.b": "Blueberry",
+  "item.morecakes.huge_cake.g": "Glowberry"
 }
