@@ -12,16 +12,7 @@ import net.minecraft.registry.Registries;
 import net.minecraft.registry.Registry;
 import net.minecraft.util.Identifier;
 
-import java.util.HashMap;
-import java.util.Map;
-
 public class MoreCakesBlocks {
-    public static final Map<Block, BlockItem> blockItems = new HashMap<>();
-
-    public static BlockItem itemOf(Block block){
-        return blockItems.get(block);
-    }
-
     public static <T extends Block> T register(String id, T block,boolean registerItem){
         System.out.println("Registering block: "+id);
         Registry.register(Registries.BLOCK,new Identifier(MoreCakes.MOD_ID,id),block);
@@ -29,8 +20,6 @@ public class MoreCakesBlocks {
         if(registerItem){
             BlockItem item = new BlockItem(block,new Item.Settings());
             Registry.register(Registries.ITEM,new Identifier(MoreCakes.MOD_ID,id),item);
-
-            blockItems.put(block,item);
         }
 
         return block;

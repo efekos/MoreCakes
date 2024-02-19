@@ -4,12 +4,9 @@ import dev.efekos.morecakes.registry.MoreCakesBlocks;
 import dev.efekos.morecakes.registry.MoreCakesGroups;
 import dev.efekos.morecakes.registry.MoreCakesItems;
 import net.fabricmc.api.ModInitializer;
-import net.fabricmc.fabric.api.biome.v1.BiomeModification;
 import net.fabricmc.fabric.api.biome.v1.BiomeModifications;
 import net.fabricmc.fabric.api.biome.v1.BiomeSelectors;
 import net.fabricmc.fabric.api.itemgroup.v1.ItemGroupEvents;
-import net.fabricmc.fabric.impl.itemgroup.ItemGroupEventsImpl;
-import net.fabricmc.fabric.mixin.itemgroup.ItemGroupAccessor;
 import net.minecraft.item.ItemGroup;
 import net.minecraft.item.ItemGroups;
 import net.minecraft.registry.Registries;
@@ -21,8 +18,6 @@ import net.minecraft.util.Identifier;
 import net.minecraft.world.gen.GenerationStep;
 import net.minecraft.world.gen.feature.PlacedFeature;
 
-import java.util.Arrays;
-
 public class MoreCakes implements ModInitializer {
     public static final String MOD_ID = "morecakes";
 
@@ -32,8 +27,7 @@ public class MoreCakes implements ModInitializer {
     public void onInitialize() {
         BiomeModifications.addFeature(BiomeSelectors.tag(BiomeTags.IS_MOUNTAIN), GenerationStep.Feature.TOP_LAYER_MODIFICATION,BLUE_BERRY_BUSH_KEY);
 
-
-        MoreCakesGroups.CAKES.getColumn();
+        Registry.register(Registries.ITEM_GROUP,new Identifier(MOD_ID,"cakes"),MoreCakesGroups.CAKES);
         MoreCakesBlocks.GLOW_BERRY_CAKE.getHardness();
         MoreCakesItems.CHOCOLATE_BUCKET.canBeNested();
 
