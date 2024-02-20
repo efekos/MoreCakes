@@ -46,8 +46,8 @@ public class HugeCakeItem extends BlockItem {
     public void appendTooltip(ItemStack stack, @Nullable World world, List<Text> tooltip, TooltipContext context) {
         if(!context.isAdvanced())return;
 
-        tooltip.add(Text.translatable("item.morecakes.huge_cake."+base1).formatted(Formatting.GRAY).append(Text.literal(" - ")).append(Text.translatable("item.morecakes.huge_cake."+flavor1)));
-        tooltip.add(Text.translatable("item.morecakes.huge_cake."+base2).formatted(Formatting.GRAY).append(Text.literal(" - ")).append(Text.translatable("item.morecakes.huge_cake."+flavor2)));
         tooltip.add(Text.translatable("item.morecakes.huge_cake."+base3).formatted(Formatting.GRAY).append(Text.literal(" - ")).append(Text.translatable("item.morecakes.huge_cake."+flavor3)));
+        tooltip.add(Text.translatable("item.morecakes.huge_cake."+base2).formatted(Formatting.GRAY).append(Text.literal(" - ")).append(Text.translatable("item.morecakes.huge_cake."+flavor2)));
+        tooltip.add(Text.translatable("item.morecakes.huge_cake."+base1).formatted(Formatting.GRAY).append(Text.literal(" - ")).append(Text.translatable("item.morecakes.huge_cake."+flavor1)));
     }
 }
