@@ -1,0 +1,23 @@
+{
+    "type": "crafting_shaped",
+    "group": "cakes",
+    "pattern": [
+        "A",
+        "B",
+        "C"
+    ],
+    "key": {
+        "A": {
+            "item": "morecakes:cake_chocolate_blue_berry"
+        },
+        "B": {
+            "item": "morecakes:cake_chocolate_sweetberry"
+        },
+        "C": {
+            "item": "morecakes:cake_glowberry"
+        }
+    },
+    "result": {
+        "item": "morecakes:huge_cake_vg_cs_cb"
+    }
+}
