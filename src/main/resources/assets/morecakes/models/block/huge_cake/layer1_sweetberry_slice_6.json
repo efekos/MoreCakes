@@ -1,0 +1,8 @@
+{
+    "parent": "morecakes:block/huge_cake_layer1_slice6",
+    "textures": {
+        "inner": "morecakes:block/huge_cake/layer1/inner",
+        "side": "morecakes:block/huge_cake/layer1/side",
+        "top": "morecakes:block/huge_cake/layer1/top_sweetberry"
+    }
+}

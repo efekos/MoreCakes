@@ -1,0 +1,24 @@
+{
+	
+	"textures": {
+		"particle": "morecakes:block/huge_cake/layer3/bottom",
+		"bottom": "morecakes:block/huge_cake/layer3/bottom",
+		"side": "morecakes:block/huge_cake/layer3/side",
+		"top": "morecakes:block/huge_cake/layer3/top",
+		"inner": "morecakes:block/huge_cake/layer3/inner"
+	},
+	"elements": [
+		{
+			"from": [5, 15, 9],
+			"to": [11, 20, 11],
+			"faces": {
+				"north": {"uv": [5, 11, 11, 16], "texture": "#inner"},
+				"east": {"uv": [5, 11, 7, 16], "texture": "#side"},
+				"south": {"uv": [5, 11, 11, 16], "texture": "#side"},
+				"west": {"uv": [9, 11, 11, 16], "texture": "#side"},
+				"up": {"uv": [5, 9, 11, 11], "texture": "#top"},
+				"down": {"uv": [5, 5, 11, 7], "texture": "#bottom"}
+			}
+		}
+	]
+}
