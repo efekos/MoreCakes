@@ -17,6 +17,7 @@ import net.minecraft.util.shape.VoxelShapes;
 import net.minecraft.world.BlockView;
 import net.minecraft.world.World;
 import net.minecraft.world.WorldAccess;
+import net.minecraft.world.WorldView;
 import net.minecraft.world.event.GameEvent;
 
 import java.util.Arrays;
@@ -39,6 +40,11 @@ public class HugeCakeBlock extends Block {
     @Override
     public VoxelShape getOutlineShape(BlockState state, BlockView world, BlockPos pos, ShapeContext context) {
         return SLICE_TO_SHAPE.get(state.get(SLICE));
+    }
+
+    @Override
+    public boolean canPlaceAt(BlockState state, WorldView world, BlockPos pos) {
+        return super.canPlaceAt(state, world, pos)&&world.getBlockState(pos.add(0,1,0)).isAir();
     }
 
     @Override
