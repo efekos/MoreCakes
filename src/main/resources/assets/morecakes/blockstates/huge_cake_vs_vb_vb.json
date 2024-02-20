@@ -1,0 +1,197 @@
+{
+    "multipart": [
+        {
+            "when": {
+                "slice": "0"
+            },
+            "apply": [
+                {
+                    "model": "morecakes:block/huge_cake/layer3_blueberry"
+                },
+                {
+                    "model": "morecakes:block/huge_cake/layer2_blueberry"
+                },
+                {
+                    "model": "morecakes:block/huge_cake/layer1_sweetberry"
+                }
+            ]
+        },
+        {
+            "when": {
+                "slice": "1"
+            },
+            "apply": [
+                {
+                    "model": "morecakes:block/huge_cake/layer3_blueberry_slice_1"
+                },
+                {
+                    "model": "morecakes:block/huge_cake/layer2_blueberry"
+                },
+                {
+                    "model": "morecakes:block/huge_cake/layer1_sweetberry"
+                }
+            ]
+        },
+        {
+            "when": {
+                "slice": "2"
+            },
+            "apply": [
+                {
+                    "model": "morecakes:block/huge_cake/layer3_blueberry_slice_2"
+                },
+                {
+                    "model": "morecakes:block/huge_cake/layer2_blueberry"
+                },
+                {
+                    "model": "morecakes:block/huge_cake/layer1_sweetberry"
+                }
+            ]
+        },
+        {
+            "when": {
+                "slice": "3"
+            },
+            "apply": [
+                {
+                    "model": "morecakes:block/huge_cake/layer2_blueberry"
+                },
+                {
+                    "model": "morecakes:block/huge_cake/layer1_sweetberry"
+                }
+            ]
+        },
+        {
+            "when": {
+                "slice": "4"
+            },
+            "apply": [
+                {
+                    "model": "morecakes:block/huge_cake/layer2_blueberry_slice_1"
+                },
+                {
+                    "model": "morecakes:block/huge_cake/layer1_sweetberry"
+                }
+            ]
+        },
+        {
+            "when": {
+                "slice": "5"
+            },
+            "apply": [
+                {
+                    "model": "morecakes:block/huge_cake/layer2_blueberry_slice_2"
+                },
+                {
+                    "model": "morecakes:block/huge_cake/layer1_sweetberry"
+                }
+            ]
+        },
+        {
+            "when": {
+                "slice": "6"
+            },
+            "apply": [
+                {
+                    "model": "morecakes:block/huge_cake/layer2_blueberry_slice_3"
+                },
+                {
+                    "model": "morecakes:block/huge_cake/layer1_sweetberry"
+                }
+            ]
+        },
+        {
+            "when": {
+                "slice": "7"
+            },
+            "apply": [
+                {
+                    "model": "morecakes:block/huge_cake/layer2_blueberry_slice_4"
+                },
+                {
+                    "model": "morecakes:block/huge_cake/layer1_sweetberry"
+                }
+            ]
+        },
+        {
+            "when": {
+                "slice": "8"
+            },
+            "apply": [
+                {
+                    "model": "morecakes:block/huge_cake/layer1_sweetberry"
+                }
+            ]
+        },
+        {
+            "when": {
+                "slice": "9"
+            },
+            "apply": [
+                {
+                    "model": "morecakes:block/huge_cake/layer1_sweetberry_slice_1"
+                }
+            ]
+        },
+        {
+            "when": {
+                "slice": "10"
+            },
+            "apply": [
+                {
+                    "model": "morecakes:block/huge_cake/layer1_sweetberry_slice_2"
+                }
+            ]
+        },
+        {
+            "when": {
+                "slice": "11"
+            },
+            "apply": [
+                {
+                    "model": "morecakes:block/huge_cake/layer1_sweetberry_slice_3"
+                }
+            ]
+        },
+        {
+            "when": {
+                "slice": "12"
+            },
+            "apply": [
+                {
+                    "model": "morecakes:block/huge_cake/layer1_sweetberry_slice_4"
+                }
+            ]
+        },
+        {
+            "when": {
+                "slice": "13"
+            },
+            "apply": [
+                {
+                    "model": "morecakes:block/huge_cake/layer1_sweetberry_slice_5"
+                }
+            ]
+        },
+        {
+            "when": {
+                "slice": "14"
+            },
+            "apply": [
+                {
+                    "model": "morecakes:block/huge_cake/layer1_sweetberry_slice_6"
+                }
+            ]
+        },
+        {
+            "when": {
+                "slice": "15"
+            },
+            "apply": [
+                {
+                    "model": "morecakes:block/huge_cake/layer1_sweetberry_slice_7"
+                }
+            ]
+        }
+    ]
+}

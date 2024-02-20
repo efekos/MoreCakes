@@ -3,7 +3,6 @@ package dev.efekos.morecakes;
 import dev.efekos.morecakes.registry.MoreCakesBlocks;
 import dev.efekos.morecakes.registry.MoreCakesGroups;
 import dev.efekos.morecakes.registry.MoreCakesItems;
-import dev.efekos.morecakes.registry.MoreCakesRecipes;
 import net.fabricmc.api.ModInitializer;
 import net.fabricmc.fabric.api.biome.v1.BiomeModifications;
 import net.fabricmc.fabric.api.biome.v1.BiomeSelectors;
@@ -30,7 +29,6 @@ public class MoreCakes implements ModInitializer {
 
         Registry.register(Registries.ITEM_GROUP,new Identifier(MOD_ID,"cakes"),MoreCakesGroups.CAKES);
         MoreCakesBlocks.GLOW_BERRY_CAKE.getHardness();
-        MoreCakesRecipes.run();
         MoreCakesItems.CHOCOLATE_BUCKET.canBeNested();
 
         ItemGroupEvents.modifyEntriesEvent(ItemGroups.FOOD_AND_DRINK).register(entries -> entries.add(MoreCakesItems.BLUE_BERRIES, ItemGroup.StackVisibility.PARENT_AND_SEARCH_TABS));
