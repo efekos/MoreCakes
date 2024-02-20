@@ -1,20 +1,45 @@
 {
-  "type": "minecraft:simple_block",
+  "type": "minecraft:random_patch",
   "config": {
-    "to_place": {
-      "type": "minecraft:noise_provider",
-      "seed": 2456723,
-      "noise": {
-        "firstOctave": -7,
-        "amplitudes": [
-          1,
-          1
-        ]
+    "tries": 6,
+    "xz_spread": 2,
+    "y_spread": 2,
+    "feature": {
+      "feature": {
+        "type": "minecraft:simple_block",
+        "config": {
+          "to_place": {
+            "type": "minecraft:simple_state_provider",
+            "state": {
+              "Name": "morecakes:blue_berry_bush",
+              "Properties": {
+                "age": "3"
+              }
+            }
+          }
+        }
       },
-      "scale": 1,
-      "states": [
+      "placement": [
         {
-          "Name": "morecakes:blue_berry_bush"
+          "type": "minecraft:block_predicate_filter",
+          "predicate": {
+            "type": "minecraft:all_of",
+            "predicates": [
+              {
+                "type": "minecraft:matching_blocks",
+                "blocks": "minecraft:air"
+              },
+              {
+                "type": "minecraft:matching_blocks",
+                "offset": [
+                  0,
+                  -1,
+                  0
+                ],
+                "blocks": "minecraft:grass_block"
+              }
+            ]
+          }
         }
       ]
     }
