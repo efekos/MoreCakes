@@ -97,15 +97,15 @@ public class HugeCakeRecipe extends SpecialCraftingRecipe {
             if(item.isOf(MoreCakesBlocks.CHOCOLATE_CAKE_GLOWBERRY.asItem())) return new Layer("c","g");
             if(item.isOf(Items.CAKE)) return new Layer("v","n");
             if(item.isOf(MoreCakesBlocks.CAKE_BLUE_BERRY.asItem())) return new Layer("v","b");
-            if(item.isOf(MoreCakesBlocks.CHOCOLATE_CAKE_SWEETBERRY.asItem())) return new Layer("v","s");
-            if(item.isOf(MoreCakesBlocks.CHOCOLATE_CAKE_GLOWBERRY.asItem())) return new Layer("v","g");
+            if(item.isOf(MoreCakesBlocks.SWEET_BERRY_CAKE.asItem())) return new Layer("v","s");
+            if(item.isOf(MoreCakesBlocks.GLOW_BERRY_CAKE.asItem())) return new Layer("v","g");
             else return new Layer("v","n");
         }
     }
 
     @Override
     public boolean fits(int width, int height) {
-        return width*height >= 3;
+        return height==3&&width>=1;
     }
 
     @Override
