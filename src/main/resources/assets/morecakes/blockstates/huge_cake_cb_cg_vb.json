@@ -1,197 +1,220 @@
 {
     "multipart": [
         {
+            "apply": {
+                "model": "morecakes:block/huge_cake/layer3_blueberry"
+            },
             "when": {
                 "slice": "0"
-            },
-            "apply": [
-                {
-                    "model": "morecakes:block/huge_cake/layer3_blueberry"
-                },
-                {
-                    "model": "morecakes:block/huge_cake/layer2_chocolate_glowberry"
-                },
-                {
-                    "model": "morecakes:block/huge_cake/layer1_chocolate_blueberry"
-                }
-            ]
+            }
         },
         {
+            "apply": {
+                "model": "morecakes:block/huge_cake/layer2_chocolate_glowberry"
+            },
+            "when": {
+                "slice": "0"
+            }
+        },
+        {
+            "apply": {
+                "model": "morecakes:block/huge_cake/layer1_chocolate_blueberry"
+            },
+            "when": {
+                "slice": "0"
+            }
+        },
+        {
+            "apply": {
+                "model": "morecakes:block/huge_cake/layer3_blueberry_slice_1"
+            },
             "when": {
                 "slice": "1"
-            },
-            "apply": [
-                {
-                    "model": "morecakes:block/huge_cake/layer3_blueberry_slice_1"
-                },
-                {
-                    "model": "morecakes:block/huge_cake/layer2_chocolate_glowberry"
-                },
-                {
-                    "model": "morecakes:block/huge_cake/layer1_chocolate_blueberry"
-                }
-            ]
+            }
         },
         {
+            "apply": {
+                "model": "morecakes:block/huge_cake/layer2_chocolate_glowberry"
+            },
+            "when": {
+                "slice": "1"
+            }
+        },
+        {
+            "apply": {
+                "model": "morecakes:block/huge_cake/layer1_chocolate_blueberry"
+            },
+            "when": {
+                "slice": "1"
+            }
+        },
+        {
+            "apply": {
+                "model": "morecakes:block/huge_cake/layer3_blueberry_slice_2"
+            },
             "when": {
                 "slice": "2"
-            },
-            "apply": [
-                {
-                    "model": "morecakes:block/huge_cake/layer3_blueberry_slice_2"
-                },
-                {
-                    "model": "morecakes:block/huge_cake/layer2_chocolate_glowberry"
-                },
-                {
-                    "model": "morecakes:block/huge_cake/layer1_chocolate_blueberry"
-                }
-            ]
+            }
         },
         {
+            "apply": {
+                "model": "morecakes:block/huge_cake/layer2_chocolate_glowberry"
+            },
+            "when": {
+                "slice": "2"
+            }
+        },
+        {
+            "apply": {
+                "model": "morecakes:block/huge_cake/layer1_chocolate_blueberry"
+            },
+            "when": {
+                "slice": "2"
+            }
+        },
+        {
+            "apply": {
+                "model": "morecakes:block/huge_cake/layer2_chocolate_glowberry"
+            },
             "when": {
                 "slice": "3"
-            },
-            "apply": [
-                {
-                    "model": "morecakes:block/huge_cake/layer2_chocolate_glowberry"
-                },
-                {
-                    "model": "morecakes:block/huge_cake/layer1_chocolate_blueberry"
-                }
-            ]
+            }
         },
         {
+            "apply": {
+                "model": "morecakes:block/huge_cake/layer1_chocolate_blueberry"
+            },
+            "when": {
+                "slice": "3"
+            }
+        },
+        {
+            "apply": {
+                "model": "morecakes:block/huge_cake/layer2_chocolate_glowberry_slice_1"
+            },
             "when": {
                 "slice": "4"
-            },
-            "apply": [
-                {
-                    "model": "morecakes:block/huge_cake/layer2_chocolate_glowberry_slice_1"
-                },
-                {
-                    "model": "morecakes:block/huge_cake/layer1_chocolate_blueberry"
-                }
-            ]
+            }
         },
         {
+            "apply": {
+                "model": "morecakes:block/huge_cake/layer1_chocolate_blueberry"
+            },
+            "when": {
+                "slice": "4"
+            }
+        },
+        {
+            "apply": {
+                "model": "morecakes:block/huge_cake/layer2_chocolate_glowberry_slice_2"
+            },
             "when": {
                 "slice": "5"
-            },
-            "apply": [
-                {
-                    "model": "morecakes:block/huge_cake/layer2_chocolate_glowberry_slice_2"
-                },
-                {
-                    "model": "morecakes:block/huge_cake/layer1_chocolate_blueberry"
-                }
-            ]
+            }
         },
         {
+            "apply": {
+                "model": "morecakes:block/huge_cake/layer1_chocolate_blueberry"
+            },
+            "when": {
+                "slice": "5"
+            }
+        },
+        {
+            "apply": {
+                "model": "morecakes:block/huge_cake/layer2_chocolate_glowberry_slice_3"
+            },
             "when": {
                 "slice": "6"
-            },
-            "apply": [
-                {
-                    "model": "morecakes:block/huge_cake/layer2_chocolate_glowberry_slice_3"
-                },
-                {
-                    "model": "morecakes:block/huge_cake/layer1_chocolate_blueberry"
-                }
-            ]
+            }
         },
         {
+            "apply": {
+                "model": "morecakes:block/huge_cake/layer1_chocolate_blueberry"
+            },
+            "when": {
+                "slice": "6"
+            }
+        },
+        {
+            "apply": {
+                "model": "morecakes:block/huge_cake/layer2_chocolate_glowberry_slice_4"
+            },
             "when": {
                 "slice": "7"
-            },
-            "apply": [
-                {
-                    "model": "morecakes:block/huge_cake/layer2_chocolate_glowberry_slice_4"
-                },
-                {
-                    "model": "morecakes:block/huge_cake/layer1_chocolate_blueberry"
-                }
-            ]
+            }
         },
         {
+            "apply": {
+                "model": "morecakes:block/huge_cake/layer1_chocolate_blueberry"
+            },
+            "when": {
+                "slice": "7"
+            }
+        },
+        {
+            "apply": {
+                "model": "morecakes:block/huge_cake/layer1_chocolate_blueberry"
+            },
             "when": {
                 "slice": "8"
-            },
-            "apply": [
-                {
-                    "model": "morecakes:block/huge_cake/layer1_chocolate_blueberry"
-                }
-            ]
+            }
         },
         {
+            "apply": {
+                "model": "morecakes:block/huge_cake/layer1_chocolate_blueberry_slice_1"
+            },
             "when": {
                 "slice": "9"
-            },
-            "apply": [
-                {
-                    "model": "morecakes:block/huge_cake/layer1_chocolate_blueberry_slice_1"
-                }
-            ]
+            }
         },
         {
+            "apply": {
+                "model": "morecakes:block/huge_cake/layer1_chocolate_blueberry_slice_2"
+            },
             "when": {
                 "slice": "10"
-            },
-            "apply": [
-                {
-                    "model": "morecakes:block/huge_cake/layer1_chocolate_blueberry_slice_2"
-                }
-            ]
+            }
         },
         {
+            "apply": {
+                "model": "morecakes:block/huge_cake/layer1_chocolate_blueberry_slice_3"
+            },
             "when": {
                 "slice": "11"
-            },
-            "apply": [
-                {
-                    "model": "morecakes:block/huge_cake/layer1_chocolate_blueberry_slice_3"
-                }
-            ]
+            }
         },
         {
+            "apply": {
+                "model": "morecakes:block/huge_cake/layer1_chocolate_blueberry_slice_4"
+            },
             "when": {
                 "slice": "12"
-            },
-            "apply": [
-                {
-                    "model": "morecakes:block/huge_cake/layer1_chocolate_blueberry_slice_4"
-                }
-            ]
+            }
         },
         {
+            "apply": {
+                "model": "morecakes:block/huge_cake/layer1_chocolate_blueberry_slice_5"
+            },
             "when": {
                 "slice": "13"
-            },
-            "apply": [
-                {
-                    "model": "morecakes:block/huge_cake/layer1_chocolate_blueberry_slice_5"
-                }
-            ]
+            }
         },
         {
+            "apply": {
+                "model": "morecakes:block/huge_cake/layer1_chocolate_blueberry_slice_6"
+            },
             "when": {
                 "slice": "14"
-            },
-            "apply": [
-                {
-                    "model": "morecakes:block/huge_cake/layer1_chocolate_blueberry_slice_6"
-                }
-            ]
+            }
         },
         {
+            "apply": {
+                "model": "morecakes:block/huge_cake/layer1_chocolate_blueberry_slice_7"
+            },
             "when": {
                 "slice": "15"
-            },
-            "apply": [
-                {
-                    "model": "morecakes:block/huge_cake/layer1_chocolate_blueberry_slice_7"
-                }
-            ]
+            }
         }
     ]
 }
