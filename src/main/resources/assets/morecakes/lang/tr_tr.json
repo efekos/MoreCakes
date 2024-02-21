@@ -1,0 +1,23 @@
+{
+  "block.minecraft.cake": "Sade Pasta",
+  "block.morecakes.blue_berry_bush": "Yaban Mersini Çalılığı",
+  "block.morecakes.cake_blue_berry": "Yaban Mersinli Sade Pasta",
+  "block.morecakes.cake_chocolate": "Çikolatalı Pasta",
+  "block.morecakes.cake_chocolate_blue_berry": "Yaban Mersinli Çikolatalı Pasta",
+  "block.morecakes.cake_chocolate_glowberry": "Parlayan Meyveli Çikolatalı Pasta",
+  "block.morecakes.cake_chocolate_sweetberry": "Tatlı Orman Meyveli Çikolatalı Pasta",
+  "block.morecakes.cake_glowberry": "Parlayan Meyeli Sade Pasta",
+  "block.morecakes.cake_sweetberry": "Tatlı Orman Meyveli Sade Pasta",
+  "item.morecakes.blue_berries": "Yaban Mersini",
+  "item.morecakes.chocolate_bucket": "Çikolata Kovası",
+  "item.morecakes.cocoa_beans_bucket": "Kakao Çekirdeği Dolu Kova",
+  "item.morecakes.cocoa_bucket": "Kakao Kovası",
+  "item.morecakes.huge_cake": "Dev Pasta",
+  "item.morecakes.huge_cake.b": "Yaban Mersini",
+  "item.morecakes.huge_cake.c": "Çikolatalı",
+  "item.morecakes.huge_cake.g": "Parlayan Meyveli",
+  "item.morecakes.huge_cake.n": "Süssüz",
+  "item.morecakes.huge_cake.s": "Tatlı Orman Meyveli",
+  "item.morecakes.huge_cake.v": "Sade",
+  "itemGroup.cakes": "Pastalar"
+}
