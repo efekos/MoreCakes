@@ -15,16 +15,20 @@ import net.minecraft.registry.Registry;
 import net.minecraft.util.Identifier;
 
 public class MoreCakesBlocks {
-    public static <T extends Block> T register(String id, T block,boolean registerItem){
+    public static <T extends Block> T register(String id, T block,boolean registerItem,int maxItems){
         System.out.println("Registering block: "+id);
         Registry.register(Registries.BLOCK,new Identifier(MoreCakes.MOD_ID,id),block);
 
         if(registerItem){
-            BlockItem item = new BlockItem(block,new Item.Settings());
+            BlockItem item = new BlockItem(block,new Item.Settings().maxCount(maxItems));
             Registry.register(Registries.ITEM,new Identifier(MoreCakes.MOD_ID,id),item);
         }
 
         return block;
+    }
+    
+    public static <T extends Block> T register(String id, T block,boolean registerItem) {
+        return register(id,block,registerItem,64);
     }
 
     public static <T extends Block> T register(String id, T block){
@@ -32,13 +36,13 @@ public class MoreCakesBlocks {
     }
 
 
-    public static final CandlelessCakeBlock SWEET_BERRY_CAKE = register("cake_sweetberry",new CandlelessCakeBlock(AbstractBlock.Settings.copy(Blocks.CAKE)));
-    public static final CandlelessCakeBlock GLOW_BERRY_CAKE = register("cake_glowberry",new CandlelessCakeBlock(AbstractBlock.Settings.copy(Blocks.CAKE)));
-    public static final CandlelessCakeBlock CHOCOLATE_CAKE = register("cake_chocolate",new CandlelessCakeBlock(AbstractBlock.Settings.copy(Blocks.CAKE)));
-    public static final CandlelessCakeBlock CHOCOLATE_CAKE_SWEETBERRY = register("cake_chocolate_sweetberry",new CandlelessCakeBlock(AbstractBlock.Settings.copy(Blocks.CAKE)));
-    public static final CandlelessCakeBlock CHOCOLATE_CAKE_GLOWBERRY = register("cake_chocolate_glowberry",new CandlelessCakeBlock(AbstractBlock.Settings.copy(Blocks.CAKE)));
-    public static final CandlelessCakeBlock CAKE_BLUE_BERRY = register("cake_blue_berry",new CandlelessCakeBlock(AbstractBlock.Settings.copy(Blocks.CAKE)));
-    public static final CandlelessCakeBlock CAKE_CHOCOLATE_BLUE_BERRY = register("cake_chocolate_blue_berry",new CandlelessCakeBlock(AbstractBlock.Settings.copy(Blocks.CAKE)));
+    public static final CandlelessCakeBlock SWEET_BERRY_CAKE = register("cake_sweetberry",new CandlelessCakeBlock(AbstractBlock.Settings.copy(Blocks.CAKE)),true,1);
+    public static final CandlelessCakeBlock GLOW_BERRY_CAKE = register("cake_glowberry",new CandlelessCakeBlock(AbstractBlock.Settings.copy(Blocks.CAKE)),true,1);
+    public static final CandlelessCakeBlock CHOCOLATE_CAKE = register("cake_chocolate",new CandlelessCakeBlock(AbstractBlock.Settings.copy(Blocks.CAKE)),true,1);
+    public static final CandlelessCakeBlock CHOCOLATE_CAKE_SWEETBERRY = register("cake_chocolate_sweetberry",new CandlelessCakeBlock(AbstractBlock.Settings.copy(Blocks.CAKE)),true,1);
+    public static final CandlelessCakeBlock CHOCOLATE_CAKE_GLOWBERRY = register("cake_chocolate_glowberry",new CandlelessCakeBlock(AbstractBlock.Settings.copy(Blocks.CAKE)),true,1);
+    public static final CandlelessCakeBlock CAKE_BLUE_BERRY = register("cake_blue_berry",new CandlelessCakeBlock(AbstractBlock.Settings.copy(Blocks.CAKE)),true,1);
+    public static final CandlelessCakeBlock CAKE_CHOCOLATE_BLUE_BERRY = register("cake_chocolate_blue_berry",new CandlelessCakeBlock(AbstractBlock.Settings.copy(Blocks.CAKE)),true,1);
     public static final BlueBerryBushBlock BLUE_BERRY_BUSH = register("blue_berry_bush",new BlueBerryBushBlock(AbstractBlock.Settings.copy(Blocks.SWEET_BERRY_BUSH)),false);
 
     public static final HugeCakeBlock HUGE_CAKE_CN_CN_CN = register("huge_cake_cn_cn_cn",new HugeCakeBlock(AbstractBlock.Settings.copy(Blocks.CAKE)),false);
