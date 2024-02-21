@@ -20,9 +20,6 @@
       "dev.efekos.morecakes.MoreCakes"
     ]
   },
-  "mixins": [
-    "morecakes.mixins.json"
-  ],
   "depends": {
     "fabricloader": ">=${loader_version}",
     "fabric": "*",
