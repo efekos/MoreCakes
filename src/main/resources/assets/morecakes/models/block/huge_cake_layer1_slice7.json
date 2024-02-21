@@ -1,10 +1,10 @@
 {
 	"textures": {
+		"particle": "morecakes:block/huge_cake/layer1/bottom",
 		"bottom": "morecakes:block/huge_cake/layer1/bottom",
 		"side": "morecakes:block/huge_cake/layer1/side",
 		"top": "morecakes:block/huge_cake/layer1/top",
-		"inner": "morecakes:block/huge_cake/layer1/inner",
-		"particle": "morecakes:block/huge_cake/layer1/bottom"
+		"inner": "morecakes:block/huge_cake/layer1/inner"
 	},
 	"elements": [
 		{
@@ -14,7 +14,7 @@
 				"north": {"uv": [0, 8, 16, 16], "texture": "#inner"},
 				"east": {"uv": [0, 8, 2, 16], "texture": "#side"},
 				"south": {"uv": [0, 8, 16, 16], "texture": "#side"},
-				"west": {"uv": [0, 8, 2, 16], "texture": "#side"},
+				"west": {"uv": [14, 8, 16, 16], "texture": "#side"},
 				"up": {"uv": [0, 14, 16, 16], "texture": "#top"},
 				"down": {"uv": [0, 0, 16, 2], "texture": "#bottom"}
 			}
