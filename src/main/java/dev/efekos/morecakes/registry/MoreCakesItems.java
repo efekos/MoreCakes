@@ -4,6 +4,7 @@ import dev.efekos.morecakes.MoreCakes;
 import dev.efekos.morecakes.item.HugeCakeItem;
 import net.fabricmc.fabric.api.item.v1.FabricItemSettings;
 import net.minecraft.item.AliasedBlockItem;
+import net.minecraft.item.FoodComponents;
 import net.minecraft.item.Item;
 import net.minecraft.item.Items;
 import net.minecraft.registry.Registries;
@@ -20,7 +21,7 @@ public class MoreCakesItems {
     public static final Item COCOA_BEANS_BUCKET = register("cocoa_beans_bucket",new Item(new FabricItemSettings().maxCount(1).recipeRemainder(Items.BUCKET).rarity(Rarity.COMMON)));
     public static final Item COCOA_BUCKET = register("cocoa_bucket",new Item(new FabricItemSettings().maxCount(1).recipeRemainder(Items.BUCKET).rarity(Rarity.COMMON)));
     public static final Item CHOCOLATE_BUCKET = register("chocolate_bucket",new Item(new FabricItemSettings().maxCount(1).recipeRemainder(Items.BUCKET).rarity(Rarity.COMMON)));
-    public static final AliasedBlockItem BLUE_BERRIES = register("blue_berries",new AliasedBlockItem(MoreCakesBlocks.BLUE_BERRY_BUSH,new FabricItemSettings()));
+    public static final AliasedBlockItem BLUE_BERRIES = register("blue_berries",new AliasedBlockItem(MoreCakesBlocks.BLUE_BERRY_BUSH,new FabricItemSettings().food(FoodComponents.SWEET_BERRIES)));
 
     public static final HugeCakeItem HUGE_CAKE_CN_CN_CN = register("huge_cake_cn_cn_cn",new HugeCakeItem(MoreCakesBlocks.HUGE_CAKE_CN_CN_CN,new FabricItemSettings().maxCount(1),"c","c","c","n","n","n"));
     public static final HugeCakeItem HUGE_CAKE_CN_CN_CB = register("huge_cake_cn_cn_cb",new HugeCakeItem(MoreCakesBlocks.HUGE_CAKE_CN_CN_CB,new FabricItemSettings().maxCount(1),"c","c","c","n","n","b"));
