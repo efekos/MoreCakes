@@ -18,4 +18,4 @@ A quick showcase of every cake:
 In order to make a chocolate cake, you need to use chocolate buckets instead of milk buckets, here is a walkthrough for
 getting a chocolate cake:
 
-![chocolate cake graph](images/chocolate_graph-export.png)
+![chocolate cake graph](images/chocolate_graph_big.png)
