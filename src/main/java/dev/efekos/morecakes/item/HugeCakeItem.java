@@ -3,9 +3,7 @@ package dev.efekos.morecakes.item;
 import net.minecraft.block.Block;
 import net.minecraft.client.item.TooltipContext;
 import net.minecraft.item.BlockItem;
-import net.minecraft.item.Item;
 import net.minecraft.item.ItemStack;
-import net.minecraft.nbt.NbtCompound;
 import net.minecraft.text.Text;
 import net.minecraft.util.Formatting;
 import net.minecraft.world.World;
@@ -44,10 +42,10 @@ public class HugeCakeItem extends BlockItem {
 
     @Override
     public void appendTooltip(ItemStack stack, @Nullable World world, List<Text> tooltip, TooltipContext context) {
-        if(!context.isAdvanced())return;
+        if (!context.isAdvanced()) return;
 
-        tooltip.add(Text.translatable("item.morecakes.huge_cake."+base3).formatted(Formatting.GRAY).append(Text.literal(" - ")).append(Text.translatable("item.morecakes.huge_cake."+flavor3)));
-        tooltip.add(Text.translatable("item.morecakes.huge_cake."+base2).formatted(Formatting.GRAY).append(Text.literal(" - ")).append(Text.translatable("item.morecakes.huge_cake."+flavor2)));
-        tooltip.add(Text.translatable("item.morecakes.huge_cake."+base1).formatted(Formatting.GRAY).append(Text.literal(" - ")).append(Text.translatable("item.morecakes.huge_cake."+flavor1)));
+        tooltip.add(Text.translatable("item.morecakes.huge_cake." + base3).formatted(Formatting.GRAY).append(Text.literal(" - ")).append(Text.translatable("item.morecakes.huge_cake." + flavor3)));
+        tooltip.add(Text.translatable("item.morecakes.huge_cake." + base2).formatted(Formatting.GRAY).append(Text.literal(" - ")).append(Text.translatable("item.morecakes.huge_cake." + flavor2)));
+        tooltip.add(Text.translatable("item.morecakes.huge_cake." + base1).formatted(Formatting.GRAY).append(Text.literal(" - ")).append(Text.translatable("item.morecakes.huge_cake." + flavor1)));
     }
 }

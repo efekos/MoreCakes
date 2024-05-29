@@ -1,8 +1,8 @@
 {
-    "parent": "morecakes:block/huge_cake_layer3_slice1",
-    "textures": {
-        "inner": "morecakes:block/huge_cake/layer3/inner",
-        "side": "morecakes:block/huge_cake/layer3/side",
-        "top": "morecakes:block/huge_cake/layer3/top_glowberry"
-    }
+  "parent": "morecakes:block/huge_cake_layer3_slice1",
+  "textures": {
+    "inner": "morecakes:block/huge_cake/layer3/inner",
+    "side": "morecakes:block/huge_cake/layer3/side",
+    "top": "morecakes:block/huge_cake/layer3/top_glowberry"
+  }
 }

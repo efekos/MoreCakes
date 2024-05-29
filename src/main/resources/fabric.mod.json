@@ -4,7 +4,9 @@
   "version": "${version}",
   "name": "MoreCakes",
   "description": "Adds a lot of different new cakes to the game.",
-  "authors": ["efekos"],
+  "authors": [
+    "efekos"
+  ],
   "contact": {
     "issues": "https://github.com/efekos/MoreCakes/issues",
     "sources": "https://github.com/efekos/MoreCakes"

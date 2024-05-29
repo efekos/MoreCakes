@@ -1,6 +1,6 @@
 {
-    "parent": "item/generated",
-    "textures": {
-        "layer0": "morecakes:item/huge_cake/huge_cake_vb_cs_vs"
-    }
+  "parent": "item/generated",
+  "textures": {
+    "layer0": "morecakes:item/huge_cake/huge_cake_vb_cs_vs"
+  }
 }

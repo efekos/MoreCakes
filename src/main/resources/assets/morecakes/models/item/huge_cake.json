@@ -1,3080 +1,3080 @@
 {
-    "parent": "item/generated",
-    "textures": {
-        "layer0": "morecakes:item/huge_cake/huge_cake_vn_vn_vn"
+  "parent": "item/generated",
+  "textures": {
+    "layer0": "morecakes:item/huge_cake/huge_cake_vn_vn_vn"
+  },
+  "overrides": [
+    {
+      "model": "morecakes:item/huge_cake/huge_cake_cn_cn_cn",
+      "predicate": {
+        "morecakes:type": 0
+      }
     },
-    "overrides": [
-        {
-            "model": "morecakes:item/huge_cake/huge_cake_cn_cn_cn",
-            "predicate": {
-                "morecakes:type": 0
-            }
-        },
-        {
-            "model": "morecakes:item/huge_cake/huge_cake_cn_cn_cb",
-            "predicate": {
-                "morecakes:type": 1
-            }
-        },
-        {
-            "model": "morecakes:item/huge_cake/huge_cake_cn_cn_cs",
-            "predicate": {
-                "morecakes:type": 2
-            }
-        },
-        {
-            "model": "morecakes:item/huge_cake/huge_cake_cn_cn_cg",
-            "predicate": {
-                "morecakes:type": 3
-            }
-        },
-        {
-            "model": "morecakes:item/huge_cake/huge_cake_cn_cn_vn",
-            "predicate": {
-                "morecakes:type": 4
-            }
-        },
-        {
-            "model": "morecakes:item/huge_cake/huge_cake_cn_cn_vb",
-            "predicate": {
-                "morecakes:type": 5
-            }
-        },
-        {
-            "model": "morecakes:item/huge_cake/huge_cake_cn_cn_vs",
-            "predicate": {
-                "morecakes:type": 6
-            }
-        },
-        {
-            "model": "morecakes:item/huge_cake/huge_cake_cn_cn_vg",
-            "predicate": {
-                "morecakes:type": 7
-            }
-        },
-        {
-            "model": "morecakes:item/huge_cake/huge_cake_cn_cb_cn",
-            "predicate": {
-                "morecakes:type": 8
-            }
-        },
-        {
-            "model": "morecakes:item/huge_cake/huge_cake_cn_cb_cb",
-            "predicate": {
-                "morecakes:type": 9
-            }
-        },
-        {
-            "model": "morecakes:item/huge_cake/huge_cake_cn_cb_cs",
-            "predicate": {
-                "morecakes:type": 10
-            }
-        },
-        {
-            "model": "morecakes:item/huge_cake/huge_cake_cn_cb_cg",
-            "predicate": {
-                "morecakes:type": 11
-            }
-        },
-        {
-            "model": "morecakes:item/huge_cake/huge_cake_cn_cb_vn",
-            "predicate": {
-                "morecakes:type": 12
-            }
-        },
-        {
-            "model": "morecakes:item/huge_cake/huge_cake_cn_cb_vb",
-            "predicate": {
-                "morecakes:type": 13
-            }
-        },
-        {
-            "model": "morecakes:item/huge_cake/huge_cake_cn_cb_vs",
-            "predicate": {
-                "morecakes:type": 14
-            }
-        },
-        {
-            "model": "morecakes:item/huge_cake/huge_cake_cn_cb_vg",
-            "predicate": {
-                "morecakes:type": 15
-            }
-        },
-        {
-            "model": "morecakes:item/huge_cake/huge_cake_cn_cs_cn",
-            "predicate": {
-                "morecakes:type": 16
-            }
-        },
-        {
-            "model": "morecakes:item/huge_cake/huge_cake_cn_cs_cb",
-            "predicate": {
-                "morecakes:type": 17
-            }
-        },
-        {
-            "model": "morecakes:item/huge_cake/huge_cake_cn_cs_cs",
-            "predicate": {
-                "morecakes:type": 18
-            }
-        },
-        {
-            "model": "morecakes:item/huge_cake/huge_cake_cn_cs_cg",
-            "predicate": {
-                "morecakes:type": 19
-            }
-        },
-        {
-            "model": "morecakes:item/huge_cake/huge_cake_cn_cs_vn",
-            "predicate": {
-                "morecakes:type": 20
-            }
-        },
-        {
-            "model": "morecakes:item/huge_cake/huge_cake_cn_cs_vb",
-            "predicate": {
-                "morecakes:type": 21
-            }
-        },
-        {
-            "model": "morecakes:item/huge_cake/huge_cake_cn_cs_vs",
-            "predicate": {
-                "morecakes:type": 22
-            }
-        },
-        {
-            "model": "morecakes:item/huge_cake/huge_cake_cn_cs_vg",
-            "predicate": {
-                "morecakes:type": 23
-            }
-        },
-        {
-            "model": "morecakes:item/huge_cake/huge_cake_cn_cg_cn",
-            "predicate": {
-                "morecakes:type": 24
-            }
-        },
-        {
-            "model": "morecakes:item/huge_cake/huge_cake_cn_cg_cb",
-            "predicate": {
-                "morecakes:type": 25
-            }
-        },
-        {
-            "model": "morecakes:item/huge_cake/huge_cake_cn_cg_cs",
-            "predicate": {
-                "morecakes:type": 26
-            }
-        },
-        {
-            "model": "morecakes:item/huge_cake/huge_cake_cn_cg_cg",
-            "predicate": {
-                "morecakes:type": 27
-            }
-        },
-        {
-            "model": "morecakes:item/huge_cake/huge_cake_cn_cg_vn",
-            "predicate": {
-                "morecakes:type": 28
-            }
-        },
-        {
-            "model": "morecakes:item/huge_cake/huge_cake_cn_cg_vb",
-            "predicate": {
-                "morecakes:type": 29
-            }
-        },
-        {
-            "model": "morecakes:item/huge_cake/huge_cake_cn_cg_vs",
-            "predicate": {
-                "morecakes:type": 30
-            }
-        },
-        {
-            "model": "morecakes:item/huge_cake/huge_cake_cn_cg_vg",
-            "predicate": {
-                "morecakes:type": 31
-            }
-        },
-        {
-            "model": "morecakes:item/huge_cake/huge_cake_cn_vn_cn",
-            "predicate": {
-                "morecakes:type": 32
-            }
-        },
-        {
-            "model": "morecakes:item/huge_cake/huge_cake_cn_vn_cb",
-            "predicate": {
-                "morecakes:type": 33
-            }
-        },
-        {
-            "model": "morecakes:item/huge_cake/huge_cake_cn_vn_cs",
-            "predicate": {
-                "morecakes:type": 34
-            }
-        },
-        {
-            "model": "morecakes:item/huge_cake/huge_cake_cn_vn_cg",
-            "predicate": {
-                "morecakes:type": 35
-            }
-        },
-        {
-            "model": "morecakes:item/huge_cake/huge_cake_cn_vn_vn",
-            "predicate": {
-                "morecakes:type": 36
-            }
-        },
-        {
-            "model": "morecakes:item/huge_cake/huge_cake_cn_vn_vb",
-            "predicate": {
-                "morecakes:type": 37
-            }
-        },
-        {
-            "model": "morecakes:item/huge_cake/huge_cake_cn_vn_vs",
-            "predicate": {
-                "morecakes:type": 38
-            }
-        },
-        {
-            "model": "morecakes:item/huge_cake/huge_cake_cn_vn_vg",
-            "predicate": {
-                "morecakes:type": 39
-            }
-        },
-        {
-            "model": "morecakes:item/huge_cake/huge_cake_cn_vb_cn",
-            "predicate": {
-                "morecakes:type": 40
-            }
-        },
-        {
-            "model": "morecakes:item/huge_cake/huge_cake_cn_vb_cb",
-            "predicate": {
-                "morecakes:type": 41
-            }
-        },
-        {
-            "model": "morecakes:item/huge_cake/huge_cake_cn_vb_cs",
-            "predicate": {
-                "morecakes:type": 42
-            }
-        },
-        {
-            "model": "morecakes:item/huge_cake/huge_cake_cn_vb_cg",
-            "predicate": {
-                "morecakes:type": 43
-            }
-        },
-        {
-            "model": "morecakes:item/huge_cake/huge_cake_cn_vb_vn",
-            "predicate": {
-                "morecakes:type": 44
-            }
-        },
-        {
-            "model": "morecakes:item/huge_cake/huge_cake_cn_vb_vb",
-            "predicate": {
-                "morecakes:type": 45
-            }
-        },
-        {
-            "model": "morecakes:item/huge_cake/huge_cake_cn_vb_vs",
-            "predicate": {
-                "morecakes:type": 46
-            }
-        },
-        {
-            "model": "morecakes:item/huge_cake/huge_cake_cn_vb_vg",
-            "predicate": {
-                "morecakes:type": 47
-            }
-        },
-        {
-            "model": "morecakes:item/huge_cake/huge_cake_cn_vs_cn",
-            "predicate": {
-                "morecakes:type": 48
-            }
-        },
-        {
-            "model": "morecakes:item/huge_cake/huge_cake_cn_vs_cb",
-            "predicate": {
-                "morecakes:type": 49
-            }
-        },
-        {
-            "model": "morecakes:item/huge_cake/huge_cake_cn_vs_cs",
-            "predicate": {
-                "morecakes:type": 50
-            }
-        },
-        {
-            "model": "morecakes:item/huge_cake/huge_cake_cn_vs_cg",
-            "predicate": {
-                "morecakes:type": 51
-            }
-        },
-        {
-            "model": "morecakes:item/huge_cake/huge_cake_cn_vs_vn",
-            "predicate": {
-                "morecakes:type": 52
-            }
-        },
-        {
-            "model": "morecakes:item/huge_cake/huge_cake_cn_vs_vb",
-            "predicate": {
-                "morecakes:type": 53
-            }
-        },
-        {
-            "model": "morecakes:item/huge_cake/huge_cake_cn_vs_vs",
-            "predicate": {
-                "morecakes:type": 54
-            }
-        },
-        {
-            "model": "morecakes:item/huge_cake/huge_cake_cn_vs_vg",
-            "predicate": {
-                "morecakes:type": 55
-            }
-        },
-        {
-            "model": "morecakes:item/huge_cake/huge_cake_cn_vg_cn",
-            "predicate": {
-                "morecakes:type": 56
-            }
-        },
-        {
-            "model": "morecakes:item/huge_cake/huge_cake_cn_vg_cb",
-            "predicate": {
-                "morecakes:type": 57
-            }
-        },
-        {
-            "model": "morecakes:item/huge_cake/huge_cake_cn_vg_cs",
-            "predicate": {
-                "morecakes:type": 58
-            }
-        },
-        {
-            "model": "morecakes:item/huge_cake/huge_cake_cn_vg_cg",
-            "predicate": {
-                "morecakes:type": 59
-            }
-        },
-        {
-            "model": "morecakes:item/huge_cake/huge_cake_cn_vg_vn",
-            "predicate": {
-                "morecakes:type": 60
-            }
-        },
-        {
-            "model": "morecakes:item/huge_cake/huge_cake_cn_vg_vb",
-            "predicate": {
-                "morecakes:type": 61
-            }
-        },
-        {
-            "model": "morecakes:item/huge_cake/huge_cake_cn_vg_vs",
-            "predicate": {
-                "morecakes:type": 62
-            }
-        },
-        {
-            "model": "morecakes:item/huge_cake/huge_cake_cn_vg_vg",
-            "predicate": {
-                "morecakes:type": 63
-            }
-        },
-        {
-            "model": "morecakes:item/huge_cake/huge_cake_cb_cn_cn",
-            "predicate": {
-                "morecakes:type": 64
-            }
-        },
-        {
-            "model": "morecakes:item/huge_cake/huge_cake_cb_cn_cb",
-            "predicate": {
-                "morecakes:type": 65
-            }
-        },
-        {
-            "model": "morecakes:item/huge_cake/huge_cake_cb_cn_cs",
-            "predicate": {
-                "morecakes:type": 66
-            }
-        },
-        {
-            "model": "morecakes:item/huge_cake/huge_cake_cb_cn_cg",
-            "predicate": {
-                "morecakes:type": 67
-            }
-        },
-        {
-            "model": "morecakes:item/huge_cake/huge_cake_cb_cn_vn",
-            "predicate": {
-                "morecakes:type": 68
-            }
-        },
-        {
-            "model": "morecakes:item/huge_cake/huge_cake_cb_cn_vb",
-            "predicate": {
-                "morecakes:type": 69
-            }
-        },
-        {
-            "model": "morecakes:item/huge_cake/huge_cake_cb_cn_vs",
-            "predicate": {
-                "morecakes:type": 70
-            }
-        },
-        {
-            "model": "morecakes:item/huge_cake/huge_cake_cb_cn_vg",
-            "predicate": {
-                "morecakes:type": 71
-            }
-        },
-        {
-            "model": "morecakes:item/huge_cake/huge_cake_cb_cb_cn",
-            "predicate": {
-                "morecakes:type": 72
-            }
-        },
-        {
-            "model": "morecakes:item/huge_cake/huge_cake_cb_cb_cb",
-            "predicate": {
-                "morecakes:type": 73
-            }
-        },
-        {
-            "model": "morecakes:item/huge_cake/huge_cake_cb_cb_cs",
-            "predicate": {
-                "morecakes:type": 74
-            }
-        },
-        {
-            "model": "morecakes:item/huge_cake/huge_cake_cb_cb_cg",
-            "predicate": {
-                "morecakes:type": 75
-            }
-        },
-        {
-            "model": "morecakes:item/huge_cake/huge_cake_cb_cb_vn",
-            "predicate": {
-                "morecakes:type": 76
-            }
-        },
-        {
-            "model": "morecakes:item/huge_cake/huge_cake_cb_cb_vb",
-            "predicate": {
-                "morecakes:type": 77
-            }
-        },
-        {
-            "model": "morecakes:item/huge_cake/huge_cake_cb_cb_vs",
-            "predicate": {
-                "morecakes:type": 78
-            }
-        },
-        {
-            "model": "morecakes:item/huge_cake/huge_cake_cb_cb_vg",
-            "predicate": {
-                "morecakes:type": 79
-            }
-        },
-        {
-            "model": "morecakes:item/huge_cake/huge_cake_cb_cs_cn",
-            "predicate": {
-                "morecakes:type": 80
-            }
-        },
-        {
-            "model": "morecakes:item/huge_cake/huge_cake_cb_cs_cb",
-            "predicate": {
-                "morecakes:type": 81
-            }
-        },
-        {
-            "model": "morecakes:item/huge_cake/huge_cake_cb_cs_cs",
-            "predicate": {
-                "morecakes:type": 82
-            }
-        },
-        {
-            "model": "morecakes:item/huge_cake/huge_cake_cb_cs_cg",
-            "predicate": {
-                "morecakes:type": 83
-            }
-        },
-        {
-            "model": "morecakes:item/huge_cake/huge_cake_cb_cs_vn",
-            "predicate": {
-                "morecakes:type": 84
-            }
-        },
-        {
-            "model": "morecakes:item/huge_cake/huge_cake_cb_cs_vb",
-            "predicate": {
-                "morecakes:type": 85
-            }
-        },
-        {
-            "model": "morecakes:item/huge_cake/huge_cake_cb_cs_vs",
-            "predicate": {
-                "morecakes:type": 86
-            }
-        },
-        {
-            "model": "morecakes:item/huge_cake/huge_cake_cb_cs_vg",
-            "predicate": {
-                "morecakes:type": 87
-            }
-        },
-        {
-            "model": "morecakes:item/huge_cake/huge_cake_cb_cg_cn",
-            "predicate": {
-                "morecakes:type": 88
-            }
-        },
-        {
-            "model": "morecakes:item/huge_cake/huge_cake_cb_cg_cb",
-            "predicate": {
-                "morecakes:type": 89
-            }
-        },
-        {
-            "model": "morecakes:item/huge_cake/huge_cake_cb_cg_cs",
-            "predicate": {
-                "morecakes:type": 90
-            }
-        },
-        {
-            "model": "morecakes:item/huge_cake/huge_cake_cb_cg_cg",
-            "predicate": {
-                "morecakes:type": 91
-            }
-        },
-        {
-            "model": "morecakes:item/huge_cake/huge_cake_cb_cg_vn",
-            "predicate": {
-                "morecakes:type": 92
-            }
-        },
-        {
-            "model": "morecakes:item/huge_cake/huge_cake_cb_cg_vb",
-            "predicate": {
-                "morecakes:type": 93
-            }
-        },
-        {
-            "model": "morecakes:item/huge_cake/huge_cake_cb_cg_vs",
-            "predicate": {
-                "morecakes:type": 94
-            }
-        },
-        {
-            "model": "morecakes:item/huge_cake/huge_cake_cb_cg_vg",
-            "predicate": {
-                "morecakes:type": 95
-            }
-        },
-        {
-            "model": "morecakes:item/huge_cake/huge_cake_cb_vn_cn",
-            "predicate": {
-                "morecakes:type": 96
-            }
-        },
-        {
-            "model": "morecakes:item/huge_cake/huge_cake_cb_vn_cb",
-            "predicate": {
-                "morecakes:type": 97
-            }
-        },
-        {
-            "model": "morecakes:item/huge_cake/huge_cake_cb_vn_cs",
-            "predicate": {
-                "morecakes:type": 98
-            }
-        },
-        {
-            "model": "morecakes:item/huge_cake/huge_cake_cb_vn_cg",
-            "predicate": {
-                "morecakes:type": 99
-            }
-        },
-        {
-            "model": "morecakes:item/huge_cake/huge_cake_cb_vn_vn",
-            "predicate": {
-                "morecakes:type": 100
-            }
-        },
-        {
-            "model": "morecakes:item/huge_cake/huge_cake_cb_vn_vb",
-            "predicate": {
-                "morecakes:type": 101
-            }
-        },
-        {
-            "model": "morecakes:item/huge_cake/huge_cake_cb_vn_vs",
-            "predicate": {
-                "morecakes:type": 102
-            }
-        },
-        {
-            "model": "morecakes:item/huge_cake/huge_cake_cb_vn_vg",
-            "predicate": {
-                "morecakes:type": 103
-            }
-        },
-        {
-            "model": "morecakes:item/huge_cake/huge_cake_cb_vb_cn",
-            "predicate": {
-                "morecakes:type": 104
-            }
-        },
-        {
-            "model": "morecakes:item/huge_cake/huge_cake_cb_vb_cb",
-            "predicate": {
-                "morecakes:type": 105
-            }
-        },
-        {
-            "model": "morecakes:item/huge_cake/huge_cake_cb_vb_cs",
-            "predicate": {
-                "morecakes:type": 106
-            }
-        },
-        {
-            "model": "morecakes:item/huge_cake/huge_cake_cb_vb_cg",
-            "predicate": {
-                "morecakes:type": 107
-            }
-        },
-        {
-            "model": "morecakes:item/huge_cake/huge_cake_cb_vb_vn",
-            "predicate": {
-                "morecakes:type": 108
-            }
-        },
-        {
-            "model": "morecakes:item/huge_cake/huge_cake_cb_vb_vb",
-            "predicate": {
-                "morecakes:type": 109
-            }
-        },
-        {
-            "model": "morecakes:item/huge_cake/huge_cake_cb_vb_vs",
-            "predicate": {
-                "morecakes:type": 110
-            }
-        },
-        {
-            "model": "morecakes:item/huge_cake/huge_cake_cb_vb_vg",
-            "predicate": {
-                "morecakes:type": 111
-            }
-        },
-        {
-            "model": "morecakes:item/huge_cake/huge_cake_cb_vs_cn",
-            "predicate": {
-                "morecakes:type": 112
-            }
-        },
-        {
-            "model": "morecakes:item/huge_cake/huge_cake_cb_vs_cb",
-            "predicate": {
-                "morecakes:type": 113
-            }
-        },
-        {
-            "model": "morecakes:item/huge_cake/huge_cake_cb_vs_cs",
-            "predicate": {
-                "morecakes:type": 114
-            }
-        },
-        {
-            "model": "morecakes:item/huge_cake/huge_cake_cb_vs_cg",
-            "predicate": {
-                "morecakes:type": 115
-            }
-        },
-        {
-            "model": "morecakes:item/huge_cake/huge_cake_cb_vs_vn",
-            "predicate": {
-                "morecakes:type": 116
-            }
-        },
-        {
-            "model": "morecakes:item/huge_cake/huge_cake_cb_vs_vb",
-            "predicate": {
-                "morecakes:type": 117
-            }
-        },
-        {
-            "model": "morecakes:item/huge_cake/huge_cake_cb_vs_vs",
-            "predicate": {
-                "morecakes:type": 118
-            }
-        },
-        {
-            "model": "morecakes:item/huge_cake/huge_cake_cb_vs_vg",
-            "predicate": {
-                "morecakes:type": 119
-            }
-        },
-        {
-            "model": "morecakes:item/huge_cake/huge_cake_cb_vg_cn",
-            "predicate": {
-                "morecakes:type": 120
-            }
-        },
-        {
-            "model": "morecakes:item/huge_cake/huge_cake_cb_vg_cb",
-            "predicate": {
-                "morecakes:type": 121
-            }
-        },
-        {
-            "model": "morecakes:item/huge_cake/huge_cake_cb_vg_cs",
-            "predicate": {
-                "morecakes:type": 122
-            }
-        },
-        {
-            "model": "morecakes:item/huge_cake/huge_cake_cb_vg_cg",
-            "predicate": {
-                "morecakes:type": 123
-            }
-        },
-        {
-            "model": "morecakes:item/huge_cake/huge_cake_cb_vg_vn",
-            "predicate": {
-                "morecakes:type": 124
-            }
-        },
-        {
-            "model": "morecakes:item/huge_cake/huge_cake_cb_vg_vb",
-            "predicate": {
-                "morecakes:type": 125
-            }
-        },
-        {
-            "model": "morecakes:item/huge_cake/huge_cake_cb_vg_vs",
-            "predicate": {
-                "morecakes:type": 126
-            }
-        },
-        {
-            "model": "morecakes:item/huge_cake/huge_cake_cb_vg_vg",
-            "predicate": {
-                "morecakes:type": 127
-            }
-        },
-        {
-            "model": "morecakes:item/huge_cake/huge_cake_cs_cn_cn",
-            "predicate": {
-                "morecakes:type": 128
-            }
-        },
-        {
-            "model": "morecakes:item/huge_cake/huge_cake_cs_cn_cb",
-            "predicate": {
-                "morecakes:type": 129
-            }
-        },
-        {
-            "model": "morecakes:item/huge_cake/huge_cake_cs_cn_cs",
-            "predicate": {
-                "morecakes:type": 130
-            }
-        },
-        {
-            "model": "morecakes:item/huge_cake/huge_cake_cs_cn_cg",
-            "predicate": {
-                "morecakes:type": 131
-            }
-        },
-        {
-            "model": "morecakes:item/huge_cake/huge_cake_cs_cn_vn",
-            "predicate": {
-                "morecakes:type": 132
-            }
-        },
-        {
-            "model": "morecakes:item/huge_cake/huge_cake_cs_cn_vb",
-            "predicate": {
-                "morecakes:type": 133
-            }
-        },
-        {
-            "model": "morecakes:item/huge_cake/huge_cake_cs_cn_vs",
-            "predicate": {
-                "morecakes:type": 134
-            }
-        },
-        {
-            "model": "morecakes:item/huge_cake/huge_cake_cs_cn_vg",
-            "predicate": {
-                "morecakes:type": 135
-            }
-        },
-        {
-            "model": "morecakes:item/huge_cake/huge_cake_cs_cb_cn",
-            "predicate": {
-                "morecakes:type": 136
-            }
-        },
-        {
-            "model": "morecakes:item/huge_cake/huge_cake_cs_cb_cb",
-            "predicate": {
-                "morecakes:type": 137
-            }
-        },
-        {
-            "model": "morecakes:item/huge_cake/huge_cake_cs_cb_cs",
-            "predicate": {
-                "morecakes:type": 138
-            }
-        },
-        {
-            "model": "morecakes:item/huge_cake/huge_cake_cs_cb_cg",
-            "predicate": {
-                "morecakes:type": 139
-            }
-        },
-        {
-            "model": "morecakes:item/huge_cake/huge_cake_cs_cb_vn",
-            "predicate": {
-                "morecakes:type": 140
-            }
-        },
-        {
-            "model": "morecakes:item/huge_cake/huge_cake_cs_cb_vb",
-            "predicate": {
-                "morecakes:type": 141
-            }
-        },
-        {
-            "model": "morecakes:item/huge_cake/huge_cake_cs_cb_vs",
-            "predicate": {
-                "morecakes:type": 142
-            }
-        },
-        {
-            "model": "morecakes:item/huge_cake/huge_cake_cs_cb_vg",
-            "predicate": {
-                "morecakes:type": 143
-            }
-        },
-        {
-            "model": "morecakes:item/huge_cake/huge_cake_cs_cs_cn",
-            "predicate": {
-                "morecakes:type": 144
-            }
-        },
-        {
-            "model": "morecakes:item/huge_cake/huge_cake_cs_cs_cb",
-            "predicate": {
-                "morecakes:type": 145
-            }
-        },
-        {
-            "model": "morecakes:item/huge_cake/huge_cake_cs_cs_cs",
-            "predicate": {
-                "morecakes:type": 146
-            }
-        },
-        {
-            "model": "morecakes:item/huge_cake/huge_cake_cs_cs_cg",
-            "predicate": {
-                "morecakes:type": 147
-            }
-        },
-        {
-            "model": "morecakes:item/huge_cake/huge_cake_cs_cs_vn",
-            "predicate": {
-                "morecakes:type": 148
-            }
-        },
-        {
-            "model": "morecakes:item/huge_cake/huge_cake_cs_cs_vb",
-            "predicate": {
-                "morecakes:type": 149
-            }
-        },
-        {
-            "model": "morecakes:item/huge_cake/huge_cake_cs_cs_vs",
-            "predicate": {
-                "morecakes:type": 150
-            }
-        },
-        {
-            "model": "morecakes:item/huge_cake/huge_cake_cs_cs_vg",
-            "predicate": {
-                "morecakes:type": 151
-            }
-        },
-        {
-            "model": "morecakes:item/huge_cake/huge_cake_cs_cg_cn",
-            "predicate": {
-                "morecakes:type": 152
-            }
-        },
-        {
-            "model": "morecakes:item/huge_cake/huge_cake_cs_cg_cb",
-            "predicate": {
-                "morecakes:type": 153
-            }
-        },
-        {
-            "model": "morecakes:item/huge_cake/huge_cake_cs_cg_cs",
-            "predicate": {
-                "morecakes:type": 154
-            }
-        },
-        {
-            "model": "morecakes:item/huge_cake/huge_cake_cs_cg_cg",
-            "predicate": {
-                "morecakes:type": 155
-            }
-        },
-        {
-            "model": "morecakes:item/huge_cake/huge_cake_cs_cg_vn",
-            "predicate": {
-                "morecakes:type": 156
-            }
-        },
-        {
-            "model": "morecakes:item/huge_cake/huge_cake_cs_cg_vb",
-            "predicate": {
-                "morecakes:type": 157
-            }
-        },
-        {
-            "model": "morecakes:item/huge_cake/huge_cake_cs_cg_vs",
-            "predicate": {
-                "morecakes:type": 158
-            }
-        },
-        {
-            "model": "morecakes:item/huge_cake/huge_cake_cs_cg_vg",
-            "predicate": {
-                "morecakes:type": 159
-            }
-        },
-        {
-            "model": "morecakes:item/huge_cake/huge_cake_cs_vn_cn",
-            "predicate": {
-                "morecakes:type": 160
-            }
-        },
-        {
-            "model": "morecakes:item/huge_cake/huge_cake_cs_vn_cb",
-            "predicate": {
-                "morecakes:type": 161
-            }
-        },
-        {
-            "model": "morecakes:item/huge_cake/huge_cake_cs_vn_cs",
-            "predicate": {
-                "morecakes:type": 162
-            }
-        },
-        {
-            "model": "morecakes:item/huge_cake/huge_cake_cs_vn_cg",
-            "predicate": {
-                "morecakes:type": 163
-            }
-        },
-        {
-            "model": "morecakes:item/huge_cake/huge_cake_cs_vn_vn",
-            "predicate": {
-                "morecakes:type": 164
-            }
-        },
-        {
-            "model": "morecakes:item/huge_cake/huge_cake_cs_vn_vb",
-            "predicate": {
-                "morecakes:type": 165
-            }
-        },
-        {
-            "model": "morecakes:item/huge_cake/huge_cake_cs_vn_vs",
-            "predicate": {
-                "morecakes:type": 166
-            }
-        },
-        {
-            "model": "morecakes:item/huge_cake/huge_cake_cs_vn_vg",
-            "predicate": {
-                "morecakes:type": 167
-            }
-        },
-        {
-            "model": "morecakes:item/huge_cake/huge_cake_cs_vb_cn",
-            "predicate": {
-                "morecakes:type": 168
-            }
-        },
-        {
-            "model": "morecakes:item/huge_cake/huge_cake_cs_vb_cb",
-            "predicate": {
-                "morecakes:type": 169
-            }
-        },
-        {
-            "model": "morecakes:item/huge_cake/huge_cake_cs_vb_cs",
-            "predicate": {
-                "morecakes:type": 170
-            }
-        },
-        {
-            "model": "morecakes:item/huge_cake/huge_cake_cs_vb_cg",
-            "predicate": {
-                "morecakes:type": 171
-            }
-        },
-        {
-            "model": "morecakes:item/huge_cake/huge_cake_cs_vb_vn",
-            "predicate": {
-                "morecakes:type": 172
-            }
-        },
-        {
-            "model": "morecakes:item/huge_cake/huge_cake_cs_vb_vb",
-            "predicate": {
-                "morecakes:type": 173
-            }
-        },
-        {
-            "model": "morecakes:item/huge_cake/huge_cake_cs_vb_vs",
-            "predicate": {
-                "morecakes:type": 174
-            }
-        },
-        {
-            "model": "morecakes:item/huge_cake/huge_cake_cs_vb_vg",
-            "predicate": {
-                "morecakes:type": 175
-            }
-        },
-        {
-            "model": "morecakes:item/huge_cake/huge_cake_cs_vs_cn",
-            "predicate": {
-                "morecakes:type": 176
-            }
-        },
-        {
-            "model": "morecakes:item/huge_cake/huge_cake_cs_vs_cb",
-            "predicate": {
-                "morecakes:type": 177
-            }
-        },
-        {
-            "model": "morecakes:item/huge_cake/huge_cake_cs_vs_cs",
-            "predicate": {
-                "morecakes:type": 178
-            }
-        },
-        {
-            "model": "morecakes:item/huge_cake/huge_cake_cs_vs_cg",
-            "predicate": {
-                "morecakes:type": 179
-            }
-        },
-        {
-            "model": "morecakes:item/huge_cake/huge_cake_cs_vs_vn",
-            "predicate": {
-                "morecakes:type": 180
-            }
-        },
-        {
-            "model": "morecakes:item/huge_cake/huge_cake_cs_vs_vb",
-            "predicate": {
-                "morecakes:type": 181
-            }
-        },
-        {
-            "model": "morecakes:item/huge_cake/huge_cake_cs_vs_vs",
-            "predicate": {
-                "morecakes:type": 182
-            }
-        },
-        {
-            "model": "morecakes:item/huge_cake/huge_cake_cs_vs_vg",
-            "predicate": {
-                "morecakes:type": 183
-            }
-        },
-        {
-            "model": "morecakes:item/huge_cake/huge_cake_cs_vg_cn",
-            "predicate": {
-                "morecakes:type": 184
-            }
-        },
-        {
-            "model": "morecakes:item/huge_cake/huge_cake_cs_vg_cb",
-            "predicate": {
-                "morecakes:type": 185
-            }
-        },
-        {
-            "model": "morecakes:item/huge_cake/huge_cake_cs_vg_cs",
-            "predicate": {
-                "morecakes:type": 186
-            }
-        },
-        {
-            "model": "morecakes:item/huge_cake/huge_cake_cs_vg_cg",
-            "predicate": {
-                "morecakes:type": 187
-            }
-        },
-        {
-            "model": "morecakes:item/huge_cake/huge_cake_cs_vg_vn",
-            "predicate": {
-                "morecakes:type": 188
-            }
-        },
-        {
-            "model": "morecakes:item/huge_cake/huge_cake_cs_vg_vb",
-            "predicate": {
-                "morecakes:type": 189
-            }
-        },
-        {
-            "model": "morecakes:item/huge_cake/huge_cake_cs_vg_vs",
-            "predicate": {
-                "morecakes:type": 190
-            }
-        },
-        {
-            "model": "morecakes:item/huge_cake/huge_cake_cs_vg_vg",
-            "predicate": {
-                "morecakes:type": 191
-            }
-        },
-        {
-            "model": "morecakes:item/huge_cake/huge_cake_cg_cn_cn",
-            "predicate": {
-                "morecakes:type": 192
-            }
-        },
-        {
-            "model": "morecakes:item/huge_cake/huge_cake_cg_cn_cb",
-            "predicate": {
-                "morecakes:type": 193
-            }
-        },
-        {
-            "model": "morecakes:item/huge_cake/huge_cake_cg_cn_cs",
-            "predicate": {
-                "morecakes:type": 194
-            }
-        },
-        {
-            "model": "morecakes:item/huge_cake/huge_cake_cg_cn_cg",
-            "predicate": {
-                "morecakes:type": 195
-            }
-        },
-        {
-            "model": "morecakes:item/huge_cake/huge_cake_cg_cn_vn",
-            "predicate": {
-                "morecakes:type": 196
-            }
-        },
-        {
-            "model": "morecakes:item/huge_cake/huge_cake_cg_cn_vb",
-            "predicate": {
-                "morecakes:type": 197
-            }
-        },
-        {
-            "model": "morecakes:item/huge_cake/huge_cake_cg_cn_vs",
-            "predicate": {
-                "morecakes:type": 198
-            }
-        },
-        {
-            "model": "morecakes:item/huge_cake/huge_cake_cg_cn_vg",
-            "predicate": {
-                "morecakes:type": 199
-            }
-        },
-        {
-            "model": "morecakes:item/huge_cake/huge_cake_cg_cb_cn",
-            "predicate": {
-                "morecakes:type": 200
-            }
-        },
-        {
-            "model": "morecakes:item/huge_cake/huge_cake_cg_cb_cb",
-            "predicate": {
-                "morecakes:type": 201
-            }
-        },
-        {
-            "model": "morecakes:item/huge_cake/huge_cake_cg_cb_cs",
-            "predicate": {
-                "morecakes:type": 202
-            }
-        },
-        {
-            "model": "morecakes:item/huge_cake/huge_cake_cg_cb_cg",
-            "predicate": {
-                "morecakes:type": 203
-            }
-        },
-        {
-            "model": "morecakes:item/huge_cake/huge_cake_cg_cb_vn",
-            "predicate": {
-                "morecakes:type": 204
-            }
-        },
-        {
-            "model": "morecakes:item/huge_cake/huge_cake_cg_cb_vb",
-            "predicate": {
-                "morecakes:type": 205
-            }
-        },
-        {
-            "model": "morecakes:item/huge_cake/huge_cake_cg_cb_vs",
-            "predicate": {
-                "morecakes:type": 206
-            }
-        },
-        {
-            "model": "morecakes:item/huge_cake/huge_cake_cg_cb_vg",
-            "predicate": {
-                "morecakes:type": 207
-            }
-        },
-        {
-            "model": "morecakes:item/huge_cake/huge_cake_cg_cs_cn",
-            "predicate": {
-                "morecakes:type": 208
-            }
-        },
-        {
-            "model": "morecakes:item/huge_cake/huge_cake_cg_cs_cb",
-            "predicate": {
-                "morecakes:type": 209
-            }
-        },
-        {
-            "model": "morecakes:item/huge_cake/huge_cake_cg_cs_cs",
-            "predicate": {
-                "morecakes:type": 210
-            }
-        },
-        {
-            "model": "morecakes:item/huge_cake/huge_cake_cg_cs_cg",
-            "predicate": {
-                "morecakes:type": 211
-            }
-        },
-        {
-            "model": "morecakes:item/huge_cake/huge_cake_cg_cs_vn",
-            "predicate": {
-                "morecakes:type": 212
-            }
-        },
-        {
-            "model": "morecakes:item/huge_cake/huge_cake_cg_cs_vb",
-            "predicate": {
-                "morecakes:type": 213
-            }
-        },
-        {
-            "model": "morecakes:item/huge_cake/huge_cake_cg_cs_vs",
-            "predicate": {
-                "morecakes:type": 214
-            }
-        },
-        {
-            "model": "morecakes:item/huge_cake/huge_cake_cg_cs_vg",
-            "predicate": {
-                "morecakes:type": 215
-            }
-        },
-        {
-            "model": "morecakes:item/huge_cake/huge_cake_cg_cg_cn",
-            "predicate": {
-                "morecakes:type": 216
-            }
-        },
-        {
-            "model": "morecakes:item/huge_cake/huge_cake_cg_cg_cb",
-            "predicate": {
-                "morecakes:type": 217
-            }
-        },
-        {
-            "model": "morecakes:item/huge_cake/huge_cake_cg_cg_cs",
-            "predicate": {
-                "morecakes:type": 218
-            }
-        },
-        {
-            "model": "morecakes:item/huge_cake/huge_cake_cg_cg_cg",
-            "predicate": {
-                "morecakes:type": 219
-            }
-        },
-        {
-            "model": "morecakes:item/huge_cake/huge_cake_cg_cg_vn",
-            "predicate": {
-                "morecakes:type": 220
-            }
-        },
-        {
-            "model": "morecakes:item/huge_cake/huge_cake_cg_cg_vb",
-            "predicate": {
-                "morecakes:type": 221
-            }
-        },
-        {
-            "model": "morecakes:item/huge_cake/huge_cake_cg_cg_vs",
-            "predicate": {
-                "morecakes:type": 222
-            }
-        },
-        {
-            "model": "morecakes:item/huge_cake/huge_cake_cg_cg_vg",
-            "predicate": {
-                "morecakes:type": 223
-            }
-        },
-        {
-            "model": "morecakes:item/huge_cake/huge_cake_cg_vn_cn",
-            "predicate": {
-                "morecakes:type": 224
-            }
-        },
-        {
-            "model": "morecakes:item/huge_cake/huge_cake_cg_vn_cb",
-            "predicate": {
-                "morecakes:type": 225
-            }
-        },
-        {
-            "model": "morecakes:item/huge_cake/huge_cake_cg_vn_cs",
-            "predicate": {
-                "morecakes:type": 226
-            }
-        },
-        {
-            "model": "morecakes:item/huge_cake/huge_cake_cg_vn_cg",
-            "predicate": {
-                "morecakes:type": 227
-            }
-        },
-        {
-            "model": "morecakes:item/huge_cake/huge_cake_cg_vn_vn",
-            "predicate": {
-                "morecakes:type": 228
-            }
-        },
-        {
-            "model": "morecakes:item/huge_cake/huge_cake_cg_vn_vb",
-            "predicate": {
-                "morecakes:type": 229
-            }
-        },
-        {
-            "model": "morecakes:item/huge_cake/huge_cake_cg_vn_vs",
-            "predicate": {
-                "morecakes:type": 230
-            }
-        },
-        {
-            "model": "morecakes:item/huge_cake/huge_cake_cg_vn_vg",
-            "predicate": {
-                "morecakes:type": 231
-            }
-        },
-        {
-            "model": "morecakes:item/huge_cake/huge_cake_cg_vb_cn",
-            "predicate": {
-                "morecakes:type": 232
-            }
-        },
-        {
-            "model": "morecakes:item/huge_cake/huge_cake_cg_vb_cb",
-            "predicate": {
-                "morecakes:type": 233
-            }
-        },
-        {
-            "model": "morecakes:item/huge_cake/huge_cake_cg_vb_cs",
-            "predicate": {
-                "morecakes:type": 234
-            }
-        },
-        {
-            "model": "morecakes:item/huge_cake/huge_cake_cg_vb_cg",
-            "predicate": {
-                "morecakes:type": 235
-            }
-        },
-        {
-            "model": "morecakes:item/huge_cake/huge_cake_cg_vb_vn",
-            "predicate": {
-                "morecakes:type": 236
-            }
-        },
-        {
-            "model": "morecakes:item/huge_cake/huge_cake_cg_vb_vb",
-            "predicate": {
-                "morecakes:type": 237
-            }
-        },
-        {
-            "model": "morecakes:item/huge_cake/huge_cake_cg_vb_vs",
-            "predicate": {
-                "morecakes:type": 238
-            }
-        },
-        {
-            "model": "morecakes:item/huge_cake/huge_cake_cg_vb_vg",
-            "predicate": {
-                "morecakes:type": 239
-            }
-        },
-        {
-            "model": "morecakes:item/huge_cake/huge_cake_cg_vs_cn",
-            "predicate": {
-                "morecakes:type": 240
-            }
-        },
-        {
-            "model": "morecakes:item/huge_cake/huge_cake_cg_vs_cb",
-            "predicate": {
-                "morecakes:type": 241
-            }
-        },
-        {
-            "model": "morecakes:item/huge_cake/huge_cake_cg_vs_cs",
-            "predicate": {
-                "morecakes:type": 242
-            }
-        },
-        {
-            "model": "morecakes:item/huge_cake/huge_cake_cg_vs_cg",
-            "predicate": {
-                "morecakes:type": 243
-            }
-        },
-        {
-            "model": "morecakes:item/huge_cake/huge_cake_cg_vs_vn",
-            "predicate": {
-                "morecakes:type": 244
-            }
-        },
-        {
-            "model": "morecakes:item/huge_cake/huge_cake_cg_vs_vb",
-            "predicate": {
-                "morecakes:type": 245
-            }
-        },
-        {
-            "model": "morecakes:item/huge_cake/huge_cake_cg_vs_vs",
-            "predicate": {
-                "morecakes:type": 246
-            }
-        },
-        {
-            "model": "morecakes:item/huge_cake/huge_cake_cg_vs_vg",
-            "predicate": {
-                "morecakes:type": 247
-            }
-        },
-        {
-            "model": "morecakes:item/huge_cake/huge_cake_cg_vg_cn",
-            "predicate": {
-                "morecakes:type": 248
-            }
-        },
-        {
-            "model": "morecakes:item/huge_cake/huge_cake_cg_vg_cb",
-            "predicate": {
-                "morecakes:type": 249
-            }
-        },
-        {
-            "model": "morecakes:item/huge_cake/huge_cake_cg_vg_cs",
-            "predicate": {
-                "morecakes:type": 250
-            }
-        },
-        {
-            "model": "morecakes:item/huge_cake/huge_cake_cg_vg_cg",
-            "predicate": {
-                "morecakes:type": 251
-            }
-        },
-        {
-            "model": "morecakes:item/huge_cake/huge_cake_cg_vg_vn",
-            "predicate": {
-                "morecakes:type": 252
-            }
-        },
-        {
-            "model": "morecakes:item/huge_cake/huge_cake_cg_vg_vb",
-            "predicate": {
-                "morecakes:type": 253
-            }
-        },
-        {
-            "model": "morecakes:item/huge_cake/huge_cake_cg_vg_vs",
-            "predicate": {
-                "morecakes:type": 254
-            }
-        },
-        {
-            "model": "morecakes:item/huge_cake/huge_cake_cg_vg_vg",
-            "predicate": {
-                "morecakes:type": 255
-            }
-        },
-        {
-            "model": "morecakes:item/huge_cake/huge_cake_vn_cn_cn",
-            "predicate": {
-                "morecakes:type": 256
-            }
-        },
-        {
-            "model": "morecakes:item/huge_cake/huge_cake_vn_cn_cb",
-            "predicate": {
-                "morecakes:type": 257
-            }
-        },
-        {
-            "model": "morecakes:item/huge_cake/huge_cake_vn_cn_cs",
-            "predicate": {
-                "morecakes:type": 258
-            }
-        },
-        {
-            "model": "morecakes:item/huge_cake/huge_cake_vn_cn_cg",
-            "predicate": {
-                "morecakes:type": 259
-            }
-        },
-        {
-            "model": "morecakes:item/huge_cake/huge_cake_vn_cn_vn",
-            "predicate": {
-                "morecakes:type": 260
-            }
-        },
-        {
-            "model": "morecakes:item/huge_cake/huge_cake_vn_cn_vb",
-            "predicate": {
-                "morecakes:type": 261
-            }
-        },
-        {
-            "model": "morecakes:item/huge_cake/huge_cake_vn_cn_vs",
-            "predicate": {
-                "morecakes:type": 262
-            }
-        },
-        {
-            "model": "morecakes:item/huge_cake/huge_cake_vn_cn_vg",
-            "predicate": {
-                "morecakes:type": 263
-            }
-        },
-        {
-            "model": "morecakes:item/huge_cake/huge_cake_vn_cb_cn",
-            "predicate": {
-                "morecakes:type": 264
-            }
-        },
-        {
-            "model": "morecakes:item/huge_cake/huge_cake_vn_cb_cb",
-            "predicate": {
-                "morecakes:type": 265
-            }
-        },
-        {
-            "model": "morecakes:item/huge_cake/huge_cake_vn_cb_cs",
-            "predicate": {
-                "morecakes:type": 266
-            }
-        },
-        {
-            "model": "morecakes:item/huge_cake/huge_cake_vn_cb_cg",
-            "predicate": {
-                "morecakes:type": 267
-            }
-        },
-        {
-            "model": "morecakes:item/huge_cake/huge_cake_vn_cb_vn",
-            "predicate": {
-                "morecakes:type": 268
-            }
-        },
-        {
-            "model": "morecakes:item/huge_cake/huge_cake_vn_cb_vb",
-            "predicate": {
-                "morecakes:type": 269
-            }
-        },
-        {
-            "model": "morecakes:item/huge_cake/huge_cake_vn_cb_vs",
-            "predicate": {
-                "morecakes:type": 270
-            }
-        },
-        {
-            "model": "morecakes:item/huge_cake/huge_cake_vn_cb_vg",
-            "predicate": {
-                "morecakes:type": 271
-            }
-        },
-        {
-            "model": "morecakes:item/huge_cake/huge_cake_vn_cs_cn",
-            "predicate": {
-                "morecakes:type": 272
-            }
-        },
-        {
-            "model": "morecakes:item/huge_cake/huge_cake_vn_cs_cb",
-            "predicate": {
-                "morecakes:type": 273
-            }
-        },
-        {
-            "model": "morecakes:item/huge_cake/huge_cake_vn_cs_cs",
-            "predicate": {
-                "morecakes:type": 274
-            }
-        },
-        {
-            "model": "morecakes:item/huge_cake/huge_cake_vn_cs_cg",
-            "predicate": {
-                "morecakes:type": 275
-            }
-        },
-        {
-            "model": "morecakes:item/huge_cake/huge_cake_vn_cs_vn",
-            "predicate": {
-                "morecakes:type": 276
-            }
-        },
-        {
-            "model": "morecakes:item/huge_cake/huge_cake_vn_cs_vb",
-            "predicate": {
-                "morecakes:type": 277
-            }
-        },
-        {
-            "model": "morecakes:item/huge_cake/huge_cake_vn_cs_vs",
-            "predicate": {
-                "morecakes:type": 278
-            }
-        },
-        {
-            "model": "morecakes:item/huge_cake/huge_cake_vn_cs_vg",
-            "predicate": {
-                "morecakes:type": 279
-            }
-        },
-        {
-            "model": "morecakes:item/huge_cake/huge_cake_vn_cg_cn",
-            "predicate": {
-                "morecakes:type": 280
-            }
-        },
-        {
-            "model": "morecakes:item/huge_cake/huge_cake_vn_cg_cb",
-            "predicate": {
-                "morecakes:type": 281
-            }
-        },
-        {
-            "model": "morecakes:item/huge_cake/huge_cake_vn_cg_cs",
-            "predicate": {
-                "morecakes:type": 282
-            }
-        },
-        {
-            "model": "morecakes:item/huge_cake/huge_cake_vn_cg_cg",
-            "predicate": {
-                "morecakes:type": 283
-            }
-        },
-        {
-            "model": "morecakes:item/huge_cake/huge_cake_vn_cg_vn",
-            "predicate": {
-                "morecakes:type": 284
-            }
-        },
-        {
-            "model": "morecakes:item/huge_cake/huge_cake_vn_cg_vb",
-            "predicate": {
-                "morecakes:type": 285
-            }
-        },
-        {
-            "model": "morecakes:item/huge_cake/huge_cake_vn_cg_vs",
-            "predicate": {
-                "morecakes:type": 286
-            }
-        },
-        {
-            "model": "morecakes:item/huge_cake/huge_cake_vn_cg_vg",
-            "predicate": {
-                "morecakes:type": 287
-            }
-        },
-        {
-            "model": "morecakes:item/huge_cake/huge_cake_vn_vn_cn",
-            "predicate": {
-                "morecakes:type": 288
-            }
-        },
-        {
-            "model": "morecakes:item/huge_cake/huge_cake_vn_vn_cb",
-            "predicate": {
-                "morecakes:type": 289
-            }
-        },
-        {
-            "model": "morecakes:item/huge_cake/huge_cake_vn_vn_cs",
-            "predicate": {
-                "morecakes:type": 290
-            }
-        },
-        {
-            "model": "morecakes:item/huge_cake/huge_cake_vn_vn_cg",
-            "predicate": {
-                "morecakes:type": 291
-            }
-        },
-        {
-            "model": "morecakes:item/huge_cake/huge_cake_vn_vn_vn",
-            "predicate": {
-                "morecakes:type": 292
-            }
-        },
-        {
-            "model": "morecakes:item/huge_cake/huge_cake_vn_vn_vb",
-            "predicate": {
-                "morecakes:type": 293
-            }
-        },
-        {
-            "model": "morecakes:item/huge_cake/huge_cake_vn_vn_vs",
-            "predicate": {
-                "morecakes:type": 294
-            }
-        },
-        {
-            "model": "morecakes:item/huge_cake/huge_cake_vn_vn_vg",
-            "predicate": {
-                "morecakes:type": 295
-            }
-        },
-        {
-            "model": "morecakes:item/huge_cake/huge_cake_vn_vb_cn",
-            "predicate": {
-                "morecakes:type": 296
-            }
-        },
-        {
-            "model": "morecakes:item/huge_cake/huge_cake_vn_vb_cb",
-            "predicate": {
-                "morecakes:type": 297
-            }
-        },
-        {
-            "model": "morecakes:item/huge_cake/huge_cake_vn_vb_cs",
-            "predicate": {
-                "morecakes:type": 298
-            }
-        },
-        {
-            "model": "morecakes:item/huge_cake/huge_cake_vn_vb_cg",
-            "predicate": {
-                "morecakes:type": 299
-            }
-        },
-        {
-            "model": "morecakes:item/huge_cake/huge_cake_vn_vb_vn",
-            "predicate": {
-                "morecakes:type": 300
-            }
-        },
-        {
-            "model": "morecakes:item/huge_cake/huge_cake_vn_vb_vb",
-            "predicate": {
-                "morecakes:type": 301
-            }
-        },
-        {
-            "model": "morecakes:item/huge_cake/huge_cake_vn_vb_vs",
-            "predicate": {
-                "morecakes:type": 302
-            }
-        },
-        {
-            "model": "morecakes:item/huge_cake/huge_cake_vn_vb_vg",
-            "predicate": {
-                "morecakes:type": 303
-            }
-        },
-        {
-            "model": "morecakes:item/huge_cake/huge_cake_vn_vs_cn",
-            "predicate": {
-                "morecakes:type": 304
-            }
-        },
-        {
-            "model": "morecakes:item/huge_cake/huge_cake_vn_vs_cb",
-            "predicate": {
-                "morecakes:type": 305
-            }
-        },
-        {
-            "model": "morecakes:item/huge_cake/huge_cake_vn_vs_cs",
-            "predicate": {
-                "morecakes:type": 306
-            }
-        },
-        {
-            "model": "morecakes:item/huge_cake/huge_cake_vn_vs_cg",
-            "predicate": {
-                "morecakes:type": 307
-            }
-        },
-        {
-            "model": "morecakes:item/huge_cake/huge_cake_vn_vs_vn",
-            "predicate": {
-                "morecakes:type": 308
-            }
-        },
-        {
-            "model": "morecakes:item/huge_cake/huge_cake_vn_vs_vb",
-            "predicate": {
-                "morecakes:type": 309
-            }
-        },
-        {
-            "model": "morecakes:item/huge_cake/huge_cake_vn_vs_vs",
-            "predicate": {
-                "morecakes:type": 310
-            }
-        },
-        {
-            "model": "morecakes:item/huge_cake/huge_cake_vn_vs_vg",
-            "predicate": {
-                "morecakes:type": 311
-            }
-        },
-        {
-            "model": "morecakes:item/huge_cake/huge_cake_vn_vg_cn",
-            "predicate": {
-                "morecakes:type": 312
-            }
-        },
-        {
-            "model": "morecakes:item/huge_cake/huge_cake_vn_vg_cb",
-            "predicate": {
-                "morecakes:type": 313
-            }
-        },
-        {
-            "model": "morecakes:item/huge_cake/huge_cake_vn_vg_cs",
-            "predicate": {
-                "morecakes:type": 314
-            }
-        },
-        {
-            "model": "morecakes:item/huge_cake/huge_cake_vn_vg_cg",
-            "predicate": {
-                "morecakes:type": 315
-            }
-        },
-        {
-            "model": "morecakes:item/huge_cake/huge_cake_vn_vg_vn",
-            "predicate": {
-                "morecakes:type": 316
-            }
-        },
-        {
-            "model": "morecakes:item/huge_cake/huge_cake_vn_vg_vb",
-            "predicate": {
-                "morecakes:type": 317
-            }
-        },
-        {
-            "model": "morecakes:item/huge_cake/huge_cake_vn_vg_vs",
-            "predicate": {
-                "morecakes:type": 318
-            }
-        },
-        {
-            "model": "morecakes:item/huge_cake/huge_cake_vn_vg_vg",
-            "predicate": {
-                "morecakes:type": 319
-            }
-        },
-        {
-            "model": "morecakes:item/huge_cake/huge_cake_vb_cn_cn",
-            "predicate": {
-                "morecakes:type": 320
-            }
-        },
-        {
-            "model": "morecakes:item/huge_cake/huge_cake_vb_cn_cb",
-            "predicate": {
-                "morecakes:type": 321
-            }
-        },
-        {
-            "model": "morecakes:item/huge_cake/huge_cake_vb_cn_cs",
-            "predicate": {
-                "morecakes:type": 322
-            }
-        },
-        {
-            "model": "morecakes:item/huge_cake/huge_cake_vb_cn_cg",
-            "predicate": {
-                "morecakes:type": 323
-            }
-        },
-        {
-            "model": "morecakes:item/huge_cake/huge_cake_vb_cn_vn",
-            "predicate": {
-                "morecakes:type": 324
-            }
-        },
-        {
-            "model": "morecakes:item/huge_cake/huge_cake_vb_cn_vb",
-            "predicate": {
-                "morecakes:type": 325
-            }
-        },
-        {
-            "model": "morecakes:item/huge_cake/huge_cake_vb_cn_vs",
-            "predicate": {
-                "morecakes:type": 326
-            }
-        },
-        {
-            "model": "morecakes:item/huge_cake/huge_cake_vb_cn_vg",
-            "predicate": {
-                "morecakes:type": 327
-            }
-        },
-        {
-            "model": "morecakes:item/huge_cake/huge_cake_vb_cb_cn",
-            "predicate": {
-                "morecakes:type": 328
-            }
-        },
-        {
-            "model": "morecakes:item/huge_cake/huge_cake_vb_cb_cb",
-            "predicate": {
-                "morecakes:type": 329
-            }
-        },
-        {
-            "model": "morecakes:item/huge_cake/huge_cake_vb_cb_cs",
-            "predicate": {
-                "morecakes:type": 330
-            }
-        },
-        {
-            "model": "morecakes:item/huge_cake/huge_cake_vb_cb_cg",
-            "predicate": {
-                "morecakes:type": 331
-            }
-        },
-        {
-            "model": "morecakes:item/huge_cake/huge_cake_vb_cb_vn",
-            "predicate": {
-                "morecakes:type": 332
-            }
-        },
-        {
-            "model": "morecakes:item/huge_cake/huge_cake_vb_cb_vb",
-            "predicate": {
-                "morecakes:type": 333
-            }
-        },
-        {
-            "model": "morecakes:item/huge_cake/huge_cake_vb_cb_vs",
-            "predicate": {
-                "morecakes:type": 334
-            }
-        },
-        {
-            "model": "morecakes:item/huge_cake/huge_cake_vb_cb_vg",
-            "predicate": {
-                "morecakes:type": 335
-            }
-        },
-        {
-            "model": "morecakes:item/huge_cake/huge_cake_vb_cs_cn",
-            "predicate": {
-                "morecakes:type": 336
-            }
-        },
-        {
-            "model": "morecakes:item/huge_cake/huge_cake_vb_cs_cb",
-            "predicate": {
-                "morecakes:type": 337
-            }
-        },
-        {
-            "model": "morecakes:item/huge_cake/huge_cake_vb_cs_cs",
-            "predicate": {
-                "morecakes:type": 338
-            }
-        },
-        {
-            "model": "morecakes:item/huge_cake/huge_cake_vb_cs_cg",
-            "predicate": {
-                "morecakes:type": 339
-            }
-        },
-        {
-            "model": "morecakes:item/huge_cake/huge_cake_vb_cs_vn",
-            "predicate": {
-                "morecakes:type": 340
-            }
-        },
-        {
-            "model": "morecakes:item/huge_cake/huge_cake_vb_cs_vb",
-            "predicate": {
-                "morecakes:type": 341
-            }
-        },
-        {
-            "model": "morecakes:item/huge_cake/huge_cake_vb_cs_vs",
-            "predicate": {
-                "morecakes:type": 342
-            }
-        },
-        {
-            "model": "morecakes:item/huge_cake/huge_cake_vb_cs_vg",
-            "predicate": {
-                "morecakes:type": 343
-            }
-        },
-        {
-            "model": "morecakes:item/huge_cake/huge_cake_vb_cg_cn",
-            "predicate": {
-                "morecakes:type": 344
-            }
-        },
-        {
-            "model": "morecakes:item/huge_cake/huge_cake_vb_cg_cb",
-            "predicate": {
-                "morecakes:type": 345
-            }
-        },
-        {
-            "model": "morecakes:item/huge_cake/huge_cake_vb_cg_cs",
-            "predicate": {
-                "morecakes:type": 346
-            }
-        },
-        {
-            "model": "morecakes:item/huge_cake/huge_cake_vb_cg_cg",
-            "predicate": {
-                "morecakes:type": 347
-            }
-        },
-        {
-            "model": "morecakes:item/huge_cake/huge_cake_vb_cg_vn",
-            "predicate": {
-                "morecakes:type": 348
-            }
-        },
-        {
-            "model": "morecakes:item/huge_cake/huge_cake_vb_cg_vb",
-            "predicate": {
-                "morecakes:type": 349
-            }
-        },
-        {
-            "model": "morecakes:item/huge_cake/huge_cake_vb_cg_vs",
-            "predicate": {
-                "morecakes:type": 350
-            }
-        },
-        {
-            "model": "morecakes:item/huge_cake/huge_cake_vb_cg_vg",
-            "predicate": {
-                "morecakes:type": 351
-            }
-        },
-        {
-            "model": "morecakes:item/huge_cake/huge_cake_vb_vn_cn",
-            "predicate": {
-                "morecakes:type": 352
-            }
-        },
-        {
-            "model": "morecakes:item/huge_cake/huge_cake_vb_vn_cb",
-            "predicate": {
-                "morecakes:type": 353
-            }
-        },
-        {
-            "model": "morecakes:item/huge_cake/huge_cake_vb_vn_cs",
-            "predicate": {
-                "morecakes:type": 354
-            }
-        },
-        {
-            "model": "morecakes:item/huge_cake/huge_cake_vb_vn_cg",
-            "predicate": {
-                "morecakes:type": 355
-            }
-        },
-        {
-            "model": "morecakes:item/huge_cake/huge_cake_vb_vn_vn",
-            "predicate": {
-                "morecakes:type": 356
-            }
-        },
-        {
-            "model": "morecakes:item/huge_cake/huge_cake_vb_vn_vb",
-            "predicate": {
-                "morecakes:type": 357
-            }
-        },
-        {
-            "model": "morecakes:item/huge_cake/huge_cake_vb_vn_vs",
-            "predicate": {
-                "morecakes:type": 358
-            }
-        },
-        {
-            "model": "morecakes:item/huge_cake/huge_cake_vb_vn_vg",
-            "predicate": {
-                "morecakes:type": 359
-            }
-        },
-        {
-            "model": "morecakes:item/huge_cake/huge_cake_vb_vb_cn",
-            "predicate": {
-                "morecakes:type": 360
-            }
-        },
-        {
-            "model": "morecakes:item/huge_cake/huge_cake_vb_vb_cb",
-            "predicate": {
-                "morecakes:type": 361
-            }
-        },
-        {
-            "model": "morecakes:item/huge_cake/huge_cake_vb_vb_cs",
-            "predicate": {
-                "morecakes:type": 362
-            }
-        },
-        {
-            "model": "morecakes:item/huge_cake/huge_cake_vb_vb_cg",
-            "predicate": {
-                "morecakes:type": 363
-            }
-        },
-        {
-            "model": "morecakes:item/huge_cake/huge_cake_vb_vb_vn",
-            "predicate": {
-                "morecakes:type": 364
-            }
-        },
-        {
-            "model": "morecakes:item/huge_cake/huge_cake_vb_vb_vb",
-            "predicate": {
-                "morecakes:type": 365
-            }
-        },
-        {
-            "model": "morecakes:item/huge_cake/huge_cake_vb_vb_vs",
-            "predicate": {
-                "morecakes:type": 366
-            }
-        },
-        {
-            "model": "morecakes:item/huge_cake/huge_cake_vb_vb_vg",
-            "predicate": {
-                "morecakes:type": 367
-            }
-        },
-        {
-            "model": "morecakes:item/huge_cake/huge_cake_vb_vs_cn",
-            "predicate": {
-                "morecakes:type": 368
-            }
-        },
-        {
-            "model": "morecakes:item/huge_cake/huge_cake_vb_vs_cb",
-            "predicate": {
-                "morecakes:type": 369
-            }
-        },
-        {
-            "model": "morecakes:item/huge_cake/huge_cake_vb_vs_cs",
-            "predicate": {
-                "morecakes:type": 370
-            }
-        },
-        {
-            "model": "morecakes:item/huge_cake/huge_cake_vb_vs_cg",
-            "predicate": {
-                "morecakes:type": 371
-            }
-        },
-        {
-            "model": "morecakes:item/huge_cake/huge_cake_vb_vs_vn",
-            "predicate": {
-                "morecakes:type": 372
-            }
-        },
-        {
-            "model": "morecakes:item/huge_cake/huge_cake_vb_vs_vb",
-            "predicate": {
-                "morecakes:type": 373
-            }
-        },
-        {
-            "model": "morecakes:item/huge_cake/huge_cake_vb_vs_vs",
-            "predicate": {
-                "morecakes:type": 374
-            }
-        },
-        {
-            "model": "morecakes:item/huge_cake/huge_cake_vb_vs_vg",
-            "predicate": {
-                "morecakes:type": 375
-            }
-        },
-        {
-            "model": "morecakes:item/huge_cake/huge_cake_vb_vg_cn",
-            "predicate": {
-                "morecakes:type": 376
-            }
-        },
-        {
-            "model": "morecakes:item/huge_cake/huge_cake_vb_vg_cb",
-            "predicate": {
-                "morecakes:type": 377
-            }
-        },
-        {
-            "model": "morecakes:item/huge_cake/huge_cake_vb_vg_cs",
-            "predicate": {
-                "morecakes:type": 378
-            }
-        },
-        {
-            "model": "morecakes:item/huge_cake/huge_cake_vb_vg_cg",
-            "predicate": {
-                "morecakes:type": 379
-            }
-        },
-        {
-            "model": "morecakes:item/huge_cake/huge_cake_vb_vg_vn",
-            "predicate": {
-                "morecakes:type": 380
-            }
-        },
-        {
-            "model": "morecakes:item/huge_cake/huge_cake_vb_vg_vb",
-            "predicate": {
-                "morecakes:type": 381
-            }
-        },
-        {
-            "model": "morecakes:item/huge_cake/huge_cake_vb_vg_vs",
-            "predicate": {
-                "morecakes:type": 382
-            }
-        },
-        {
-            "model": "morecakes:item/huge_cake/huge_cake_vb_vg_vg",
-            "predicate": {
-                "morecakes:type": 383
-            }
-        },
-        {
-            "model": "morecakes:item/huge_cake/huge_cake_vs_cn_cn",
-            "predicate": {
-                "morecakes:type": 384
-            }
-        },
-        {
-            "model": "morecakes:item/huge_cake/huge_cake_vs_cn_cb",
-            "predicate": {
-                "morecakes:type": 385
-            }
-        },
-        {
-            "model": "morecakes:item/huge_cake/huge_cake_vs_cn_cs",
-            "predicate": {
-                "morecakes:type": 386
-            }
-        },
-        {
-            "model": "morecakes:item/huge_cake/huge_cake_vs_cn_cg",
-            "predicate": {
-                "morecakes:type": 387
-            }
-        },
-        {
-            "model": "morecakes:item/huge_cake/huge_cake_vs_cn_vn",
-            "predicate": {
-                "morecakes:type": 388
-            }
-        },
-        {
-            "model": "morecakes:item/huge_cake/huge_cake_vs_cn_vb",
-            "predicate": {
-                "morecakes:type": 389
-            }
-        },
-        {
-            "model": "morecakes:item/huge_cake/huge_cake_vs_cn_vs",
-            "predicate": {
-                "morecakes:type": 390
-            }
-        },
-        {
-            "model": "morecakes:item/huge_cake/huge_cake_vs_cn_vg",
-            "predicate": {
-                "morecakes:type": 391
-            }
-        },
-        {
-            "model": "morecakes:item/huge_cake/huge_cake_vs_cb_cn",
-            "predicate": {
-                "morecakes:type": 392
-            }
-        },
-        {
-            "model": "morecakes:item/huge_cake/huge_cake_vs_cb_cb",
-            "predicate": {
-                "morecakes:type": 393
-            }
-        },
-        {
-            "model": "morecakes:item/huge_cake/huge_cake_vs_cb_cs",
-            "predicate": {
-                "morecakes:type": 394
-            }
-        },
-        {
-            "model": "morecakes:item/huge_cake/huge_cake_vs_cb_cg",
-            "predicate": {
-                "morecakes:type": 395
-            }
-        },
-        {
-            "model": "morecakes:item/huge_cake/huge_cake_vs_cb_vn",
-            "predicate": {
-                "morecakes:type": 396
-            }
-        },
-        {
-            "model": "morecakes:item/huge_cake/huge_cake_vs_cb_vb",
-            "predicate": {
-                "morecakes:type": 397
-            }
-        },
-        {
-            "model": "morecakes:item/huge_cake/huge_cake_vs_cb_vs",
-            "predicate": {
-                "morecakes:type": 398
-            }
-        },
-        {
-            "model": "morecakes:item/huge_cake/huge_cake_vs_cb_vg",
-            "predicate": {
-                "morecakes:type": 399
-            }
-        },
-        {
-            "model": "morecakes:item/huge_cake/huge_cake_vs_cs_cn",
-            "predicate": {
-                "morecakes:type": 400
-            }
-        },
-        {
-            "model": "morecakes:item/huge_cake/huge_cake_vs_cs_cb",
-            "predicate": {
-                "morecakes:type": 401
-            }
-        },
-        {
-            "model": "morecakes:item/huge_cake/huge_cake_vs_cs_cs",
-            "predicate": {
-                "morecakes:type": 402
-            }
-        },
-        {
-            "model": "morecakes:item/huge_cake/huge_cake_vs_cs_cg",
-            "predicate": {
-                "morecakes:type": 403
-            }
-        },
-        {
-            "model": "morecakes:item/huge_cake/huge_cake_vs_cs_vn",
-            "predicate": {
-                "morecakes:type": 404
-            }
-        },
-        {
-            "model": "morecakes:item/huge_cake/huge_cake_vs_cs_vb",
-            "predicate": {
-                "morecakes:type": 405
-            }
-        },
-        {
-            "model": "morecakes:item/huge_cake/huge_cake_vs_cs_vs",
-            "predicate": {
-                "morecakes:type": 406
-            }
-        },
-        {
-            "model": "morecakes:item/huge_cake/huge_cake_vs_cs_vg",
-            "predicate": {
-                "morecakes:type": 407
-            }
-        },
-        {
-            "model": "morecakes:item/huge_cake/huge_cake_vs_cg_cn",
-            "predicate": {
-                "morecakes:type": 408
-            }
-        },
-        {
-            "model": "morecakes:item/huge_cake/huge_cake_vs_cg_cb",
-            "predicate": {
-                "morecakes:type": 409
-            }
-        },
-        {
-            "model": "morecakes:item/huge_cake/huge_cake_vs_cg_cs",
-            "predicate": {
-                "morecakes:type": 410
-            }
-        },
-        {
-            "model": "morecakes:item/huge_cake/huge_cake_vs_cg_cg",
-            "predicate": {
-                "morecakes:type": 411
-            }
-        },
-        {
-            "model": "morecakes:item/huge_cake/huge_cake_vs_cg_vn",
-            "predicate": {
-                "morecakes:type": 412
-            }
-        },
-        {
-            "model": "morecakes:item/huge_cake/huge_cake_vs_cg_vb",
-            "predicate": {
-                "morecakes:type": 413
-            }
-        },
-        {
-            "model": "morecakes:item/huge_cake/huge_cake_vs_cg_vs",
-            "predicate": {
-                "morecakes:type": 414
-            }
-        },
-        {
-            "model": "morecakes:item/huge_cake/huge_cake_vs_cg_vg",
-            "predicate": {
-                "morecakes:type": 415
-            }
-        },
-        {
-            "model": "morecakes:item/huge_cake/huge_cake_vs_vn_cn",
-            "predicate": {
-                "morecakes:type": 416
-            }
-        },
-        {
-            "model": "morecakes:item/huge_cake/huge_cake_vs_vn_cb",
-            "predicate": {
-                "morecakes:type": 417
-            }
-        },
-        {
-            "model": "morecakes:item/huge_cake/huge_cake_vs_vn_cs",
-            "predicate": {
-                "morecakes:type": 418
-            }
-        },
-        {
-            "model": "morecakes:item/huge_cake/huge_cake_vs_vn_cg",
-            "predicate": {
-                "morecakes:type": 419
-            }
-        },
-        {
-            "model": "morecakes:item/huge_cake/huge_cake_vs_vn_vn",
-            "predicate": {
-                "morecakes:type": 420
-            }
-        },
-        {
-            "model": "morecakes:item/huge_cake/huge_cake_vs_vn_vb",
-            "predicate": {
-                "morecakes:type": 421
-            }
-        },
-        {
-            "model": "morecakes:item/huge_cake/huge_cake_vs_vn_vs",
-            "predicate": {
-                "morecakes:type": 422
-            }
-        },
-        {
-            "model": "morecakes:item/huge_cake/huge_cake_vs_vn_vg",
-            "predicate": {
-                "morecakes:type": 423
-            }
-        },
-        {
-            "model": "morecakes:item/huge_cake/huge_cake_vs_vb_cn",
-            "predicate": {
-                "morecakes:type": 424
-            }
-        },
-        {
-            "model": "morecakes:item/huge_cake/huge_cake_vs_vb_cb",
-            "predicate": {
-                "morecakes:type": 425
-            }
-        },
-        {
-            "model": "morecakes:item/huge_cake/huge_cake_vs_vb_cs",
-            "predicate": {
-                "morecakes:type": 426
-            }
-        },
-        {
-            "model": "morecakes:item/huge_cake/huge_cake_vs_vb_cg",
-            "predicate": {
-                "morecakes:type": 427
-            }
-        },
-        {
-            "model": "morecakes:item/huge_cake/huge_cake_vs_vb_vn",
-            "predicate": {
-                "morecakes:type": 428
-            }
-        },
-        {
-            "model": "morecakes:item/huge_cake/huge_cake_vs_vb_vb",
-            "predicate": {
-                "morecakes:type": 429
-            }
-        },
-        {
-            "model": "morecakes:item/huge_cake/huge_cake_vs_vb_vs",
-            "predicate": {
-                "morecakes:type": 430
-            }
-        },
-        {
-            "model": "morecakes:item/huge_cake/huge_cake_vs_vb_vg",
-            "predicate": {
-                "morecakes:type": 431
-            }
-        },
-        {
-            "model": "morecakes:item/huge_cake/huge_cake_vs_vs_cn",
-            "predicate": {
-                "morecakes:type": 432
-            }
-        },
-        {
-            "model": "morecakes:item/huge_cake/huge_cake_vs_vs_cb",
-            "predicate": {
-                "morecakes:type": 433
-            }
-        },
-        {
-            "model": "morecakes:item/huge_cake/huge_cake_vs_vs_cs",
-            "predicate": {
-                "morecakes:type": 434
-            }
-        },
-        {
-            "model": "morecakes:item/huge_cake/huge_cake_vs_vs_cg",
-            "predicate": {
-                "morecakes:type": 435
-            }
-        },
-        {
-            "model": "morecakes:item/huge_cake/huge_cake_vs_vs_vn",
-            "predicate": {
-                "morecakes:type": 436
-            }
-        },
-        {
-            "model": "morecakes:item/huge_cake/huge_cake_vs_vs_vb",
-            "predicate": {
-                "morecakes:type": 437
-            }
-        },
-        {
-            "model": "morecakes:item/huge_cake/huge_cake_vs_vs_vs",
-            "predicate": {
-                "morecakes:type": 438
-            }
-        },
-        {
-            "model": "morecakes:item/huge_cake/huge_cake_vs_vs_vg",
-            "predicate": {
-                "morecakes:type": 439
-            }
-        },
-        {
-            "model": "morecakes:item/huge_cake/huge_cake_vs_vg_cn",
-            "predicate": {
-                "morecakes:type": 440
-            }
-        },
-        {
-            "model": "morecakes:item/huge_cake/huge_cake_vs_vg_cb",
-            "predicate": {
-                "morecakes:type": 441
-            }
-        },
-        {
-            "model": "morecakes:item/huge_cake/huge_cake_vs_vg_cs",
-            "predicate": {
-                "morecakes:type": 442
-            }
-        },
-        {
-            "model": "morecakes:item/huge_cake/huge_cake_vs_vg_cg",
-            "predicate": {
-                "morecakes:type": 443
-            }
-        },
-        {
-            "model": "morecakes:item/huge_cake/huge_cake_vs_vg_vn",
-            "predicate": {
-                "morecakes:type": 444
-            }
-        },
-        {
-            "model": "morecakes:item/huge_cake/huge_cake_vs_vg_vb",
-            "predicate": {
-                "morecakes:type": 445
-            }
-        },
-        {
-            "model": "morecakes:item/huge_cake/huge_cake_vs_vg_vs",
-            "predicate": {
-                "morecakes:type": 446
-            }
-        },
-        {
-            "model": "morecakes:item/huge_cake/huge_cake_vs_vg_vg",
-            "predicate": {
-                "morecakes:type": 447
-            }
-        },
-        {
-            "model": "morecakes:item/huge_cake/huge_cake_vg_cn_cn",
-            "predicate": {
-                "morecakes:type": 448
-            }
-        },
-        {
-            "model": "morecakes:item/huge_cake/huge_cake_vg_cn_cb",
-            "predicate": {
-                "morecakes:type": 449
-            }
-        },
-        {
-            "model": "morecakes:item/huge_cake/huge_cake_vg_cn_cs",
-            "predicate": {
-                "morecakes:type": 450
-            }
-        },
-        {
-            "model": "morecakes:item/huge_cake/huge_cake_vg_cn_cg",
-            "predicate": {
-                "morecakes:type": 451
-            }
-        },
-        {
-            "model": "morecakes:item/huge_cake/huge_cake_vg_cn_vn",
-            "predicate": {
-                "morecakes:type": 452
-            }
-        },
-        {
-            "model": "morecakes:item/huge_cake/huge_cake_vg_cn_vb",
-            "predicate": {
-                "morecakes:type": 453
-            }
-        },
-        {
-            "model": "morecakes:item/huge_cake/huge_cake_vg_cn_vs",
-            "predicate": {
-                "morecakes:type": 454
-            }
-        },
-        {
-            "model": "morecakes:item/huge_cake/huge_cake_vg_cn_vg",
-            "predicate": {
-                "morecakes:type": 455
-            }
-        },
-        {
-            "model": "morecakes:item/huge_cake/huge_cake_vg_cb_cn",
-            "predicate": {
-                "morecakes:type": 456
-            }
-        },
-        {
-            "model": "morecakes:item/huge_cake/huge_cake_vg_cb_cb",
-            "predicate": {
-                "morecakes:type": 457
-            }
-        },
-        {
-            "model": "morecakes:item/huge_cake/huge_cake_vg_cb_cs",
-            "predicate": {
-                "morecakes:type": 458
-            }
-        },
-        {
-            "model": "morecakes:item/huge_cake/huge_cake_vg_cb_cg",
-            "predicate": {
-                "morecakes:type": 459
-            }
-        },
-        {
-            "model": "morecakes:item/huge_cake/huge_cake_vg_cb_vn",
-            "predicate": {
-                "morecakes:type": 460
-            }
-        },
-        {
-            "model": "morecakes:item/huge_cake/huge_cake_vg_cb_vb",
-            "predicate": {
-                "morecakes:type": 461
-            }
-        },
-        {
-            "model": "morecakes:item/huge_cake/huge_cake_vg_cb_vs",
-            "predicate": {
-                "morecakes:type": 462
-            }
-        },
-        {
-            "model": "morecakes:item/huge_cake/huge_cake_vg_cb_vg",
-            "predicate": {
-                "morecakes:type": 463
-            }
-        },
-        {
-            "model": "morecakes:item/huge_cake/huge_cake_vg_cs_cn",
-            "predicate": {
-                "morecakes:type": 464
-            }
-        },
-        {
-            "model": "morecakes:item/huge_cake/huge_cake_vg_cs_cb",
-            "predicate": {
-                "morecakes:type": 465
-            }
-        },
-        {
-            "model": "morecakes:item/huge_cake/huge_cake_vg_cs_cs",
-            "predicate": {
-                "morecakes:type": 466
-            }
-        },
-        {
-            "model": "morecakes:item/huge_cake/huge_cake_vg_cs_cg",
-            "predicate": {
-                "morecakes:type": 467
-            }
-        },
-        {
-            "model": "morecakes:item/huge_cake/huge_cake_vg_cs_vn",
-            "predicate": {
-                "morecakes:type": 468
-            }
-        },
-        {
-            "model": "morecakes:item/huge_cake/huge_cake_vg_cs_vb",
-            "predicate": {
-                "morecakes:type": 469
-            }
-        },
-        {
-            "model": "morecakes:item/huge_cake/huge_cake_vg_cs_vs",
-            "predicate": {
-                "morecakes:type": 470
-            }
-        },
-        {
-            "model": "morecakes:item/huge_cake/huge_cake_vg_cs_vg",
-            "predicate": {
-                "morecakes:type": 471
-            }
-        },
-        {
-            "model": "morecakes:item/huge_cake/huge_cake_vg_cg_cn",
-            "predicate": {
-                "morecakes:type": 472
-            }
-        },
-        {
-            "model": "morecakes:item/huge_cake/huge_cake_vg_cg_cb",
-            "predicate": {
-                "morecakes:type": 473
-            }
-        },
-        {
-            "model": "morecakes:item/huge_cake/huge_cake_vg_cg_cs",
-            "predicate": {
-                "morecakes:type": 474
-            }
-        },
-        {
-            "model": "morecakes:item/huge_cake/huge_cake_vg_cg_cg",
-            "predicate": {
-                "morecakes:type": 475
-            }
-        },
-        {
-            "model": "morecakes:item/huge_cake/huge_cake_vg_cg_vn",
-            "predicate": {
-                "morecakes:type": 476
-            }
-        },
-        {
-            "model": "morecakes:item/huge_cake/huge_cake_vg_cg_vb",
-            "predicate": {
-                "morecakes:type": 477
-            }
-        },
-        {
-            "model": "morecakes:item/huge_cake/huge_cake_vg_cg_vs",
-            "predicate": {
-                "morecakes:type": 478
-            }
-        },
-        {
-            "model": "morecakes:item/huge_cake/huge_cake_vg_cg_vg",
-            "predicate": {
-                "morecakes:type": 479
-            }
-        },
-        {
-            "model": "morecakes:item/huge_cake/huge_cake_vg_vn_cn",
-            "predicate": {
-                "morecakes:type": 480
-            }
-        },
-        {
-            "model": "morecakes:item/huge_cake/huge_cake_vg_vn_cb",
-            "predicate": {
-                "morecakes:type": 481
-            }
-        },
-        {
-            "model": "morecakes:item/huge_cake/huge_cake_vg_vn_cs",
-            "predicate": {
-                "morecakes:type": 482
-            }
-        },
-        {
-            "model": "morecakes:item/huge_cake/huge_cake_vg_vn_cg",
-            "predicate": {
-                "morecakes:type": 483
-            }
-        },
-        {
-            "model": "morecakes:item/huge_cake/huge_cake_vg_vn_vn",
-            "predicate": {
-                "morecakes:type": 484
-            }
-        },
-        {
-            "model": "morecakes:item/huge_cake/huge_cake_vg_vn_vb",
-            "predicate": {
-                "morecakes:type": 485
-            }
-        },
-        {
-            "model": "morecakes:item/huge_cake/huge_cake_vg_vn_vs",
-            "predicate": {
-                "morecakes:type": 486
-            }
-        },
-        {
-            "model": "morecakes:item/huge_cake/huge_cake_vg_vn_vg",
-            "predicate": {
-                "morecakes:type": 487
-            }
-        },
-        {
-            "model": "morecakes:item/huge_cake/huge_cake_vg_vb_cn",
-            "predicate": {
-                "morecakes:type": 488
-            }
-        },
-        {
-            "model": "morecakes:item/huge_cake/huge_cake_vg_vb_cb",
-            "predicate": {
-                "morecakes:type": 489
-            }
-        },
-        {
-            "model": "morecakes:item/huge_cake/huge_cake_vg_vb_cs",
-            "predicate": {
-                "morecakes:type": 490
-            }
-        },
-        {
-            "model": "morecakes:item/huge_cake/huge_cake_vg_vb_cg",
-            "predicate": {
-                "morecakes:type": 491
-            }
-        },
-        {
-            "model": "morecakes:item/huge_cake/huge_cake_vg_vb_vn",
-            "predicate": {
-                "morecakes:type": 492
-            }
-        },
-        {
-            "model": "morecakes:item/huge_cake/huge_cake_vg_vb_vb",
-            "predicate": {
-                "morecakes:type": 493
-            }
-        },
-        {
-            "model": "morecakes:item/huge_cake/huge_cake_vg_vb_vs",
-            "predicate": {
-                "morecakes:type": 494
-            }
-        },
-        {
-            "model": "morecakes:item/huge_cake/huge_cake_vg_vb_vg",
-            "predicate": {
-                "morecakes:type": 495
-            }
-        },
-        {
-            "model": "morecakes:item/huge_cake/huge_cake_vg_vs_cn",
-            "predicate": {
-                "morecakes:type": 496
-            }
-        },
-        {
-            "model": "morecakes:item/huge_cake/huge_cake_vg_vs_cb",
-            "predicate": {
-                "morecakes:type": 497
-            }
-        },
-        {
-            "model": "morecakes:item/huge_cake/huge_cake_vg_vs_cs",
-            "predicate": {
-                "morecakes:type": 498
-            }
-        },
-        {
-            "model": "morecakes:item/huge_cake/huge_cake_vg_vs_cg",
-            "predicate": {
-                "morecakes:type": 499
-            }
-        },
-        {
-            "model": "morecakes:item/huge_cake/huge_cake_vg_vs_vn",
-            "predicate": {
-                "morecakes:type": 500
-            }
-        },
-        {
-            "model": "morecakes:item/huge_cake/huge_cake_vg_vs_vb",
-            "predicate": {
-                "morecakes:type": 501
-            }
-        },
-        {
-            "model": "morecakes:item/huge_cake/huge_cake_vg_vs_vs",
-            "predicate": {
-                "morecakes:type": 502
-            }
-        },
-        {
-            "model": "morecakes:item/huge_cake/huge_cake_vg_vs_vg",
-            "predicate": {
-                "morecakes:type": 503
-            }
-        },
-        {
-            "model": "morecakes:item/huge_cake/huge_cake_vg_vg_cn",
-            "predicate": {
-                "morecakes:type": 504
-            }
-        },
-        {
-            "model": "morecakes:item/huge_cake/huge_cake_vg_vg_cb",
-            "predicate": {
-                "morecakes:type": 505
-            }
-        },
-        {
-            "model": "morecakes:item/huge_cake/huge_cake_vg_vg_cs",
-            "predicate": {
-                "morecakes:type": 506
-            }
-        },
-        {
-            "model": "morecakes:item/huge_cake/huge_cake_vg_vg_cg",
-            "predicate": {
-                "morecakes:type": 507
-            }
-        },
-        {
-            "model": "morecakes:item/huge_cake/huge_cake_vg_vg_vn",
-            "predicate": {
-                "morecakes:type": 508
-            }
-        },
-        {
-            "model": "morecakes:item/huge_cake/huge_cake_vg_vg_vb",
-            "predicate": {
-                "morecakes:type": 509
-            }
-        },
-        {
-            "model": "morecakes:item/huge_cake/huge_cake_vg_vg_vs",
-            "predicate": {
-                "morecakes:type": 510
-            }
-        },
-        {
-            "model": "morecakes:item/huge_cake/huge_cake_vg_vg_vg",
-            "predicate": {
-                "morecakes:type": 511
-            }
-        }
-    ]
+    {
+      "model": "morecakes:item/huge_cake/huge_cake_cn_cn_cb",
+      "predicate": {
+        "morecakes:type": 1
+      }
+    },
+    {
+      "model": "morecakes:item/huge_cake/huge_cake_cn_cn_cs",
+      "predicate": {
+        "morecakes:type": 2
+      }
+    },
+    {
+      "model": "morecakes:item/huge_cake/huge_cake_cn_cn_cg",
+      "predicate": {
+        "morecakes:type": 3
+      }
+    },
+    {
+      "model": "morecakes:item/huge_cake/huge_cake_cn_cn_vn",
+      "predicate": {
+        "morecakes:type": 4
+      }
+    },
+    {
+      "model": "morecakes:item/huge_cake/huge_cake_cn_cn_vb",
+      "predicate": {
+        "morecakes:type": 5
+      }
+    },
+    {
+      "model": "morecakes:item/huge_cake/huge_cake_cn_cn_vs",
+      "predicate": {
+        "morecakes:type": 6
+      }
+    },
+    {
+      "model": "morecakes:item/huge_cake/huge_cake_cn_cn_vg",
+      "predicate": {
+        "morecakes:type": 7
+      }
+    },
+    {
+      "model": "morecakes:item/huge_cake/huge_cake_cn_cb_cn",
+      "predicate": {
+        "morecakes:type": 8
+      }
+    },
+    {
+      "model": "morecakes:item/huge_cake/huge_cake_cn_cb_cb",
+      "predicate": {
+        "morecakes:type": 9
+      }
+    },
+    {
+      "model": "morecakes:item/huge_cake/huge_cake_cn_cb_cs",
+      "predicate": {
+        "morecakes:type": 10
+      }
+    },
+    {
+      "model": "morecakes:item/huge_cake/huge_cake_cn_cb_cg",
+      "predicate": {
+        "morecakes:type": 11
+      }
+    },
+    {
+      "model": "morecakes:item/huge_cake/huge_cake_cn_cb_vn",
+      "predicate": {
+        "morecakes:type": 12
+      }
+    },
+    {
+      "model": "morecakes:item/huge_cake/huge_cake_cn_cb_vb",
+      "predicate": {
+        "morecakes:type": 13
+      }
+    },
+    {
+      "model": "morecakes:item/huge_cake/huge_cake_cn_cb_vs",
+      "predicate": {
+        "morecakes:type": 14
+      }
+    },
+    {
+      "model": "morecakes:item/huge_cake/huge_cake_cn_cb_vg",
+      "predicate": {
+        "morecakes:type": 15
+      }
+    },
+    {
+      "model": "morecakes:item/huge_cake/huge_cake_cn_cs_cn",
+      "predicate": {
+        "morecakes:type": 16
+      }
+    },
+    {
+      "model": "morecakes:item/huge_cake/huge_cake_cn_cs_cb",
+      "predicate": {
+        "morecakes:type": 17
+      }
+    },
+    {
+      "model": "morecakes:item/huge_cake/huge_cake_cn_cs_cs",
+      "predicate": {
+        "morecakes:type": 18
+      }
+    },
+    {
+      "model": "morecakes:item/huge_cake/huge_cake_cn_cs_cg",
+      "predicate": {
+        "morecakes:type": 19
+      }
+    },
+    {
+      "model": "morecakes:item/huge_cake/huge_cake_cn_cs_vn",
+      "predicate": {
+        "morecakes:type": 20
+      }
+    },
+    {
+      "model": "morecakes:item/huge_cake/huge_cake_cn_cs_vb",
+      "predicate": {
+        "morecakes:type": 21
+      }
+    },
+    {
+      "model": "morecakes:item/huge_cake/huge_cake_cn_cs_vs",
+      "predicate": {
+        "morecakes:type": 22
+      }
+    },
+    {
+      "model": "morecakes:item/huge_cake/huge_cake_cn_cs_vg",
+      "predicate": {
+        "morecakes:type": 23
+      }
+    },
+    {
+      "model": "morecakes:item/huge_cake/huge_cake_cn_cg_cn",
+      "predicate": {
+        "morecakes:type": 24
+      }
+    },
+    {
+      "model": "morecakes:item/huge_cake/huge_cake_cn_cg_cb",
+      "predicate": {
+        "morecakes:type": 25
+      }
+    },
+    {
+      "model": "morecakes:item/huge_cake/huge_cake_cn_cg_cs",
+      "predicate": {
+        "morecakes:type": 26
+      }
+    },
+    {
+      "model": "morecakes:item/huge_cake/huge_cake_cn_cg_cg",
+      "predicate": {
+        "morecakes:type": 27
+      }
+    },
+    {
+      "model": "morecakes:item/huge_cake/huge_cake_cn_cg_vn",
+      "predicate": {
+        "morecakes:type": 28
+      }
+    },
+    {
+      "model": "morecakes:item/huge_cake/huge_cake_cn_cg_vb",
+      "predicate": {
+        "morecakes:type": 29
+      }
+    },
+    {
+      "model": "morecakes:item/huge_cake/huge_cake_cn_cg_vs",
+      "predicate": {
+        "morecakes:type": 30
+      }
+    },
+    {
+      "model": "morecakes:item/huge_cake/huge_cake_cn_cg_vg",
+      "predicate": {
+        "morecakes:type": 31
+      }
+    },
+    {
+      "model": "morecakes:item/huge_cake/huge_cake_cn_vn_cn",
+      "predicate": {
+        "morecakes:type": 32
+      }
+    },
+    {
+      "model": "morecakes:item/huge_cake/huge_cake_cn_vn_cb",
+      "predicate": {
+        "morecakes:type": 33
+      }
+    },
+    {
+      "model": "morecakes:item/huge_cake/huge_cake_cn_vn_cs",
+      "predicate": {
+        "morecakes:type": 34
+      }
+    },
+    {
+      "model": "morecakes:item/huge_cake/huge_cake_cn_vn_cg",
+      "predicate": {
+        "morecakes:type": 35
+      }
+    },
+    {
+      "model": "morecakes:item/huge_cake/huge_cake_cn_vn_vn",
+      "predicate": {
+        "morecakes:type": 36
+      }
+    },
+    {
+      "model": "morecakes:item/huge_cake/huge_cake_cn_vn_vb",
+      "predicate": {
+        "morecakes:type": 37
+      }
+    },
+    {
+      "model": "morecakes:item/huge_cake/huge_cake_cn_vn_vs",
+      "predicate": {
+        "morecakes:type": 38
+      }
+    },
+    {
+      "model": "morecakes:item/huge_cake/huge_cake_cn_vn_vg",
+      "predicate": {
+        "morecakes:type": 39
+      }
+    },
+    {
+      "model": "morecakes:item/huge_cake/huge_cake_cn_vb_cn",
+      "predicate": {
+        "morecakes:type": 40
+      }
+    },
+    {
+      "model": "morecakes:item/huge_cake/huge_cake_cn_vb_cb",
+      "predicate": {
+        "morecakes:type": 41
+      }
+    },
+    {
+      "model": "morecakes:item/huge_cake/huge_cake_cn_vb_cs",
+      "predicate": {
+        "morecakes:type": 42
+      }
+    },
+    {
+      "model": "morecakes:item/huge_cake/huge_cake_cn_vb_cg",
+      "predicate": {
+        "morecakes:type": 43
+      }
+    },
+    {
+      "model": "morecakes:item/huge_cake/huge_cake_cn_vb_vn",
+      "predicate": {
+        "morecakes:type": 44
+      }
+    },
+    {
+      "model": "morecakes:item/huge_cake/huge_cake_cn_vb_vb",
+      "predicate": {
+        "morecakes:type": 45
+      }
+    },
+    {
+      "model": "morecakes:item/huge_cake/huge_cake_cn_vb_vs",
+      "predicate": {
+        "morecakes:type": 46
+      }
+    },
+    {
+      "model": "morecakes:item/huge_cake/huge_cake_cn_vb_vg",
+      "predicate": {
+        "morecakes:type": 47
+      }
+    },
+    {
+      "model": "morecakes:item/huge_cake/huge_cake_cn_vs_cn",
+      "predicate": {
+        "morecakes:type": 48
+      }
+    },
+    {
+      "model": "morecakes:item/huge_cake/huge_cake_cn_vs_cb",
+      "predicate": {
+        "morecakes:type": 49
+      }
+    },
+    {
+      "model": "morecakes:item/huge_cake/huge_cake_cn_vs_cs",
+      "predicate": {
+        "morecakes:type": 50
+      }
+    },
+    {
+      "model": "morecakes:item/huge_cake/huge_cake_cn_vs_cg",
+      "predicate": {
+        "morecakes:type": 51
+      }
+    },
+    {
+      "model": "morecakes:item/huge_cake/huge_cake_cn_vs_vn",
+      "predicate": {
+        "morecakes:type": 52
+      }
+    },
+    {
+      "model": "morecakes:item/huge_cake/huge_cake_cn_vs_vb",
+      "predicate": {
+        "morecakes:type": 53
+      }
+    },
+    {
+      "model": "morecakes:item/huge_cake/huge_cake_cn_vs_vs",
+      "predicate": {
+        "morecakes:type": 54
+      }
+    },
+    {
+      "model": "morecakes:item/huge_cake/huge_cake_cn_vs_vg",
+      "predicate": {
+        "morecakes:type": 55
+      }
+    },
+    {
+      "model": "morecakes:item/huge_cake/huge_cake_cn_vg_cn",
+      "predicate": {
+        "morecakes:type": 56
+      }
+    },
+    {
+      "model": "morecakes:item/huge_cake/huge_cake_cn_vg_cb",
+      "predicate": {
+        "morecakes:type": 57
+      }
+    },
+    {
+      "model": "morecakes:item/huge_cake/huge_cake_cn_vg_cs",
+      "predicate": {
+        "morecakes:type": 58
+      }
+    },
+    {
+      "model": "morecakes:item/huge_cake/huge_cake_cn_vg_cg",
+      "predicate": {
+        "morecakes:type": 59
+      }
+    },
+    {
+      "model": "morecakes:item/huge_cake/huge_cake_cn_vg_vn",
+      "predicate": {
+        "morecakes:type": 60
+      }
+    },
+    {
+      "model": "morecakes:item/huge_cake/huge_cake_cn_vg_vb",
+      "predicate": {
+        "morecakes:type": 61
+      }
+    },
+    {
+      "model": "morecakes:item/huge_cake/huge_cake_cn_vg_vs",
+      "predicate": {
+        "morecakes:type": 62
+      }
+    },
+    {
+      "model": "morecakes:item/huge_cake/huge_cake_cn_vg_vg",
+      "predicate": {
+        "morecakes:type": 63
+      }
+    },
+    {
+      "model": "morecakes:item/huge_cake/huge_cake_cb_cn_cn",
+      "predicate": {
+        "morecakes:type": 64
+      }
+    },
+    {
+      "model": "morecakes:item/huge_cake/huge_cake_cb_cn_cb",
+      "predicate": {
+        "morecakes:type": 65
+      }
+    },
+    {
+      "model": "morecakes:item/huge_cake/huge_cake_cb_cn_cs",
+      "predicate": {
+        "morecakes:type": 66
+      }
+    },
+    {
+      "model": "morecakes:item/huge_cake/huge_cake_cb_cn_cg",
+      "predicate": {
+        "morecakes:type": 67
+      }
+    },
+    {
+      "model": "morecakes:item/huge_cake/huge_cake_cb_cn_vn",
+      "predicate": {
+        "morecakes:type": 68
+      }
+    },
+    {
+      "model": "morecakes:item/huge_cake/huge_cake_cb_cn_vb",
+      "predicate": {
+        "morecakes:type": 69
+      }
+    },
+    {
+      "model": "morecakes:item/huge_cake/huge_cake_cb_cn_vs",
+      "predicate": {
+        "morecakes:type": 70
+      }
+    },
+    {
+      "model": "morecakes:item/huge_cake/huge_cake_cb_cn_vg",
+      "predicate": {
+        "morecakes:type": 71
+      }
+    },
+    {
+      "model": "morecakes:item/huge_cake/huge_cake_cb_cb_cn",
+      "predicate": {
+        "morecakes:type": 72
+      }
+    },
+    {
+      "model": "morecakes:item/huge_cake/huge_cake_cb_cb_cb",
+      "predicate": {
+        "morecakes:type": 73
+      }
+    },
+    {
+      "model": "morecakes:item/huge_cake/huge_cake_cb_cb_cs",
+      "predicate": {
+        "morecakes:type": 74
+      }
+    },
+    {
+      "model": "morecakes:item/huge_cake/huge_cake_cb_cb_cg",
+      "predicate": {
+        "morecakes:type": 75
+      }
+    },
+    {
+      "model": "morecakes:item/huge_cake/huge_cake_cb_cb_vn",
+      "predicate": {
+        "morecakes:type": 76
+      }
+    },
+    {
+      "model": "morecakes:item/huge_cake/huge_cake_cb_cb_vb",
+      "predicate": {
+        "morecakes:type": 77
+      }
+    },
+    {
+      "model": "morecakes:item/huge_cake/huge_cake_cb_cb_vs",
+      "predicate": {
+        "morecakes:type": 78
+      }
+    },
+    {
+      "model": "morecakes:item/huge_cake/huge_cake_cb_cb_vg",
+      "predicate": {
+        "morecakes:type": 79
+      }
+    },
+    {
+      "model": "morecakes:item/huge_cake/huge_cake_cb_cs_cn",
+      "predicate": {
+        "morecakes:type": 80
+      }
+    },
+    {
+      "model": "morecakes:item/huge_cake/huge_cake_cb_cs_cb",
+      "predicate": {
+        "morecakes:type": 81
+      }
+    },
+    {
+      "model": "morecakes:item/huge_cake/huge_cake_cb_cs_cs",
+      "predicate": {
+        "morecakes:type": 82
+      }
+    },
+    {
+      "model": "morecakes:item/huge_cake/huge_cake_cb_cs_cg",
+      "predicate": {
+        "morecakes:type": 83
+      }
+    },
+    {
+      "model": "morecakes:item/huge_cake/huge_cake_cb_cs_vn",
+      "predicate": {
+        "morecakes:type": 84
+      }
+    },
+    {
+      "model": "morecakes:item/huge_cake/huge_cake_cb_cs_vb",
+      "predicate": {
+        "morecakes:type": 85
+      }
+    },
+    {
+      "model": "morecakes:item/huge_cake/huge_cake_cb_cs_vs",
+      "predicate": {
+        "morecakes:type": 86
+      }
+    },
+    {
+      "model": "morecakes:item/huge_cake/huge_cake_cb_cs_vg",
+      "predicate": {
+        "morecakes:type": 87
+      }
+    },
+    {
+      "model": "morecakes:item/huge_cake/huge_cake_cb_cg_cn",
+      "predicate": {
+        "morecakes:type": 88
+      }
+    },
+    {
+      "model": "morecakes:item/huge_cake/huge_cake_cb_cg_cb",
+      "predicate": {
+        "morecakes:type": 89
+      }
+    },
+    {
+      "model": "morecakes:item/huge_cake/huge_cake_cb_cg_cs",
+      "predicate": {
+        "morecakes:type": 90
+      }
+    },
+    {
+      "model": "morecakes:item/huge_cake/huge_cake_cb_cg_cg",
+      "predicate": {
+        "morecakes:type": 91
+      }
+    },
+    {
+      "model": "morecakes:item/huge_cake/huge_cake_cb_cg_vn",
+      "predicate": {
+        "morecakes:type": 92
+      }
+    },
+    {
+      "model": "morecakes:item/huge_cake/huge_cake_cb_cg_vb",
+      "predicate": {
+        "morecakes:type": 93
+      }
+    },
+    {
+      "model": "morecakes:item/huge_cake/huge_cake_cb_cg_vs",
+      "predicate": {
+        "morecakes:type": 94
+      }
+    },
+    {
+      "model": "morecakes:item/huge_cake/huge_cake_cb_cg_vg",
+      "predicate": {
+        "morecakes:type": 95
+      }
+    },
+    {
+      "model": "morecakes:item/huge_cake/huge_cake_cb_vn_cn",
+      "predicate": {
+        "morecakes:type": 96
+      }
+    },
+    {
+      "model": "morecakes:item/huge_cake/huge_cake_cb_vn_cb",
+      "predicate": {
+        "morecakes:type": 97
+      }
+    },
+    {
+      "model": "morecakes:item/huge_cake/huge_cake_cb_vn_cs",
+      "predicate": {
+        "morecakes:type": 98
+      }
+    },
+    {
+      "model": "morecakes:item/huge_cake/huge_cake_cb_vn_cg",
+      "predicate": {
+        "morecakes:type": 99
+      }
+    },
+    {
+      "model": "morecakes:item/huge_cake/huge_cake_cb_vn_vn",
+      "predicate": {
+        "morecakes:type": 100
+      }
+    },
+    {
+      "model": "morecakes:item/huge_cake/huge_cake_cb_vn_vb",
+      "predicate": {
+        "morecakes:type": 101
+      }
+    },
+    {
+      "model": "morecakes:item/huge_cake/huge_cake_cb_vn_vs",
+      "predicate": {
+        "morecakes:type": 102
+      }
+    },
+    {
+      "model": "morecakes:item/huge_cake/huge_cake_cb_vn_vg",
+      "predicate": {
+        "morecakes:type": 103
+      }
+    },
+    {
+      "model": "morecakes:item/huge_cake/huge_cake_cb_vb_cn",
+      "predicate": {
+        "morecakes:type": 104
+      }
+    },
+    {
+      "model": "morecakes:item/huge_cake/huge_cake_cb_vb_cb",
+      "predicate": {
+        "morecakes:type": 105
+      }
+    },
+    {
+      "model": "morecakes:item/huge_cake/huge_cake_cb_vb_cs",
+      "predicate": {
+        "morecakes:type": 106
+      }
+    },
+    {
+      "model": "morecakes:item/huge_cake/huge_cake_cb_vb_cg",
+      "predicate": {
+        "morecakes:type": 107
+      }
+    },
+    {
+      "model": "morecakes:item/huge_cake/huge_cake_cb_vb_vn",
+      "predicate": {
+        "morecakes:type": 108
+      }
+    },
+    {
+      "model": "morecakes:item/huge_cake/huge_cake_cb_vb_vb",
+      "predicate": {
+        "morecakes:type": 109
+      }
+    },
+    {
+      "model": "morecakes:item/huge_cake/huge_cake_cb_vb_vs",
+      "predicate": {
+        "morecakes:type": 110
+      }
+    },
+    {
+      "model": "morecakes:item/huge_cake/huge_cake_cb_vb_vg",
+      "predicate": {
+        "morecakes:type": 111
+      }
+    },
+    {
+      "model": "morecakes:item/huge_cake/huge_cake_cb_vs_cn",
+      "predicate": {
+        "morecakes:type": 112
+      }
+    },
+    {
+      "model": "morecakes:item/huge_cake/huge_cake_cb_vs_cb",
+      "predicate": {
+        "morecakes:type": 113
+      }
+    },
+    {
+      "model": "morecakes:item/huge_cake/huge_cake_cb_vs_cs",
+      "predicate": {
+        "morecakes:type": 114
+      }
+    },
+    {
+      "model": "morecakes:item/huge_cake/huge_cake_cb_vs_cg",
+      "predicate": {
+        "morecakes:type": 115
+      }
+    },
+    {
+      "model": "morecakes:item/huge_cake/huge_cake_cb_vs_vn",
+      "predicate": {
+        "morecakes:type": 116
+      }
+    },
+    {
+      "model": "morecakes:item/huge_cake/huge_cake_cb_vs_vb",
+      "predicate": {
+        "morecakes:type": 117
+      }
+    },
+    {
+      "model": "morecakes:item/huge_cake/huge_cake_cb_vs_vs",
+      "predicate": {
+        "morecakes:type": 118
+      }
+    },
+    {
+      "model": "morecakes:item/huge_cake/huge_cake_cb_vs_vg",
+      "predicate": {
+        "morecakes:type": 119
+      }
+    },
+    {
+      "model": "morecakes:item/huge_cake/huge_cake_cb_vg_cn",
+      "predicate": {
+        "morecakes:type": 120
+      }
+    },
+    {
+      "model": "morecakes:item/huge_cake/huge_cake_cb_vg_cb",
+      "predicate": {
+        "morecakes:type": 121
+      }
+    },
+    {
+      "model": "morecakes:item/huge_cake/huge_cake_cb_vg_cs",
+      "predicate": {
+        "morecakes:type": 122
+      }
+    },
+    {
+      "model": "morecakes:item/huge_cake/huge_cake_cb_vg_cg",
+      "predicate": {
+        "morecakes:type": 123
+      }
+    },
+    {
+      "model": "morecakes:item/huge_cake/huge_cake_cb_vg_vn",
+      "predicate": {
+        "morecakes:type": 124
+      }
+    },
+    {
+      "model": "morecakes:item/huge_cake/huge_cake_cb_vg_vb",
+      "predicate": {
+        "morecakes:type": 125
+      }
+    },
+    {
+      "model": "morecakes:item/huge_cake/huge_cake_cb_vg_vs",
+      "predicate": {
+        "morecakes:type": 126
+      }
+    },
+    {
+      "model": "morecakes:item/huge_cake/huge_cake_cb_vg_vg",
+      "predicate": {
+        "morecakes:type": 127
+      }
+    },
+    {
+      "model": "morecakes:item/huge_cake/huge_cake_cs_cn_cn",
+      "predicate": {
+        "morecakes:type": 128
+      }
+    },
+    {
+      "model": "morecakes:item/huge_cake/huge_cake_cs_cn_cb",
+      "predicate": {
+        "morecakes:type": 129
+      }
+    },
+    {
+      "model": "morecakes:item/huge_cake/huge_cake_cs_cn_cs",
+      "predicate": {
+        "morecakes:type": 130
+      }
+    },
+    {
+      "model": "morecakes:item/huge_cake/huge_cake_cs_cn_cg",
+      "predicate": {
+        "morecakes:type": 131
+      }
+    },
+    {
+      "model": "morecakes:item/huge_cake/huge_cake_cs_cn_vn",
+      "predicate": {
+        "morecakes:type": 132
+      }
+    },
+    {
+      "model": "morecakes:item/huge_cake/huge_cake_cs_cn_vb",
+      "predicate": {
+        "morecakes:type": 133
+      }
+    },
+    {
+      "model": "morecakes:item/huge_cake/huge_cake_cs_cn_vs",
+      "predicate": {
+        "morecakes:type": 134
+      }
+    },
+    {
+      "model": "morecakes:item/huge_cake/huge_cake_cs_cn_vg",
+      "predicate": {
+        "morecakes:type": 135
+      }
+    },
+    {
+      "model": "morecakes:item/huge_cake/huge_cake_cs_cb_cn",
+      "predicate": {
+        "morecakes:type": 136
+      }
+    },
+    {
+      "model": "morecakes:item/huge_cake/huge_cake_cs_cb_cb",
+      "predicate": {
+        "morecakes:type": 137
+      }
+    },
+    {
+      "model": "morecakes:item/huge_cake/huge_cake_cs_cb_cs",
+      "predicate": {
+        "morecakes:type": 138
+      }
+    },
+    {
+      "model": "morecakes:item/huge_cake/huge_cake_cs_cb_cg",
+      "predicate": {
+        "morecakes:type": 139
+      }
+    },
+    {
+      "model": "morecakes:item/huge_cake/huge_cake_cs_cb_vn",
+      "predicate": {
+        "morecakes:type": 140
+      }
+    },
+    {
+      "model": "morecakes:item/huge_cake/huge_cake_cs_cb_vb",
+      "predicate": {
+        "morecakes:type": 141
+      }
+    },
+    {
+      "model": "morecakes:item/huge_cake/huge_cake_cs_cb_vs",
+      "predicate": {
+        "morecakes:type": 142
+      }
+    },
+    {
+      "model": "morecakes:item/huge_cake/huge_cake_cs_cb_vg",
+      "predicate": {
+        "morecakes:type": 143
+      }
+    },
+    {
+      "model": "morecakes:item/huge_cake/huge_cake_cs_cs_cn",
+      "predicate": {
+        "morecakes:type": 144
+      }
+    },
+    {
+      "model": "morecakes:item/huge_cake/huge_cake_cs_cs_cb",
+      "predicate": {
+        "morecakes:type": 145
+      }
+    },
+    {
+      "model": "morecakes:item/huge_cake/huge_cake_cs_cs_cs",
+      "predicate": {
+        "morecakes:type": 146
+      }
+    },
+    {
+      "model": "morecakes:item/huge_cake/huge_cake_cs_cs_cg",
+      "predicate": {
+        "morecakes:type": 147
+      }
+    },
+    {
+      "model": "morecakes:item/huge_cake/huge_cake_cs_cs_vn",
+      "predicate": {
+        "morecakes:type": 148
+      }
+    },
+    {
+      "model": "morecakes:item/huge_cake/huge_cake_cs_cs_vb",
+      "predicate": {
+        "morecakes:type": 149
+      }
+    },
+    {
+      "model": "morecakes:item/huge_cake/huge_cake_cs_cs_vs",
+      "predicate": {
+        "morecakes:type": 150
+      }
+    },
+    {
+      "model": "morecakes:item/huge_cake/huge_cake_cs_cs_vg",
+      "predicate": {
+        "morecakes:type": 151
+      }
+    },
+    {
+      "model": "morecakes:item/huge_cake/huge_cake_cs_cg_cn",
+      "predicate": {
+        "morecakes:type": 152
+      }
+    },
+    {
+      "model": "morecakes:item/huge_cake/huge_cake_cs_cg_cb",
+      "predicate": {
+        "morecakes:type": 153
+      }
+    },
+    {
+      "model": "morecakes:item/huge_cake/huge_cake_cs_cg_cs",
+      "predicate": {
+        "morecakes:type": 154
+      }
+    },
+    {
+      "model": "morecakes:item/huge_cake/huge_cake_cs_cg_cg",
+      "predicate": {
+        "morecakes:type": 155
+      }
+    },
+    {
+      "model": "morecakes:item/huge_cake/huge_cake_cs_cg_vn",
+      "predicate": {
+        "morecakes:type": 156
+      }
+    },
+    {
+      "model": "morecakes:item/huge_cake/huge_cake_cs_cg_vb",
+      "predicate": {
+        "morecakes:type": 157
+      }
+    },
+    {
+      "model": "morecakes:item/huge_cake/huge_cake_cs_cg_vs",
+      "predicate": {
+        "morecakes:type": 158
+      }
+    },
+    {
+      "model": "morecakes:item/huge_cake/huge_cake_cs_cg_vg",
+      "predicate": {
+        "morecakes:type": 159
+      }
+    },
+    {
+      "model": "morecakes:item/huge_cake/huge_cake_cs_vn_cn",
+      "predicate": {
+        "morecakes:type": 160
+      }
+    },
+    {
+      "model": "morecakes:item/huge_cake/huge_cake_cs_vn_cb",
+      "predicate": {
+        "morecakes:type": 161
+      }
+    },
+    {
+      "model": "morecakes:item/huge_cake/huge_cake_cs_vn_cs",
+      "predicate": {
+        "morecakes:type": 162
+      }
+    },
+    {
+      "model": "morecakes:item/huge_cake/huge_cake_cs_vn_cg",
+      "predicate": {
+        "morecakes:type": 163
+      }
+    },
+    {
+      "model": "morecakes:item/huge_cake/huge_cake_cs_vn_vn",
+      "predicate": {
+        "morecakes:type": 164
+      }
+    },
+    {
+      "model": "morecakes:item/huge_cake/huge_cake_cs_vn_vb",
+      "predicate": {
+        "morecakes:type": 165
+      }
+    },
+    {
+      "model": "morecakes:item/huge_cake/huge_cake_cs_vn_vs",
+      "predicate": {
+        "morecakes:type": 166
+      }
+    },
+    {
+      "model": "morecakes:item/huge_cake/huge_cake_cs_vn_vg",
+      "predicate": {
+        "morecakes:type": 167
+      }
+    },
+    {
+      "model": "morecakes:item/huge_cake/huge_cake_cs_vb_cn",
+      "predicate": {
+        "morecakes:type": 168
+      }
+    },
+    {
+      "model": "morecakes:item/huge_cake/huge_cake_cs_vb_cb",
+      "predicate": {
+        "morecakes:type": 169
+      }
+    },
+    {
+      "model": "morecakes:item/huge_cake/huge_cake_cs_vb_cs",
+      "predicate": {
+        "morecakes:type": 170
+      }
+    },
+    {
+      "model": "morecakes:item/huge_cake/huge_cake_cs_vb_cg",
+      "predicate": {
+        "morecakes:type": 171
+      }
+    },
+    {
+      "model": "morecakes:item/huge_cake/huge_cake_cs_vb_vn",
+      "predicate": {
+        "morecakes:type": 172
+      }
+    },
+    {
+      "model": "morecakes:item/huge_cake/huge_cake_cs_vb_vb",
+      "predicate": {
+        "morecakes:type": 173
+      }
+    },
+    {
+      "model": "morecakes:item/huge_cake/huge_cake_cs_vb_vs",
+      "predicate": {
+        "morecakes:type": 174
+      }
+    },
+    {
+      "model": "morecakes:item/huge_cake/huge_cake_cs_vb_vg",
+      "predicate": {
+        "morecakes:type": 175
+      }
+    },
+    {
+      "model": "morecakes:item/huge_cake/huge_cake_cs_vs_cn",
+      "predicate": {
+        "morecakes:type": 176
+      }
+    },
+    {
+      "model": "morecakes:item/huge_cake/huge_cake_cs_vs_cb",
+      "predicate": {
+        "morecakes:type": 177
+      }
+    },
+    {
+      "model": "morecakes:item/huge_cake/huge_cake_cs_vs_cs",
+      "predicate": {
+        "morecakes:type": 178
+      }
+    },
+    {
+      "model": "morecakes:item/huge_cake/huge_cake_cs_vs_cg",
+      "predicate": {
+        "morecakes:type": 179
+      }
+    },
+    {
+      "model": "morecakes:item/huge_cake/huge_cake_cs_vs_vn",
+      "predicate": {
+        "morecakes:type": 180
+      }
+    },
+    {
+      "model": "morecakes:item/huge_cake/huge_cake_cs_vs_vb",
+      "predicate": {
+        "morecakes:type": 181
+      }
+    },
+    {
+      "model": "morecakes:item/huge_cake/huge_cake_cs_vs_vs",
+      "predicate": {
+        "morecakes:type": 182
+      }
+    },
+    {
+      "model": "morecakes:item/huge_cake/huge_cake_cs_vs_vg",
+      "predicate": {
+        "morecakes:type": 183
+      }
+    },
+    {
+      "model": "morecakes:item/huge_cake/huge_cake_cs_vg_cn",
+      "predicate": {
+        "morecakes:type": 184
+      }
+    },
+    {
+      "model": "morecakes:item/huge_cake/huge_cake_cs_vg_cb",
+      "predicate": {
+        "morecakes:type": 185
+      }
+    },
+    {
+      "model": "morecakes:item/huge_cake/huge_cake_cs_vg_cs",
+      "predicate": {
+        "morecakes:type": 186
+      }
+    },
+    {
+      "model": "morecakes:item/huge_cake/huge_cake_cs_vg_cg",
+      "predicate": {
+        "morecakes:type": 187
+      }
+    },
+    {
+      "model": "morecakes:item/huge_cake/huge_cake_cs_vg_vn",
+      "predicate": {
+        "morecakes:type": 188
+      }
+    },
+    {
+      "model": "morecakes:item/huge_cake/huge_cake_cs_vg_vb",
+      "predicate": {
+        "morecakes:type": 189
+      }
+    },
+    {
+      "model": "morecakes:item/huge_cake/huge_cake_cs_vg_vs",
+      "predicate": {
+        "morecakes:type": 190
+      }
+    },
+    {
+      "model": "morecakes:item/huge_cake/huge_cake_cs_vg_vg",
+      "predicate": {
+        "morecakes:type": 191
+      }
+    },
+    {
+      "model": "morecakes:item/huge_cake/huge_cake_cg_cn_cn",
+      "predicate": {
+        "morecakes:type": 192
+      }
+    },
+    {
+      "model": "morecakes:item/huge_cake/huge_cake_cg_cn_cb",
+      "predicate": {
+        "morecakes:type": 193
+      }
+    },
+    {
+      "model": "morecakes:item/huge_cake/huge_cake_cg_cn_cs",
+      "predicate": {
+        "morecakes:type": 194
+      }
+    },
+    {
+      "model": "morecakes:item/huge_cake/huge_cake_cg_cn_cg",
+      "predicate": {
+        "morecakes:type": 195
+      }
+    },
+    {
+      "model": "morecakes:item/huge_cake/huge_cake_cg_cn_vn",
+      "predicate": {
+        "morecakes:type": 196
+      }
+    },
+    {
+      "model": "morecakes:item/huge_cake/huge_cake_cg_cn_vb",
+      "predicate": {
+        "morecakes:type": 197
+      }
+    },
+    {
+      "model": "morecakes:item/huge_cake/huge_cake_cg_cn_vs",
+      "predicate": {
+        "morecakes:type": 198
+      }
+    },
+    {
+      "model": "morecakes:item/huge_cake/huge_cake_cg_cn_vg",
+      "predicate": {
+        "morecakes:type": 199
+      }
+    },
+    {
+      "model": "morecakes:item/huge_cake/huge_cake_cg_cb_cn",
+      "predicate": {
+        "morecakes:type": 200
+      }
+    },
+    {
+      "model": "morecakes:item/huge_cake/huge_cake_cg_cb_cb",
+      "predicate": {
+        "morecakes:type": 201
+      }
+    },
+    {
+      "model": "morecakes:item/huge_cake/huge_cake_cg_cb_cs",
+      "predicate": {
+        "morecakes:type": 202
+      }
+    },
+    {
+      "model": "morecakes:item/huge_cake/huge_cake_cg_cb_cg",
+      "predicate": {
+        "morecakes:type": 203
+      }
+    },
+    {
+      "model": "morecakes:item/huge_cake/huge_cake_cg_cb_vn",
+      "predicate": {
+        "morecakes:type": 204
+      }
+    },
+    {
+      "model": "morecakes:item/huge_cake/huge_cake_cg_cb_vb",
+      "predicate": {
+        "morecakes:type": 205
+      }
+    },
+    {
+      "model": "morecakes:item/huge_cake/huge_cake_cg_cb_vs",
+      "predicate": {
+        "morecakes:type": 206
+      }
+    },
+    {
+      "model": "morecakes:item/huge_cake/huge_cake_cg_cb_vg",
+      "predicate": {
+        "morecakes:type": 207
+      }
+    },
+    {
+      "model": "morecakes:item/huge_cake/huge_cake_cg_cs_cn",
+      "predicate": {
+        "morecakes:type": 208
+      }
+    },
+    {
+      "model": "morecakes:item/huge_cake/huge_cake_cg_cs_cb",
+      "predicate": {
+        "morecakes:type": 209
+      }
+    },
+    {
+      "model": "morecakes:item/huge_cake/huge_cake_cg_cs_cs",
+      "predicate": {
+        "morecakes:type": 210
+      }
+    },
+    {
+      "model": "morecakes:item/huge_cake/huge_cake_cg_cs_cg",
+      "predicate": {
+        "morecakes:type": 211
+      }
+    },
+    {
+      "model": "morecakes:item/huge_cake/huge_cake_cg_cs_vn",
+      "predicate": {
+        "morecakes:type": 212
+      }
+    },
+    {
+      "model": "morecakes:item/huge_cake/huge_cake_cg_cs_vb",
+      "predicate": {
+        "morecakes:type": 213
+      }
+    },
+    {
+      "model": "morecakes:item/huge_cake/huge_cake_cg_cs_vs",
+      "predicate": {
+        "morecakes:type": 214
+      }
+    },
+    {
+      "model": "morecakes:item/huge_cake/huge_cake_cg_cs_vg",
+      "predicate": {
+        "morecakes:type": 215
+      }
+    },
+    {
+      "model": "morecakes:item/huge_cake/huge_cake_cg_cg_cn",
+      "predicate": {
+        "morecakes:type": 216
+      }
+    },
+    {
+      "model": "morecakes:item/huge_cake/huge_cake_cg_cg_cb",
+      "predicate": {
+        "morecakes:type": 217
+      }
+    },
+    {
+      "model": "morecakes:item/huge_cake/huge_cake_cg_cg_cs",
+      "predicate": {
+        "morecakes:type": 218
+      }
+    },
+    {
+      "model": "morecakes:item/huge_cake/huge_cake_cg_cg_cg",
+      "predicate": {
+        "morecakes:type": 219
+      }
+    },
+    {
+      "model": "morecakes:item/huge_cake/huge_cake_cg_cg_vn",
+      "predicate": {
+        "morecakes:type": 220
+      }
+    },
+    {
+      "model": "morecakes:item/huge_cake/huge_cake_cg_cg_vb",
+      "predicate": {
+        "morecakes:type": 221
+      }
+    },
+    {
+      "model": "morecakes:item/huge_cake/huge_cake_cg_cg_vs",
+      "predicate": {
+        "morecakes:type": 222
+      }
+    },
+    {
+      "model": "morecakes:item/huge_cake/huge_cake_cg_cg_vg",
+      "predicate": {
+        "morecakes:type": 223
+      }
+    },
+    {
+      "model": "morecakes:item/huge_cake/huge_cake_cg_vn_cn",
+      "predicate": {
+        "morecakes:type": 224
+      }
+    },
+    {
+      "model": "morecakes:item/huge_cake/huge_cake_cg_vn_cb",
+      "predicate": {
+        "morecakes:type": 225
+      }
+    },
+    {
+      "model": "morecakes:item/huge_cake/huge_cake_cg_vn_cs",
+      "predicate": {
+        "morecakes:type": 226
+      }
+    },
+    {
+      "model": "morecakes:item/huge_cake/huge_cake_cg_vn_cg",
+      "predicate": {
+        "morecakes:type": 227
+      }
+    },
+    {
+      "model": "morecakes:item/huge_cake/huge_cake_cg_vn_vn",
+      "predicate": {
+        "morecakes:type": 228
+      }
+    },
+    {
+      "model": "morecakes:item/huge_cake/huge_cake_cg_vn_vb",
+      "predicate": {
+        "morecakes:type": 229
+      }
+    },
+    {
+      "model": "morecakes:item/huge_cake/huge_cake_cg_vn_vs",
+      "predicate": {
+        "morecakes:type": 230
+      }
+    },
+    {
+      "model": "morecakes:item/huge_cake/huge_cake_cg_vn_vg",
+      "predicate": {
+        "morecakes:type": 231
+      }
+    },
+    {
+      "model": "morecakes:item/huge_cake/huge_cake_cg_vb_cn",
+      "predicate": {
+        "morecakes:type": 232
+      }
+    },
+    {
+      "model": "morecakes:item/huge_cake/huge_cake_cg_vb_cb",
+      "predicate": {
+        "morecakes:type": 233
+      }
+    },
+    {
+      "model": "morecakes:item/huge_cake/huge_cake_cg_vb_cs",
+      "predicate": {
+        "morecakes:type": 234
+      }
+    },
+    {
+      "model": "morecakes:item/huge_cake/huge_cake_cg_vb_cg",
+      "predicate": {
+        "morecakes:type": 235
+      }
+    },
+    {
+      "model": "morecakes:item/huge_cake/huge_cake_cg_vb_vn",
+      "predicate": {
+        "morecakes:type": 236
+      }
+    },
+    {
+      "model": "morecakes:item/huge_cake/huge_cake_cg_vb_vb",
+      "predicate": {
+        "morecakes:type": 237
+      }
+    },
+    {
+      "model": "morecakes:item/huge_cake/huge_cake_cg_vb_vs",
+      "predicate": {
+        "morecakes:type": 238
+      }
+    },
+    {
+      "model": "morecakes:item/huge_cake/huge_cake_cg_vb_vg",
+      "predicate": {
+        "morecakes:type": 239
+      }
+    },
+    {
+      "model": "morecakes:item/huge_cake/huge_cake_cg_vs_cn",
+      "predicate": {
+        "morecakes:type": 240
+      }
+    },
+    {
+      "model": "morecakes:item/huge_cake/huge_cake_cg_vs_cb",
+      "predicate": {
+        "morecakes:type": 241
+      }
+    },
+    {
+      "model": "morecakes:item/huge_cake/huge_cake_cg_vs_cs",
+      "predicate": {
+        "morecakes:type": 242
+      }
+    },
+    {
+      "model": "morecakes:item/huge_cake/huge_cake_cg_vs_cg",
+      "predicate": {
+        "morecakes:type": 243
+      }
+    },
+    {
+      "model": "morecakes:item/huge_cake/huge_cake_cg_vs_vn",
+      "predicate": {
+        "morecakes:type": 244
+      }
+    },
+    {
+      "model": "morecakes:item/huge_cake/huge_cake_cg_vs_vb",
+      "predicate": {
+        "morecakes:type": 245
+      }
+    },
+    {
+      "model": "morecakes:item/huge_cake/huge_cake_cg_vs_vs",
+      "predicate": {
+        "morecakes:type": 246
+      }
+    },
+    {
+      "model": "morecakes:item/huge_cake/huge_cake_cg_vs_vg",
+      "predicate": {
+        "morecakes:type": 247
+      }
+    },
+    {
+      "model": "morecakes:item/huge_cake/huge_cake_cg_vg_cn",
+      "predicate": {
+        "morecakes:type": 248
+      }
+    },
+    {
+      "model": "morecakes:item/huge_cake/huge_cake_cg_vg_cb",
+      "predicate": {
+        "morecakes:type": 249
+      }
+    },
+    {
+      "model": "morecakes:item/huge_cake/huge_cake_cg_vg_cs",
+      "predicate": {
+        "morecakes:type": 250
+      }
+    },
+    {
+      "model": "morecakes:item/huge_cake/huge_cake_cg_vg_cg",
+      "predicate": {
+        "morecakes:type": 251
+      }
+    },
+    {
+      "model": "morecakes:item/huge_cake/huge_cake_cg_vg_vn",
+      "predicate": {
+        "morecakes:type": 252
+      }
+    },
+    {
+      "model": "morecakes:item/huge_cake/huge_cake_cg_vg_vb",
+      "predicate": {
+        "morecakes:type": 253
+      }
+    },
+    {
+      "model": "morecakes:item/huge_cake/huge_cake_cg_vg_vs",
+      "predicate": {
+        "morecakes:type": 254
+      }
+    },
+    {
+      "model": "morecakes:item/huge_cake/huge_cake_cg_vg_vg",
+      "predicate": {
+        "morecakes:type": 255
+      }
+    },
+    {
+      "model": "morecakes:item/huge_cake/huge_cake_vn_cn_cn",
+      "predicate": {
+        "morecakes:type": 256
+      }
+    },
+    {
+      "model": "morecakes:item/huge_cake/huge_cake_vn_cn_cb",
+      "predicate": {
+        "morecakes:type": 257
+      }
+    },
+    {
+      "model": "morecakes:item/huge_cake/huge_cake_vn_cn_cs",
+      "predicate": {
+        "morecakes:type": 258
+      }
+    },
+    {
+      "model": "morecakes:item/huge_cake/huge_cake_vn_cn_cg",
+      "predicate": {
+        "morecakes:type": 259
+      }
+    },
+    {
+      "model": "morecakes:item/huge_cake/huge_cake_vn_cn_vn",
+      "predicate": {
+        "morecakes:type": 260
+      }
+    },
+    {
+      "model": "morecakes:item/huge_cake/huge_cake_vn_cn_vb",
+      "predicate": {
+        "morecakes:type": 261
+      }
+    },
+    {
+      "model": "morecakes:item/huge_cake/huge_cake_vn_cn_vs",
+      "predicate": {
+        "morecakes:type": 262
+      }
+    },
+    {
+      "model": "morecakes:item/huge_cake/huge_cake_vn_cn_vg",
+      "predicate": {
+        "morecakes:type": 263
+      }
+    },
+    {
+      "model": "morecakes:item/huge_cake/huge_cake_vn_cb_cn",
+      "predicate": {
+        "morecakes:type": 264
+      }
+    },
+    {
+      "model": "morecakes:item/huge_cake/huge_cake_vn_cb_cb",
+      "predicate": {
+        "morecakes:type": 265
+      }
+    },
+    {
+      "model": "morecakes:item/huge_cake/huge_cake_vn_cb_cs",
+      "predicate": {
+        "morecakes:type": 266
+      }
+    },
+    {
+      "model": "morecakes:item/huge_cake/huge_cake_vn_cb_cg",
+      "predicate": {
+        "morecakes:type": 267
+      }
+    },
+    {
+      "model": "morecakes:item/huge_cake/huge_cake_vn_cb_vn",
+      "predicate": {
+        "morecakes:type": 268
+      }
+    },
+    {
+      "model": "morecakes:item/huge_cake/huge_cake_vn_cb_vb",
+      "predicate": {
+        "morecakes:type": 269
+      }
+    },
+    {
+      "model": "morecakes:item/huge_cake/huge_cake_vn_cb_vs",
+      "predicate": {
+        "morecakes:type": 270
+      }
+    },
+    {
+      "model": "morecakes:item/huge_cake/huge_cake_vn_cb_vg",
+      "predicate": {
+        "morecakes:type": 271
+      }
+    },
+    {
+      "model": "morecakes:item/huge_cake/huge_cake_vn_cs_cn",
+      "predicate": {
+        "morecakes:type": 272
+      }
+    },
+    {
+      "model": "morecakes:item/huge_cake/huge_cake_vn_cs_cb",
+      "predicate": {
+        "morecakes:type": 273
+      }
+    },
+    {
+      "model": "morecakes:item/huge_cake/huge_cake_vn_cs_cs",
+      "predicate": {
+        "morecakes:type": 274
+      }
+    },
+    {
+      "model": "morecakes:item/huge_cake/huge_cake_vn_cs_cg",
+      "predicate": {
+        "morecakes:type": 275
+      }
+    },
+    {
+      "model": "morecakes:item/huge_cake/huge_cake_vn_cs_vn",
+      "predicate": {
+        "morecakes:type": 276
+      }
+    },
+    {
+      "model": "morecakes:item/huge_cake/huge_cake_vn_cs_vb",
+      "predicate": {
+        "morecakes:type": 277
+      }
+    },
+    {
+      "model": "morecakes:item/huge_cake/huge_cake_vn_cs_vs",
+      "predicate": {
+        "morecakes:type": 278
+      }
+    },
+    {
+      "model": "morecakes:item/huge_cake/huge_cake_vn_cs_vg",
+      "predicate": {
+        "morecakes:type": 279
+      }
+    },
+    {
+      "model": "morecakes:item/huge_cake/huge_cake_vn_cg_cn",
+      "predicate": {
+        "morecakes:type": 280
+      }
+    },
+    {
+      "model": "morecakes:item/huge_cake/huge_cake_vn_cg_cb",
+      "predicate": {
+        "morecakes:type": 281
+      }
+    },
+    {
+      "model": "morecakes:item/huge_cake/huge_cake_vn_cg_cs",
+      "predicate": {
+        "morecakes:type": 282
+      }
+    },
+    {
+      "model": "morecakes:item/huge_cake/huge_cake_vn_cg_cg",
+      "predicate": {
+        "morecakes:type": 283
+      }
+    },
+    {
+      "model": "morecakes:item/huge_cake/huge_cake_vn_cg_vn",
+      "predicate": {
+        "morecakes:type": 284
+      }
+    },
+    {
+      "model": "morecakes:item/huge_cake/huge_cake_vn_cg_vb",
+      "predicate": {
+        "morecakes:type": 285
+      }
+    },
+    {
+      "model": "morecakes:item/huge_cake/huge_cake_vn_cg_vs",
+      "predicate": {
+        "morecakes:type": 286
+      }
+    },
+    {
+      "model": "morecakes:item/huge_cake/huge_cake_vn_cg_vg",
+      "predicate": {
+        "morecakes:type": 287
+      }
+    },
+    {
+      "model": "morecakes:item/huge_cake/huge_cake_vn_vn_cn",
+      "predicate": {
+        "morecakes:type": 288
+      }
+    },
+    {
+      "model": "morecakes:item/huge_cake/huge_cake_vn_vn_cb",
+      "predicate": {
+        "morecakes:type": 289
+      }
+    },
+    {
+      "model": "morecakes:item/huge_cake/huge_cake_vn_vn_cs",
+      "predicate": {
+        "morecakes:type": 290
+      }
+    },
+    {
+      "model": "morecakes:item/huge_cake/huge_cake_vn_vn_cg",
+      "predicate": {
+        "morecakes:type": 291
+      }
+    },
+    {
+      "model": "morecakes:item/huge_cake/huge_cake_vn_vn_vn",
+      "predicate": {
+        "morecakes:type": 292
+      }
+    },
+    {
+      "model": "morecakes:item/huge_cake/huge_cake_vn_vn_vb",
+      "predicate": {
+        "morecakes:type": 293
+      }
+    },
+    {
+      "model": "morecakes:item/huge_cake/huge_cake_vn_vn_vs",
+      "predicate": {
+        "morecakes:type": 294
+      }
+    },
+    {
+      "model": "morecakes:item/huge_cake/huge_cake_vn_vn_vg",
+      "predicate": {
+        "morecakes:type": 295
+      }
+    },
+    {
+      "model": "morecakes:item/huge_cake/huge_cake_vn_vb_cn",
+      "predicate": {
+        "morecakes:type": 296
+      }
+    },
+    {
+      "model": "morecakes:item/huge_cake/huge_cake_vn_vb_cb",
+      "predicate": {
+        "morecakes:type": 297
+      }
+    },
+    {
+      "model": "morecakes:item/huge_cake/huge_cake_vn_vb_cs",
+      "predicate": {
+        "morecakes:type": 298
+      }
+    },
+    {
+      "model": "morecakes:item/huge_cake/huge_cake_vn_vb_cg",
+      "predicate": {
+        "morecakes:type": 299
+      }
+    },
+    {
+      "model": "morecakes:item/huge_cake/huge_cake_vn_vb_vn",
+      "predicate": {
+        "morecakes:type": 300
+      }
+    },
+    {
+      "model": "morecakes:item/huge_cake/huge_cake_vn_vb_vb",
+      "predicate": {
+        "morecakes:type": 301
+      }
+    },
+    {
+      "model": "morecakes:item/huge_cake/huge_cake_vn_vb_vs",
+      "predicate": {
+        "morecakes:type": 302
+      }
+    },
+    {
+      "model": "morecakes:item/huge_cake/huge_cake_vn_vb_vg",
+      "predicate": {
+        "morecakes:type": 303
+      }
+    },
+    {
+      "model": "morecakes:item/huge_cake/huge_cake_vn_vs_cn",
+      "predicate": {
+        "morecakes:type": 304
+      }
+    },
+    {
+      "model": "morecakes:item/huge_cake/huge_cake_vn_vs_cb",
+      "predicate": {
+        "morecakes:type": 305
+      }
+    },
+    {
+      "model": "morecakes:item/huge_cake/huge_cake_vn_vs_cs",
+      "predicate": {
+        "morecakes:type": 306
+      }
+    },
+    {
+      "model": "morecakes:item/huge_cake/huge_cake_vn_vs_cg",
+      "predicate": {
+        "morecakes:type": 307
+      }
+    },
+    {
+      "model": "morecakes:item/huge_cake/huge_cake_vn_vs_vn",
+      "predicate": {
+        "morecakes:type": 308
+      }
+    },
+    {
+      "model": "morecakes:item/huge_cake/huge_cake_vn_vs_vb",
+      "predicate": {
+        "morecakes:type": 309
+      }
+    },
+    {
+      "model": "morecakes:item/huge_cake/huge_cake_vn_vs_vs",
+      "predicate": {
+        "morecakes:type": 310
+      }
+    },
+    {
+      "model": "morecakes:item/huge_cake/huge_cake_vn_vs_vg",
+      "predicate": {
+        "morecakes:type": 311
+      }
+    },
+    {
+      "model": "morecakes:item/huge_cake/huge_cake_vn_vg_cn",
+      "predicate": {
+        "morecakes:type": 312
+      }
+    },
+    {
+      "model": "morecakes:item/huge_cake/huge_cake_vn_vg_cb",
+      "predicate": {
+        "morecakes:type": 313
+      }
+    },
+    {
+      "model": "morecakes:item/huge_cake/huge_cake_vn_vg_cs",
+      "predicate": {
+        "morecakes:type": 314
+      }
+    },
+    {
+      "model": "morecakes:item/huge_cake/huge_cake_vn_vg_cg",
+      "predicate": {
+        "morecakes:type": 315
+      }
+    },
+    {
+      "model": "morecakes:item/huge_cake/huge_cake_vn_vg_vn",
+      "predicate": {
+        "morecakes:type": 316
+      }
+    },
+    {
+      "model": "morecakes:item/huge_cake/huge_cake_vn_vg_vb",
+      "predicate": {
+        "morecakes:type": 317
+      }
+    },
+    {
+      "model": "morecakes:item/huge_cake/huge_cake_vn_vg_vs",
+      "predicate": {
+        "morecakes:type": 318
+      }
+    },
+    {
+      "model": "morecakes:item/huge_cake/huge_cake_vn_vg_vg",
+      "predicate": {
+        "morecakes:type": 319
+      }
+    },
+    {
+      "model": "morecakes:item/huge_cake/huge_cake_vb_cn_cn",
+      "predicate": {
+        "morecakes:type": 320
+      }
+    },
+    {
+      "model": "morecakes:item/huge_cake/huge_cake_vb_cn_cb",
+      "predicate": {
+        "morecakes:type": 321
+      }
+    },
+    {
+      "model": "morecakes:item/huge_cake/huge_cake_vb_cn_cs",
+      "predicate": {
+        "morecakes:type": 322
+      }
+    },
+    {
+      "model": "morecakes:item/huge_cake/huge_cake_vb_cn_cg",
+      "predicate": {
+        "morecakes:type": 323
+      }
+    },
+    {
+      "model": "morecakes:item/huge_cake/huge_cake_vb_cn_vn",
+      "predicate": {
+        "morecakes:type": 324
+      }
+    },
+    {
+      "model": "morecakes:item/huge_cake/huge_cake_vb_cn_vb",
+      "predicate": {
+        "morecakes:type": 325
+      }
+    },
+    {
+      "model": "morecakes:item/huge_cake/huge_cake_vb_cn_vs",
+      "predicate": {
+        "morecakes:type": 326
+      }
+    },
+    {
+      "model": "morecakes:item/huge_cake/huge_cake_vb_cn_vg",
+      "predicate": {
+        "morecakes:type": 327
+      }
+    },
+    {
+      "model": "morecakes:item/huge_cake/huge_cake_vb_cb_cn",
+      "predicate": {
+        "morecakes:type": 328
+      }
+    },
+    {
+      "model": "morecakes:item/huge_cake/huge_cake_vb_cb_cb",
+      "predicate": {
+        "morecakes:type": 329
+      }
+    },
+    {
+      "model": "morecakes:item/huge_cake/huge_cake_vb_cb_cs",
+      "predicate": {
+        "morecakes:type": 330
+      }
+    },
+    {
+      "model": "morecakes:item/huge_cake/huge_cake_vb_cb_cg",
+      "predicate": {
+        "morecakes:type": 331
+      }
+    },
+    {
+      "model": "morecakes:item/huge_cake/huge_cake_vb_cb_vn",
+      "predicate": {
+        "morecakes:type": 332
+      }
+    },
+    {
+      "model": "morecakes:item/huge_cake/huge_cake_vb_cb_vb",
+      "predicate": {
+        "morecakes:type": 333
+      }
+    },
+    {
+      "model": "morecakes:item/huge_cake/huge_cake_vb_cb_vs",
+      "predicate": {
+        "morecakes:type": 334
+      }
+    },
+    {
+      "model": "morecakes:item/huge_cake/huge_cake_vb_cb_vg",
+      "predicate": {
+        "morecakes:type": 335
+      }
+    },
+    {
+      "model": "morecakes:item/huge_cake/huge_cake_vb_cs_cn",
+      "predicate": {
+        "morecakes:type": 336
+      }
+    },
+    {
+      "model": "morecakes:item/huge_cake/huge_cake_vb_cs_cb",
+      "predicate": {
+        "morecakes:type": 337
+      }
+    },
+    {
+      "model": "morecakes:item/huge_cake/huge_cake_vb_cs_cs",
+      "predicate": {
+        "morecakes:type": 338
+      }
+    },
+    {
+      "model": "morecakes:item/huge_cake/huge_cake_vb_cs_cg",
+      "predicate": {
+        "morecakes:type": 339
+      }
+    },
+    {
+      "model": "morecakes:item/huge_cake/huge_cake_vb_cs_vn",
+      "predicate": {
+        "morecakes:type": 340
+      }
+    },
+    {
+      "model": "morecakes:item/huge_cake/huge_cake_vb_cs_vb",
+      "predicate": {
+        "morecakes:type": 341
+      }
+    },
+    {
+      "model": "morecakes:item/huge_cake/huge_cake_vb_cs_vs",
+      "predicate": {
+        "morecakes:type": 342
+      }
+    },
+    {
+      "model": "morecakes:item/huge_cake/huge_cake_vb_cs_vg",
+      "predicate": {
+        "morecakes:type": 343
+      }
+    },
+    {
+      "model": "morecakes:item/huge_cake/huge_cake_vb_cg_cn",
+      "predicate": {
+        "morecakes:type": 344
+      }
+    },
+    {
+      "model": "morecakes:item/huge_cake/huge_cake_vb_cg_cb",
+      "predicate": {
+        "morecakes:type": 345
+      }
+    },
+    {
+      "model": "morecakes:item/huge_cake/huge_cake_vb_cg_cs",
+      "predicate": {
+        "morecakes:type": 346
+      }
+    },
+    {
+      "model": "morecakes:item/huge_cake/huge_cake_vb_cg_cg",
+      "predicate": {
+        "morecakes:type": 347
+      }
+    },
+    {
+      "model": "morecakes:item/huge_cake/huge_cake_vb_cg_vn",
+      "predicate": {
+        "morecakes:type": 348
+      }
+    },
+    {
+      "model": "morecakes:item/huge_cake/huge_cake_vb_cg_vb",
+      "predicate": {
+        "morecakes:type": 349
+      }
+    },
+    {
+      "model": "morecakes:item/huge_cake/huge_cake_vb_cg_vs",
+      "predicate": {
+        "morecakes:type": 350
+      }
+    },
+    {
+      "model": "morecakes:item/huge_cake/huge_cake_vb_cg_vg",
+      "predicate": {
+        "morecakes:type": 351
+      }
+    },
+    {
+      "model": "morecakes:item/huge_cake/huge_cake_vb_vn_cn",
+      "predicate": {
+        "morecakes:type": 352
+      }
+    },
+    {
+      "model": "morecakes:item/huge_cake/huge_cake_vb_vn_cb",
+      "predicate": {
+        "morecakes:type": 353
+      }
+    },
+    {
+      "model": "morecakes:item/huge_cake/huge_cake_vb_vn_cs",
+      "predicate": {
+        "morecakes:type": 354
+      }
+    },
+    {
+      "model": "morecakes:item/huge_cake/huge_cake_vb_vn_cg",
+      "predicate": {
+        "morecakes:type": 355
+      }
+    },
+    {
+      "model": "morecakes:item/huge_cake/huge_cake_vb_vn_vn",
+      "predicate": {
+        "morecakes:type": 356
+      }
+    },
+    {
+      "model": "morecakes:item/huge_cake/huge_cake_vb_vn_vb",
+      "predicate": {
+        "morecakes:type": 357
+      }
+    },
+    {
+      "model": "morecakes:item/huge_cake/huge_cake_vb_vn_vs",
+      "predicate": {
+        "morecakes:type": 358
+      }
+    },
+    {
+      "model": "morecakes:item/huge_cake/huge_cake_vb_vn_vg",
+      "predicate": {
+        "morecakes:type": 359
+      }
+    },
+    {
+      "model": "morecakes:item/huge_cake/huge_cake_vb_vb_cn",
+      "predicate": {
+        "morecakes:type": 360
+      }
+    },
+    {
+      "model": "morecakes:item/huge_cake/huge_cake_vb_vb_cb",
+      "predicate": {
+        "morecakes:type": 361
+      }
+    },
+    {
+      "model": "morecakes:item/huge_cake/huge_cake_vb_vb_cs",
+      "predicate": {
+        "morecakes:type": 362
+      }
+    },
+    {
+      "model": "morecakes:item/huge_cake/huge_cake_vb_vb_cg",
+      "predicate": {
+        "morecakes:type": 363
+      }
+    },
+    {
+      "model": "morecakes:item/huge_cake/huge_cake_vb_vb_vn",
+      "predicate": {
+        "morecakes:type": 364
+      }
+    },
+    {
+      "model": "morecakes:item/huge_cake/huge_cake_vb_vb_vb",
+      "predicate": {
+        "morecakes:type": 365
+      }
+    },
+    {
+      "model": "morecakes:item/huge_cake/huge_cake_vb_vb_vs",
+      "predicate": {
+        "morecakes:type": 366
+      }
+    },
+    {
+      "model": "morecakes:item/huge_cake/huge_cake_vb_vb_vg",
+      "predicate": {
+        "morecakes:type": 367
+      }
+    },
+    {
+      "model": "morecakes:item/huge_cake/huge_cake_vb_vs_cn",
+      "predicate": {
+        "morecakes:type": 368
+      }
+    },
+    {
+      "model": "morecakes:item/huge_cake/huge_cake_vb_vs_cb",
+      "predicate": {
+        "morecakes:type": 369
+      }
+    },
+    {
+      "model": "morecakes:item/huge_cake/huge_cake_vb_vs_cs",
+      "predicate": {
+        "morecakes:type": 370
+      }
+    },
+    {
+      "model": "morecakes:item/huge_cake/huge_cake_vb_vs_cg",
+      "predicate": {
+        "morecakes:type": 371
+      }
+    },
+    {
+      "model": "morecakes:item/huge_cake/huge_cake_vb_vs_vn",
+      "predicate": {
+        "morecakes:type": 372
+      }
+    },
+    {
+      "model": "morecakes:item/huge_cake/huge_cake_vb_vs_vb",
+      "predicate": {
+        "morecakes:type": 373
+      }
+    },
+    {
+      "model": "morecakes:item/huge_cake/huge_cake_vb_vs_vs",
+      "predicate": {
+        "morecakes:type": 374
+      }
+    },
+    {
+      "model": "morecakes:item/huge_cake/huge_cake_vb_vs_vg",
+      "predicate": {
+        "morecakes:type": 375
+      }
+    },
+    {
+      "model": "morecakes:item/huge_cake/huge_cake_vb_vg_cn",
+      "predicate": {
+        "morecakes:type": 376
+      }
+    },
+    {
+      "model": "morecakes:item/huge_cake/huge_cake_vb_vg_cb",
+      "predicate": {
+        "morecakes:type": 377
+      }
+    },
+    {
+      "model": "morecakes:item/huge_cake/huge_cake_vb_vg_cs",
+      "predicate": {
+        "morecakes:type": 378
+      }
+    },
+    {
+      "model": "morecakes:item/huge_cake/huge_cake_vb_vg_cg",
+      "predicate": {
+        "morecakes:type": 379
+      }
+    },
+    {
+      "model": "morecakes:item/huge_cake/huge_cake_vb_vg_vn",
+      "predicate": {
+        "morecakes:type": 380
+      }
+    },
+    {
+      "model": "morecakes:item/huge_cake/huge_cake_vb_vg_vb",
+      "predicate": {
+        "morecakes:type": 381
+      }
+    },
+    {
+      "model": "morecakes:item/huge_cake/huge_cake_vb_vg_vs",
+      "predicate": {
+        "morecakes:type": 382
+      }
+    },
+    {
+      "model": "morecakes:item/huge_cake/huge_cake_vb_vg_vg",
+      "predicate": {
+        "morecakes:type": 383
+      }
+    },
+    {
+      "model": "morecakes:item/huge_cake/huge_cake_vs_cn_cn",
+      "predicate": {
+        "morecakes:type": 384
+      }
+    },
+    {
+      "model": "morecakes:item/huge_cake/huge_cake_vs_cn_cb",
+      "predicate": {
+        "morecakes:type": 385
+      }
+    },
+    {
+      "model": "morecakes:item/huge_cake/huge_cake_vs_cn_cs",
+      "predicate": {
+        "morecakes:type": 386
+      }
+    },
+    {
+      "model": "morecakes:item/huge_cake/huge_cake_vs_cn_cg",
+      "predicate": {
+        "morecakes:type": 387
+      }
+    },
+    {
+      "model": "morecakes:item/huge_cake/huge_cake_vs_cn_vn",
+      "predicate": {
+        "morecakes:type": 388
+      }
+    },
+    {
+      "model": "morecakes:item/huge_cake/huge_cake_vs_cn_vb",
+      "predicate": {
+        "morecakes:type": 389
+      }
+    },
+    {
+      "model": "morecakes:item/huge_cake/huge_cake_vs_cn_vs",
+      "predicate": {
+        "morecakes:type": 390
+      }
+    },
+    {
+      "model": "morecakes:item/huge_cake/huge_cake_vs_cn_vg",
+      "predicate": {
+        "morecakes:type": 391
+      }
+    },
+    {
+      "model": "morecakes:item/huge_cake/huge_cake_vs_cb_cn",
+      "predicate": {
+        "morecakes:type": 392
+      }
+    },
+    {
+      "model": "morecakes:item/huge_cake/huge_cake_vs_cb_cb",
+      "predicate": {
+        "morecakes:type": 393
+      }
+    },
+    {
+      "model": "morecakes:item/huge_cake/huge_cake_vs_cb_cs",
+      "predicate": {
+        "morecakes:type": 394
+      }
+    },
+    {
+      "model": "morecakes:item/huge_cake/huge_cake_vs_cb_cg",
+      "predicate": {
+        "morecakes:type": 395
+      }
+    },
+    {
+      "model": "morecakes:item/huge_cake/huge_cake_vs_cb_vn",
+      "predicate": {
+        "morecakes:type": 396
+      }
+    },
+    {
+      "model": "morecakes:item/huge_cake/huge_cake_vs_cb_vb",
+      "predicate": {
+        "morecakes:type": 397
+      }
+    },
+    {
+      "model": "morecakes:item/huge_cake/huge_cake_vs_cb_vs",
+      "predicate": {
+        "morecakes:type": 398
+      }
+    },
+    {
+      "model": "morecakes:item/huge_cake/huge_cake_vs_cb_vg",
+      "predicate": {
+        "morecakes:type": 399
+      }
+    },
+    {
+      "model": "morecakes:item/huge_cake/huge_cake_vs_cs_cn",
+      "predicate": {
+        "morecakes:type": 400
+      }
+    },
+    {
+      "model": "morecakes:item/huge_cake/huge_cake_vs_cs_cb",
+      "predicate": {
+        "morecakes:type": 401
+      }
+    },
+    {
+      "model": "morecakes:item/huge_cake/huge_cake_vs_cs_cs",
+      "predicate": {
+        "morecakes:type": 402
+      }
+    },
+    {
+      "model": "morecakes:item/huge_cake/huge_cake_vs_cs_cg",
+      "predicate": {
+        "morecakes:type": 403
+      }
+    },
+    {
+      "model": "morecakes:item/huge_cake/huge_cake_vs_cs_vn",
+      "predicate": {
+        "morecakes:type": 404
+      }
+    },
+    {
+      "model": "morecakes:item/huge_cake/huge_cake_vs_cs_vb",
+      "predicate": {
+        "morecakes:type": 405
+      }
+    },
+    {
+      "model": "morecakes:item/huge_cake/huge_cake_vs_cs_vs",
+      "predicate": {
+        "morecakes:type": 406
+      }
+    },
+    {
+      "model": "morecakes:item/huge_cake/huge_cake_vs_cs_vg",
+      "predicate": {
+        "morecakes:type": 407
+      }
+    },
+    {
+      "model": "morecakes:item/huge_cake/huge_cake_vs_cg_cn",
+      "predicate": {
+        "morecakes:type": 408
+      }
+    },
+    {
+      "model": "morecakes:item/huge_cake/huge_cake_vs_cg_cb",
+      "predicate": {
+        "morecakes:type": 409
+      }
+    },
+    {
+      "model": "morecakes:item/huge_cake/huge_cake_vs_cg_cs",
+      "predicate": {
+        "morecakes:type": 410
+      }
+    },
+    {
+      "model": "morecakes:item/huge_cake/huge_cake_vs_cg_cg",
+      "predicate": {
+        "morecakes:type": 411
+      }
+    },
+    {
+      "model": "morecakes:item/huge_cake/huge_cake_vs_cg_vn",
+      "predicate": {
+        "morecakes:type": 412
+      }
+    },
+    {
+      "model": "morecakes:item/huge_cake/huge_cake_vs_cg_vb",
+      "predicate": {
+        "morecakes:type": 413
+      }
+    },
+    {
+      "model": "morecakes:item/huge_cake/huge_cake_vs_cg_vs",
+      "predicate": {
+        "morecakes:type": 414
+      }
+    },
+    {
+      "model": "morecakes:item/huge_cake/huge_cake_vs_cg_vg",
+      "predicate": {
+        "morecakes:type": 415
+      }
+    },
+    {
+      "model": "morecakes:item/huge_cake/huge_cake_vs_vn_cn",
+      "predicate": {
+        "morecakes:type": 416
+      }
+    },
+    {
+      "model": "morecakes:item/huge_cake/huge_cake_vs_vn_cb",
+      "predicate": {
+        "morecakes:type": 417
+      }
+    },
+    {
+      "model": "morecakes:item/huge_cake/huge_cake_vs_vn_cs",
+      "predicate": {
+        "morecakes:type": 418
+      }
+    },
+    {
+      "model": "morecakes:item/huge_cake/huge_cake_vs_vn_cg",
+      "predicate": {
+        "morecakes:type": 419
+      }
+    },
+    {
+      "model": "morecakes:item/huge_cake/huge_cake_vs_vn_vn",
+      "predicate": {
+        "morecakes:type": 420
+      }
+    },
+    {
+      "model": "morecakes:item/huge_cake/huge_cake_vs_vn_vb",
+      "predicate": {
+        "morecakes:type": 421
+      }
+    },
+    {
+      "model": "morecakes:item/huge_cake/huge_cake_vs_vn_vs",
+      "predicate": {
+        "morecakes:type": 422
+      }
+    },
+    {
+      "model": "morecakes:item/huge_cake/huge_cake_vs_vn_vg",
+      "predicate": {
+        "morecakes:type": 423
+      }
+    },
+    {
+      "model": "morecakes:item/huge_cake/huge_cake_vs_vb_cn",
+      "predicate": {
+        "morecakes:type": 424
+      }
+    },
+    {
+      "model": "morecakes:item/huge_cake/huge_cake_vs_vb_cb",
+      "predicate": {
+        "morecakes:type": 425
+      }
+    },
+    {
+      "model": "morecakes:item/huge_cake/huge_cake_vs_vb_cs",
+      "predicate": {
+        "morecakes:type": 426
+      }
+    },
+    {
+      "model": "morecakes:item/huge_cake/huge_cake_vs_vb_cg",
+      "predicate": {
+        "morecakes:type": 427
+      }
+    },
+    {
+      "model": "morecakes:item/huge_cake/huge_cake_vs_vb_vn",
+      "predicate": {
+        "morecakes:type": 428
+      }
+    },
+    {
+      "model": "morecakes:item/huge_cake/huge_cake_vs_vb_vb",
+      "predicate": {
+        "morecakes:type": 429
+      }
+    },
+    {
+      "model": "morecakes:item/huge_cake/huge_cake_vs_vb_vs",
+      "predicate": {
+        "morecakes:type": 430
+      }
+    },
+    {
+      "model": "morecakes:item/huge_cake/huge_cake_vs_vb_vg",
+      "predicate": {
+        "morecakes:type": 431
+      }
+    },
+    {
+      "model": "morecakes:item/huge_cake/huge_cake_vs_vs_cn",
+      "predicate": {
+        "morecakes:type": 432
+      }
+    },
+    {
+      "model": "morecakes:item/huge_cake/huge_cake_vs_vs_cb",
+      "predicate": {
+        "morecakes:type": 433
+      }
+    },
+    {
+      "model": "morecakes:item/huge_cake/huge_cake_vs_vs_cs",
+      "predicate": {
+        "morecakes:type": 434
+      }
+    },
+    {
+      "model": "morecakes:item/huge_cake/huge_cake_vs_vs_cg",
+      "predicate": {
+        "morecakes:type": 435
+      }
+    },
+    {
+      "model": "morecakes:item/huge_cake/huge_cake_vs_vs_vn",
+      "predicate": {
+        "morecakes:type": 436
+      }
+    },
+    {
+      "model": "morecakes:item/huge_cake/huge_cake_vs_vs_vb",
+      "predicate": {
+        "morecakes:type": 437
+      }
+    },
+    {
+      "model": "morecakes:item/huge_cake/huge_cake_vs_vs_vs",
+      "predicate": {
+        "morecakes:type": 438
+      }
+    },
+    {
+      "model": "morecakes:item/huge_cake/huge_cake_vs_vs_vg",
+      "predicate": {
+        "morecakes:type": 439
+      }
+    },
+    {
+      "model": "morecakes:item/huge_cake/huge_cake_vs_vg_cn",
+      "predicate": {
+        "morecakes:type": 440
+      }
+    },
+    {
+      "model": "morecakes:item/huge_cake/huge_cake_vs_vg_cb",
+      "predicate": {
+        "morecakes:type": 441
+      }
+    },
+    {
+      "model": "morecakes:item/huge_cake/huge_cake_vs_vg_cs",
+      "predicate": {
+        "morecakes:type": 442
+      }
+    },
+    {
+      "model": "morecakes:item/huge_cake/huge_cake_vs_vg_cg",
+      "predicate": {
+        "morecakes:type": 443
+      }
+    },
+    {
+      "model": "morecakes:item/huge_cake/huge_cake_vs_vg_vn",
+      "predicate": {
+        "morecakes:type": 444
+      }
+    },
+    {
+      "model": "morecakes:item/huge_cake/huge_cake_vs_vg_vb",
+      "predicate": {
+        "morecakes:type": 445
+      }
+    },
+    {
+      "model": "morecakes:item/huge_cake/huge_cake_vs_vg_vs",
+      "predicate": {
+        "morecakes:type": 446
+      }
+    },
+    {
+      "model": "morecakes:item/huge_cake/huge_cake_vs_vg_vg",
+      "predicate": {
+        "morecakes:type": 447
+      }
+    },
+    {
+      "model": "morecakes:item/huge_cake/huge_cake_vg_cn_cn",
+      "predicate": {
+        "morecakes:type": 448
+      }
+    },
+    {
+      "model": "morecakes:item/huge_cake/huge_cake_vg_cn_cb",
+      "predicate": {
+        "morecakes:type": 449
+      }
+    },
+    {
+      "model": "morecakes:item/huge_cake/huge_cake_vg_cn_cs",
+      "predicate": {
+        "morecakes:type": 450
+      }
+    },
+    {
+      "model": "morecakes:item/huge_cake/huge_cake_vg_cn_cg",
+      "predicate": {
+        "morecakes:type": 451
+      }
+    },
+    {
+      "model": "morecakes:item/huge_cake/huge_cake_vg_cn_vn",
+      "predicate": {
+        "morecakes:type": 452
+      }
+    },
+    {
+      "model": "morecakes:item/huge_cake/huge_cake_vg_cn_vb",
+      "predicate": {
+        "morecakes:type": 453
+      }
+    },
+    {
+      "model": "morecakes:item/huge_cake/huge_cake_vg_cn_vs",
+      "predicate": {
+        "morecakes:type": 454
+      }
+    },
+    {
+      "model": "morecakes:item/huge_cake/huge_cake_vg_cn_vg",
+      "predicate": {
+        "morecakes:type": 455
+      }
+    },
+    {
+      "model": "morecakes:item/huge_cake/huge_cake_vg_cb_cn",
+      "predicate": {
+        "morecakes:type": 456
+      }
+    },
+    {
+      "model": "morecakes:item/huge_cake/huge_cake_vg_cb_cb",
+      "predicate": {
+        "morecakes:type": 457
+      }
+    },
+    {
+      "model": "morecakes:item/huge_cake/huge_cake_vg_cb_cs",
+      "predicate": {
+        "morecakes:type": 458
+      }
+    },
+    {
+      "model": "morecakes:item/huge_cake/huge_cake_vg_cb_cg",
+      "predicate": {
+        "morecakes:type": 459
+      }
+    },
+    {
+      "model": "morecakes:item/huge_cake/huge_cake_vg_cb_vn",
+      "predicate": {
+        "morecakes:type": 460
+      }
+    },
+    {
+      "model": "morecakes:item/huge_cake/huge_cake_vg_cb_vb",
+      "predicate": {
+        "morecakes:type": 461
+      }
+    },
+    {
+      "model": "morecakes:item/huge_cake/huge_cake_vg_cb_vs",
+      "predicate": {
+        "morecakes:type": 462
+      }
+    },
+    {
+      "model": "morecakes:item/huge_cake/huge_cake_vg_cb_vg",
+      "predicate": {
+        "morecakes:type": 463
+      }
+    },
+    {
+      "model": "morecakes:item/huge_cake/huge_cake_vg_cs_cn",
+      "predicate": {
+        "morecakes:type": 464
+      }
+    },
+    {
+      "model": "morecakes:item/huge_cake/huge_cake_vg_cs_cb",
+      "predicate": {
+        "morecakes:type": 465
+      }
+    },
+    {
+      "model": "morecakes:item/huge_cake/huge_cake_vg_cs_cs",
+      "predicate": {
+        "morecakes:type": 466
+      }
+    },
+    {
+      "model": "morecakes:item/huge_cake/huge_cake_vg_cs_cg",
+      "predicate": {
+        "morecakes:type": 467
+      }
+    },
+    {
+      "model": "morecakes:item/huge_cake/huge_cake_vg_cs_vn",
+      "predicate": {
+        "morecakes:type": 468
+      }
+    },
+    {
+      "model": "morecakes:item/huge_cake/huge_cake_vg_cs_vb",
+      "predicate": {
+        "morecakes:type": 469
+      }
+    },
+    {
+      "model": "morecakes:item/huge_cake/huge_cake_vg_cs_vs",
+      "predicate": {
+        "morecakes:type": 470
+      }
+    },
+    {
+      "model": "morecakes:item/huge_cake/huge_cake_vg_cs_vg",
+      "predicate": {
+        "morecakes:type": 471
+      }
+    },
+    {
+      "model": "morecakes:item/huge_cake/huge_cake_vg_cg_cn",
+      "predicate": {
+        "morecakes:type": 472
+      }
+    },
+    {
+      "model": "morecakes:item/huge_cake/huge_cake_vg_cg_cb",
+      "predicate": {
+        "morecakes:type": 473
+      }
+    },
+    {
+      "model": "morecakes:item/huge_cake/huge_cake_vg_cg_cs",
+      "predicate": {
+        "morecakes:type": 474
+      }
+    },
+    {
+      "model": "morecakes:item/huge_cake/huge_cake_vg_cg_cg",
+      "predicate": {
+        "morecakes:type": 475
+      }
+    },
+    {
+      "model": "morecakes:item/huge_cake/huge_cake_vg_cg_vn",
+      "predicate": {
+        "morecakes:type": 476
+      }
+    },
+    {
+      "model": "morecakes:item/huge_cake/huge_cake_vg_cg_vb",
+      "predicate": {
+        "morecakes:type": 477
+      }
+    },
+    {
+      "model": "morecakes:item/huge_cake/huge_cake_vg_cg_vs",
+      "predicate": {
+        "morecakes:type": 478
+      }
+    },
+    {
+      "model": "morecakes:item/huge_cake/huge_cake_vg_cg_vg",
+      "predicate": {
+        "morecakes:type": 479
+      }
+    },
+    {
+      "model": "morecakes:item/huge_cake/huge_cake_vg_vn_cn",
+      "predicate": {
+        "morecakes:type": 480
+      }
+    },
+    {
+      "model": "morecakes:item/huge_cake/huge_cake_vg_vn_cb",
+      "predicate": {
+        "morecakes:type": 481
+      }
+    },
+    {
+      "model": "morecakes:item/huge_cake/huge_cake_vg_vn_cs",
+      "predicate": {
+        "morecakes:type": 482
+      }
+    },
+    {
+      "model": "morecakes:item/huge_cake/huge_cake_vg_vn_cg",
+      "predicate": {
+        "morecakes:type": 483
+      }
+    },
+    {
+      "model": "morecakes:item/huge_cake/huge_cake_vg_vn_vn",
+      "predicate": {
+        "morecakes:type": 484
+      }
+    },
+    {
+      "model": "morecakes:item/huge_cake/huge_cake_vg_vn_vb",
+      "predicate": {
+        "morecakes:type": 485
+      }
+    },
+    {
+      "model": "morecakes:item/huge_cake/huge_cake_vg_vn_vs",
+      "predicate": {
+        "morecakes:type": 486
+      }
+    },
+    {
+      "model": "morecakes:item/huge_cake/huge_cake_vg_vn_vg",
+      "predicate": {
+        "morecakes:type": 487
+      }
+    },
+    {
+      "model": "morecakes:item/huge_cake/huge_cake_vg_vb_cn",
+      "predicate": {
+        "morecakes:type": 488
+      }
+    },
+    {
+      "model": "morecakes:item/huge_cake/huge_cake_vg_vb_cb",
+      "predicate": {
+        "morecakes:type": 489
+      }
+    },
+    {
+      "model": "morecakes:item/huge_cake/huge_cake_vg_vb_cs",
+      "predicate": {
+        "morecakes:type": 490
+      }
+    },
+    {
+      "model": "morecakes:item/huge_cake/huge_cake_vg_vb_cg",
+      "predicate": {
+        "morecakes:type": 491
+      }
+    },
+    {
+      "model": "morecakes:item/huge_cake/huge_cake_vg_vb_vn",
+      "predicate": {
+        "morecakes:type": 492
+      }
+    },
+    {
+      "model": "morecakes:item/huge_cake/huge_cake_vg_vb_vb",
+      "predicate": {
+        "morecakes:type": 493
+      }
+    },
+    {
+      "model": "morecakes:item/huge_cake/huge_cake_vg_vb_vs",
+      "predicate": {
+        "morecakes:type": 494
+      }
+    },
+    {
+      "model": "morecakes:item/huge_cake/huge_cake_vg_vb_vg",
+      "predicate": {
+        "morecakes:type": 495
+      }
+    },
+    {
+      "model": "morecakes:item/huge_cake/huge_cake_vg_vs_cn",
+      "predicate": {
+        "morecakes:type": 496
+      }
+    },
+    {
+      "model": "morecakes:item/huge_cake/huge_cake_vg_vs_cb",
+      "predicate": {
+        "morecakes:type": 497
+      }
+    },
+    {
+      "model": "morecakes:item/huge_cake/huge_cake_vg_vs_cs",
+      "predicate": {
+        "morecakes:type": 498
+      }
+    },
+    {
+      "model": "morecakes:item/huge_cake/huge_cake_vg_vs_cg",
+      "predicate": {
+        "morecakes:type": 499
+      }
+    },
+    {
+      "model": "morecakes:item/huge_cake/huge_cake_vg_vs_vn",
+      "predicate": {
+        "morecakes:type": 500
+      }
+    },
+    {
+      "model": "morecakes:item/huge_cake/huge_cake_vg_vs_vb",
+      "predicate": {
+        "morecakes:type": 501
+      }
+    },
+    {
+      "model": "morecakes:item/huge_cake/huge_cake_vg_vs_vs",
+      "predicate": {
+        "morecakes:type": 502
+      }
+    },
+    {
+      "model": "morecakes:item/huge_cake/huge_cake_vg_vs_vg",
+      "predicate": {
+        "morecakes:type": 503
+      }
+    },
+    {
+      "model": "morecakes:item/huge_cake/huge_cake_vg_vg_cn",
+      "predicate": {
+        "morecakes:type": 504
+      }
+    },
+    {
+      "model": "morecakes:item/huge_cake/huge_cake_vg_vg_cb",
+      "predicate": {
+        "morecakes:type": 505
+      }
+    },
+    {
+      "model": "morecakes:item/huge_cake/huge_cake_vg_vg_cs",
+      "predicate": {
+        "morecakes:type": 506
+      }
+    },
+    {
+      "model": "morecakes:item/huge_cake/huge_cake_vg_vg_cg",
+      "predicate": {
+        "morecakes:type": 507
+      }
+    },
+    {
+      "model": "morecakes:item/huge_cake/huge_cake_vg_vg_vn",
+      "predicate": {
+        "morecakes:type": 508
+      }
+    },
+    {
+      "model": "morecakes:item/huge_cake/huge_cake_vg_vg_vb",
+      "predicate": {
+        "morecakes:type": 509
+      }
+    },
+    {
+      "model": "morecakes:item/huge_cake/huge_cake_vg_vg_vs",
+      "predicate": {
+        "morecakes:type": 510
+      }
+    },
+    {
+      "model": "morecakes:item/huge_cake/huge_cake_vg_vg_vg",
+      "predicate": {
+        "morecakes:type": 511
+      }
+    }
+  ]
 }

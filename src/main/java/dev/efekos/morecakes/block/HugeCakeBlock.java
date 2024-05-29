@@ -26,12 +26,12 @@ import java.util.List;
 public class HugeCakeBlock extends Block {
     public HugeCakeBlock(Settings settings) {
         super(settings);
-        setDefaultState(getDefaultState().with(SLICE,0));
+        setDefaultState(getDefaultState().with(SLICE, 0));
     }
 
     public static final List<VoxelShape> SLICE_TO_SHAPE = Arrays.asList(
-            makeShape1(),makeShape2(),makeShape3(),makeShape4(),makeShape5(),makeShape6(),makeShape7(),makeShape8(),makeShape9(),
-            makeShape10(),makeShape11(),makeShape12(),makeShape13(),makeShape14(),makeShape15(),makeShape16()
+            makeShape1(), makeShape2(), makeShape3(), makeShape4(), makeShape5(), makeShape6(), makeShape7(), makeShape8(), makeShape9(),
+            makeShape10(), makeShape11(), makeShape12(), makeShape13(), makeShape14(), makeShape15(), makeShape16()
     );
 
 
@@ -44,7 +44,7 @@ public class HugeCakeBlock extends Block {
 
     @Override
     public boolean canPlaceAt(BlockState state, WorldView world, BlockPos pos) {
-        return super.canPlaceAt(state, world, pos)&&world.getBlockState(pos.add(0,1,0)).isAir();
+        return super.canPlaceAt(state, world, pos) && world.getBlockState(pos.add(0, 1, 0)).isAir();
     }
 
     @Override
@@ -83,7 +83,7 @@ public class HugeCakeBlock extends Block {
         builder.add(SLICE);
     }
 
-    public static VoxelShape makeShape1(){
+    public static VoxelShape makeShape1() {
         VoxelShape shape = VoxelShapes.empty();
         shape = VoxelShapes.union(shape, VoxelShapes.cuboid(0, 0, 0, 1, 0.5, 1));
         shape = VoxelShapes.union(shape, VoxelShapes.cuboid(0.1875, 0.5, 0.1875, 0.8125, 0.9375, 0.8125));
@@ -91,7 +91,8 @@ public class HugeCakeBlock extends Block {
 
         return shape;
     }
-    public static VoxelShape makeShape2(){
+
+    public static VoxelShape makeShape2() {
         VoxelShape shape = VoxelShapes.empty();
         shape = VoxelShapes.union(shape, VoxelShapes.cuboid(0, 0, 0, 1, 0.5, 1));
         shape = VoxelShapes.union(shape, VoxelShapes.cuboid(0.1875, 0.5, 0.1875, 0.8125, 0.9375, 0.8125));
@@ -99,7 +100,8 @@ public class HugeCakeBlock extends Block {
 
         return shape;
     }
-    public static VoxelShape makeShape3(){
+
+    public static VoxelShape makeShape3() {
         VoxelShape shape = VoxelShapes.empty();
         shape = VoxelShapes.union(shape, VoxelShapes.cuboid(0, 0, 0, 1, 0.5, 1));
         shape = VoxelShapes.union(shape, VoxelShapes.cuboid(0.1875, 0.5, 0.1875, 0.8125, 0.9375, 0.8125));
@@ -107,84 +109,97 @@ public class HugeCakeBlock extends Block {
 
         return shape;
     }
-    public static VoxelShape makeShape4(){
+
+    public static VoxelShape makeShape4() {
         VoxelShape shape = VoxelShapes.empty();
         shape = VoxelShapes.union(shape, VoxelShapes.cuboid(0, 0, 0, 1, 0.5, 1));
         shape = VoxelShapes.union(shape, VoxelShapes.cuboid(0.1875, 0.5, 0.1875, 0.8125, 0.9375, 0.8125));
 
         return shape;
     }
-    public static VoxelShape makeShape5(){
+
+    public static VoxelShape makeShape5() {
         VoxelShape shape = VoxelShapes.empty();
         shape = VoxelShapes.union(shape, VoxelShapes.cuboid(0, 0, 0, 1, 0.5, 1));
         shape = VoxelShapes.union(shape, VoxelShapes.cuboid(0.1875, 0.5, 0.3125, 0.8125, 0.9375, 0.8125));
 
         return shape;
     }
-    public static VoxelShape makeShape6(){
+
+    public static VoxelShape makeShape6() {
         VoxelShape shape = VoxelShapes.empty();
         shape = VoxelShapes.union(shape, VoxelShapes.cuboid(0, 0, 0, 1, 0.5, 1));
         shape = VoxelShapes.union(shape, VoxelShapes.cuboid(0.1875, 0.5, 0.4375, 0.8125, 0.9375, 0.8125));
 
         return shape;
     }
-    public static VoxelShape makeShape7(){
+
+    public static VoxelShape makeShape7() {
         VoxelShape shape = VoxelShapes.empty();
         shape = VoxelShapes.union(shape, VoxelShapes.cuboid(0, 0, 0, 1, 0.5, 1));
         shape = VoxelShapes.union(shape, VoxelShapes.cuboid(0.1875, 0.5, 0.5625, 0.8125, 0.9375, 0.8125));
 
         return shape;
     }
-    public static VoxelShape makeShape8(){
+
+    public static VoxelShape makeShape8() {
         VoxelShape shape = VoxelShapes.empty();
         shape = VoxelShapes.union(shape, VoxelShapes.cuboid(0, 0, 0, 1, 0.5, 1));
         shape = VoxelShapes.union(shape, VoxelShapes.cuboid(0.1875, 0.5, 0.6875, 0.8125, 0.9375, 0.8125));
 
         return shape;
     }
-    public static VoxelShape makeShape9(){
+
+    public static VoxelShape makeShape9() {
         VoxelShape shape = VoxelShapes.empty();
         shape = VoxelShapes.union(shape, VoxelShapes.cuboid(0, 0, 0, 1, 0.5, 1));
 
         return shape;
     }
-    public static VoxelShape makeShape10(){
+
+    public static VoxelShape makeShape10() {
         VoxelShape shape = VoxelShapes.empty();
         shape = VoxelShapes.union(shape, VoxelShapes.cuboid(0, 0, 0.125, 1, 0.5, 1));
 
         return shape;
     }
-    public static VoxelShape makeShape11(){
+
+    public static VoxelShape makeShape11() {
         VoxelShape shape = VoxelShapes.empty();
         shape = VoxelShapes.union(shape, VoxelShapes.cuboid(0, 0, 0.25, 1, 0.5, 1));
 
         return shape;
     }
-    public static VoxelShape makeShape12(){
+
+    public static VoxelShape makeShape12() {
         VoxelShape shape = VoxelShapes.empty();
         shape = VoxelShapes.union(shape, VoxelShapes.cuboid(0, 0, 0.375, 1, 0.5, 1));
 
         return shape;
     }
-    public static VoxelShape makeShape13(){
+
+    public static VoxelShape makeShape13() {
         VoxelShape shape = VoxelShapes.empty();
         shape = VoxelShapes.union(shape, VoxelShapes.cuboid(0, 0, 0.5, 1, 0.5, 1));
 
         return shape;
     }
-    public static VoxelShape makeShape14(){
+
+    public static VoxelShape makeShape14() {
         VoxelShape shape = VoxelShapes.empty();
         shape = VoxelShapes.union(shape, VoxelShapes.cuboid(0, 0, 0.625, 1, 0.5, 1));
 
         return shape;
     }
-    public static VoxelShape makeShape15(){
+
+    public static VoxelShape makeShape15() {
         VoxelShape shape = VoxelShapes.empty();
         shape = VoxelShapes.union(shape, VoxelShapes.cuboid(0, 0, 0.75, 1, 0.5, 1));
 
         return shape;
     }
-    public static VoxelShape makeShape16(){
+
+    public static VoxelShape makeShape16() {
         VoxelShape shape = VoxelShapes.empty();
         shape = VoxelShapes.union(shape, VoxelShapes.cuboid(0, 0, 0.875, 1, 0.5, 1));
 
