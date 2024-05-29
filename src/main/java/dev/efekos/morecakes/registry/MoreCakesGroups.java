@@ -2,16 +2,14 @@ package dev.efekos.morecakes.registry;
 
 import dev.efekos.morecakes.block.HugeCakeBlock;
 import net.minecraft.item.ItemGroup;
-import net.minecraft.item.ItemStack;
 import net.minecraft.item.Items;
-import net.minecraft.nbt.NbtCompound;
 import net.minecraft.text.Text;
 
 import java.util.Arrays;
 
 public class MoreCakesGroups {
 
-    public static final ItemGroup CAKES = new ItemGroup.Builder(ItemGroup.Row.BOTTOM,1)
+    public static final ItemGroup CAKES = new ItemGroup.Builder(ItemGroup.Row.BOTTOM, 1)
             .icon(Items.CAKE::getDefaultStack)
             .displayName(Text.translatable("itemGroup.cakes"))
             .entries((displayContext, entries) -> {
@@ -24,7 +22,7 @@ public class MoreCakesGroups {
                 entries.add(MoreCakesBlocks.CAKE_CHOCOLATE_BLUE_BERRY, ItemGroup.StackVisibility.PARENT_AND_SEARCH_TABS);
                 entries.add(MoreCakesBlocks.CHOCOLATE_CAKE_GLOWBERRY, ItemGroup.StackVisibility.PARENT_AND_SEARCH_TABS);
 
-                huge_cakes:{
+                {
                     for (HugeCakeBlock block : Arrays.asList(
                             MoreCakesBlocks.HUGE_CAKE_CN_CN_CN, MoreCakesBlocks.HUGE_CAKE_CN_CN_CB, MoreCakesBlocks.HUGE_CAKE_CN_CN_CS, MoreCakesBlocks.HUGE_CAKE_CN_CN_CG,
                             MoreCakesBlocks.HUGE_CAKE_CN_CN_VN, MoreCakesBlocks.HUGE_CAKE_CN_CN_VB, MoreCakesBlocks.HUGE_CAKE_CN_CN_VS, MoreCakesBlocks.HUGE_CAKE_CN_CN_VG,
@@ -159,8 +157,8 @@ public class MoreCakesGroups {
                 }
 
                 entries.add(MoreCakesItems.COCOA_BEANS_BUCKET, ItemGroup.StackVisibility.SEARCH_TAB_ONLY);
-                entries.add(MoreCakesItems.COCOA_BUCKET,ItemGroup.StackVisibility.SEARCH_TAB_ONLY);
-                entries.add(MoreCakesItems.CHOCOLATE_BUCKET,ItemGroup.StackVisibility.SEARCH_TAB_ONLY);
+                entries.add(MoreCakesItems.COCOA_BUCKET, ItemGroup.StackVisibility.SEARCH_TAB_ONLY);
+                entries.add(MoreCakesItems.CHOCOLATE_BUCKET, ItemGroup.StackVisibility.SEARCH_TAB_ONLY);
             })
             .build();
 }

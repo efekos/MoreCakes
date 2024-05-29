@@ -21,13 +21,13 @@ import net.minecraft.world.gen.feature.PlacedFeature;
 public class MoreCakes implements ModInitializer {
     public static final String MOD_ID = "morecakes";
 
-    public static final RegistryKey<PlacedFeature> BLUE_BERRY_BUSH_KEY = RegistryKey.of(RegistryKeys.PLACED_FEATURE, new Identifier(MOD_ID,"blue_berry_bush"));
+    public static final RegistryKey<PlacedFeature> BLUE_BERRY_BUSH_KEY = RegistryKey.of(RegistryKeys.PLACED_FEATURE, new Identifier(MOD_ID, "blue_berry_bush"));
 
     @Override
     public void onInitialize() {
-        BiomeModifications.addFeature(BiomeSelectors.tag(BiomeTags.IS_MOUNTAIN), GenerationStep.Feature.TOP_LAYER_MODIFICATION,BLUE_BERRY_BUSH_KEY);
+        BiomeModifications.addFeature(BiomeSelectors.tag(BiomeTags.IS_MOUNTAIN), GenerationStep.Feature.TOP_LAYER_MODIFICATION, BLUE_BERRY_BUSH_KEY);
 
-        Registry.register(Registries.ITEM_GROUP,new Identifier(MOD_ID,"cakes"),MoreCakesGroups.CAKES);
+        Registry.register(Registries.ITEM_GROUP, new Identifier(MOD_ID, "cakes"), MoreCakesGroups.CAKES);
         MoreCakesBlocks.GLOW_BERRY_CAKE.getHardness();
         MoreCakesItems.CHOCOLATE_BUCKET.canBeNested();
 
