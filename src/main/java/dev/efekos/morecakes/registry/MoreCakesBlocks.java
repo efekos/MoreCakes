@@ -16,11 +16,11 @@ import net.minecraft.util.Identifier;
 public class MoreCakesBlocks {
     public static <T extends Block> T register(String id, T block, boolean registerItem, int maxItems) {
         System.out.println("Registering block: " + id);
-        Registry.register(Registries.BLOCK, new Identifier(MoreCakes.MOD_ID, id), block);
+        Registry.register(Registries.BLOCK, Identifier.of(MoreCakes.MOD_ID, id), block);
 
         if (registerItem) {
             BlockItem item = new BlockItem(block, new Item.Settings().maxCount(maxItems));
-            Registry.register(Registries.ITEM, new Identifier(MoreCakes.MOD_ID, id), item);
+            Registry.register(Registries.ITEM, Identifier.of(MoreCakes.MOD_ID, id), item);
         }
 
         return block;
