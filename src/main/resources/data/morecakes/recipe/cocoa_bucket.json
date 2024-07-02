@@ -3,7 +3,9 @@
   "ingredient": {
     "item": "morecakes:cocoa_beans_bucket"
   },
-  "result": "morecakes:cocoa_bucket",
+  "result": {
+    "id": "morecakes:cocoa_bucket"
+  },
   "experience": 1,
   "cookingtime": 40
 }

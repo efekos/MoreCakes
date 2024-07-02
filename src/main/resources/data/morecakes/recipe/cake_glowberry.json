@@ -2,13 +2,14 @@
   "type": "minecraft:crafting_shapeless",
   "ingredients": [
     {
-      "item": "morecakes:cake_chocolate"
+      "item": "minecraft:cake"
     },
     {
       "item": "minecraft:glow_berries"
     }
   ],
   "result": {
-    "item": "morecakes:cake_chocolate_glowberry"
+    "id": "morecakes:cake_glowberry",
+    "count": 1
   }
 }

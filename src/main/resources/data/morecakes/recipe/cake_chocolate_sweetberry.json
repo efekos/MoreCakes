@@ -5,10 +5,10 @@
       "item": "morecakes:cake_chocolate"
     },
     {
-      "item": "morecakes:blue_berries"
+      "item": "minecraft:sweet_berries"
     }
   ],
   "result": {
-    "item": "morecakes:cake_chocolate_blue_berry"
+    "id": "morecakes:cake_chocolate_sweetberry"
   }
 }

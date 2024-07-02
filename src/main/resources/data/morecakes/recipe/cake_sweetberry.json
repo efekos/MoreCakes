@@ -2,13 +2,13 @@
   "type": "minecraft:crafting_shapeless",
   "ingredients": [
     {
-      "item": "cake"
+      "item": "minecraft:cake"
     },
     {
-      "item": "morecakes:blue_berries"
+      "item": "minecraft:sweet_berries"
     }
   ],
   "result": {
-    "item": "morecakes:cake_blue_berry"
+    "id": "morecakes:cake_sweetberry"
   }
 }
