@@ -1,23 +1,23 @@
 {
-  "type": "crafting_shaped",
-  "group": "cakes",
-  "pattern": [
-    "A",
-    "B",
-    "C"
-  ],
-  "key": {
-    "A": {
-      "item": "morecakes:cake_chocolate_sweetberry"
+    "type": "crafting_shaped",
+    "group": "cakes",
+    "pattern": [
+        "A",
+        "B",
+        "C"
+    ],
+    "key": {
+        "A": {
+            "item": "morecakes:cake_chocolate_sweetberry"
+        },
+        "B": {
+            "item": "morecakes:cake_glowberry"
+        },
+        "C": {
+            "item": "morecakes:cake_blue_berry"
+        }
     },
-    "B": {
-      "item": "morecakes:cake_glowberry"
-    },
-    "C": {
-      "item": "morecakes:cake_blue_berry"
+    "result": {
+        "id": "morecakes:huge_cake_vb_vg_cs"
     }
-  },
-  "result": {
-    "item": "morecakes:huge_cake_vb_vg_cs"
-  }
 }
