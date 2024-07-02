@@ -40,7 +40,7 @@ public class HugeCakeItem extends BlockItem {
 
     @Override
     public void appendTooltip(ItemStack stack, TooltipContext context, List<Text> tooltip, TooltipType type) {
-        if(type!=TooltipType.ADVANCED)return;
+        if (type != TooltipType.ADVANCED) return;
 
         tooltip.add(Text.translatable("item.morecakes.huge_cake." + base3).formatted(Formatting.GRAY).append(Text.literal(" - ")).append(Text.translatable("item.morecakes.huge_cake." + flavor3)));
         tooltip.add(Text.translatable("item.morecakes.huge_cake." + base2).formatted(Formatting.GRAY).append(Text.literal(" - ")).append(Text.translatable("item.morecakes.huge_cake." + flavor2)));

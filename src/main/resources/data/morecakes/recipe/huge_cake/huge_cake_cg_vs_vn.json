@@ -1,23 +1,23 @@
 {
-    "type": "crafting_shaped",
-    "group": "cakes",
-    "pattern": [
-        "A",
-        "B",
-        "C"
-    ],
-    "key": {
-        "A": {
-            "item": "minecraft:cake"
-        },
-        "B": {
-            "item": "morecakes:cake_sweetberry"
-        },
-        "C": {
-            "item": "morecakes:cake_chocolate_glowberry"
-        }
+  "type": "crafting_shaped",
+  "group": "cakes",
+  "pattern": [
+    "A",
+    "B",
+    "C"
+  ],
+  "key": {
+    "A": {
+      "item": "minecraft:cake"
     },
-    "result": {
-        "id": "morecakes:huge_cake_cg_vs_vn"
+    "B": {
+      "item": "morecakes:cake_sweetberry"
+    },
+    "C": {
+      "item": "morecakes:cake_chocolate_glowberry"
     }
+  },
+  "result": {
+    "id": "morecakes:huge_cake_cg_vs_vn"
+  }
 }

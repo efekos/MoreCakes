@@ -12,16 +12,10 @@ import net.minecraft.util.Identifier;
 import net.minecraft.util.Rarity;
 
 public class MoreCakesItems {
-    private static <T extends Item> T register(String id, T item) {
-        System.out.println("Registering item: " + id);
-        return Registry.register(Registries.ITEM, Identifier.of(MoreCakes.MOD_ID, id), item);
-    }
-
     public static final Item COCOA_BEANS_BUCKET = register("cocoa_beans_bucket", new Item(new Item.Settings().maxCount(1).recipeRemainder(Items.BUCKET).rarity(Rarity.COMMON)));
     public static final Item COCOA_BUCKET = register("cocoa_bucket", new Item(new Item.Settings().maxCount(1).recipeRemainder(Items.BUCKET).rarity(Rarity.COMMON)));
     public static final Item CHOCOLATE_BUCKET = register("chocolate_bucket", new Item(new Item.Settings().maxCount(1).recipeRemainder(Items.BUCKET).rarity(Rarity.COMMON)));
     public static final AliasedBlockItem BLUE_BERRIES = register("blue_berries", new AliasedBlockItem(MoreCakesBlocks.BLUE_BERRY_BUSH, new Item.Settings().food(FoodComponents.SWEET_BERRIES)));
-
     public static final HugeCakeItem HUGE_CAKE_CN_CN_CN = register("huge_cake_cn_cn_cn", new HugeCakeItem(MoreCakesBlocks.HUGE_CAKE_CN_CN_CN, new Item.Settings().maxCount(1), "c", "c", "c", "n", "n", "n"));
     public static final HugeCakeItem HUGE_CAKE_CN_CN_CB = register("huge_cake_cn_cn_cb", new HugeCakeItem(MoreCakesBlocks.HUGE_CAKE_CN_CN_CB, new Item.Settings().maxCount(1), "c", "c", "c", "n", "n", "b"));
     public static final HugeCakeItem HUGE_CAKE_CN_CN_CS = register("huge_cake_cn_cn_cs", new HugeCakeItem(MoreCakesBlocks.HUGE_CAKE_CN_CN_CS, new Item.Settings().maxCount(1), "c", "c", "c", "n", "n", "s"));
@@ -534,4 +528,9 @@ public class MoreCakesItems {
     public static final HugeCakeItem HUGE_CAKE_VG_VG_VB = register("huge_cake_vg_vg_vb", new HugeCakeItem(MoreCakesBlocks.HUGE_CAKE_VG_VG_VB, new Item.Settings().maxCount(1), "v", "v", "v", "g", "g", "b"));
     public static final HugeCakeItem HUGE_CAKE_VG_VG_VS = register("huge_cake_vg_vg_vs", new HugeCakeItem(MoreCakesBlocks.HUGE_CAKE_VG_VG_VS, new Item.Settings().maxCount(1), "v", "v", "v", "g", "g", "s"));
     public static final HugeCakeItem HUGE_CAKE_VG_VG_VG = register("huge_cake_vg_vg_vg", new HugeCakeItem(MoreCakesBlocks.HUGE_CAKE_VG_VG_VG, new Item.Settings().maxCount(1), "v", "v", "v", "g", "g", "g"));
+
+    private static <T extends Item> T register(String id, T item) {
+        System.out.println("Registering item: " + id);
+        return Registry.register(Registries.ITEM, Identifier.of(MoreCakes.MOD_ID, id), item);
+    }
 }
